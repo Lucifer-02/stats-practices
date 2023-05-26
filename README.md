@@ -96,7 +96,7 @@
     - [ ] Modeling a Donkey's Weight
 
 
-## STATISTICS
+## Statistics
 
 - [ ] Part I: Design of Experiments
 - [ ] 1: Controlled Experiments
@@ -109,6 +109,7 @@
     - [ ]     2.3 More Examples
     - [ ]     2.4 Sex Bias in Graduate Admissions
     - [ ]     2.5 Confounding
+- [ ] Part II: Descriptive Statistics
 - [ ] 3: The Histogram
     - [ ]     3.1 Introduction
     - [ ]     3.2 Drawing a Histogram
@@ -355,7 +356,7 @@
 - [ ] 15 HOLISTIC STATISTICS
 
 
-## STATISTICS ART
+## Statistics Art
 - [ ] Ch1
   - [x] 1-1
   - [ ] 1-2
