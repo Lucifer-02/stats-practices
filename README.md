@@ -210,7 +210,7 @@
     - [ ]     18.3 Probability Histograms and the Normal Curve 
     - [ ]     18.4 TheNormalApproximation. 
     - [ ]     18.5 The Scope of the Normal Approximation 
-- [ ] PartVI: Sampling 
+- [ ] Part VI: Sampling 
 - [ ] 19: Sample Surveys 
     - [ ]     19.1 Introduction 
     - [ ]     19.2 The Literary Digest Poll 
