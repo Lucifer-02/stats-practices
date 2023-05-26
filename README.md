@@ -1,81 +1,102 @@
 # stats-pratices
 
+## Learning Data Science
+- [ ] 1. The Data Science Lifecycle 
+    - [ ] The Stages of the Lifecycle
+    - [ ] Examples of the Lifecycle
+- [ ] 2. Questions and Data Scope 
+    - [ ] Big Data and New Opportunities
+    - [ ] Target Population, Access Frame, Sample
+    - [ ] Instruments and Protocols
+    - [ ] Measuring Natural Phenomenon
+    - [ ] Accuracy
+- [ ] 3. Simulation and Data Design 
+    - [ ] The Urn Model
+    - [ ] Example: Simulating Election Poll Bias and Variance
+    - [ ] Example: Measuring Air Quality
+- [ ] 4. Modeling with summary Statistics
+    - [ ] The Constant Model
+    - [ ] Minimizing Loss
+- [ ] 5. Case Study: Why is my Bus Always Late?
+    - [ ] Quesion and Scope
+    - [ ] Data Wrangling
+    - [ ] Exploring Bus Times
+    - [ ] Modeling Wait Times
+- [ ] 6. Working With Dataframes Using pandas
+    - [ ] Subsetting Aggegrating
+    - [ ] Joining
+    - [ ] Transforming
+    - [ ] How are Datafames Different from Other Data Representations
+- [ ] 7. Working With Relations Using SQL
+    - [ ] Subsetting
+    - [ ] Aggregating
+    - [ ] Joining
+    - [ ] Transforming
+- [ ] 8. Wrangling Files
+    - [ ] Data Source Examples
+    - [ ] File Formats
+    - [ ] File Encoding
+    - [ ] File Size
+    - [ ] The Shell and Command Line Tools
+    - [ ] Table Shape and granularity
+- [ ] 9. Wrangling Dataframes
+    - [ ] Example: Wrangling CO2 Measurements from Mauna Loa Observatory
+    - [ ] Quality Checks
+    - [ ] Missing Values and Records
+    - [ ] Transformations and Timestamps
+    - [ ] Modifying Structure
+    - [ ] Example: Wrangling Restaurant Safety Violations
+- [ ] 10. Exploratory Data Analysis 
+    - [ ] Feature Types
+    - [ ] What to Look For in a Distribution
+    - [ ] What to Look For in a Relationship
+    - [ ] Comparisons in Multivariate Settings
+    - [ ] Cuidelines for Exploration
+    - [ ] Example: Sale Prices for Houses
+- [ ] 11. Data Visualization
+    - [ ] Choosing Scale to Reveal Structure
+    - [ ] Smoothing and Aggregating Data
+    - [ ] Facilitating Meaningful Comparisons
+    - [ ] Incorporating the Data Design
+    - [ ] Adding Context Creating Plots Using plotly
+    - [ ] Other Tools for Visualization
+- [ ] 12. Case Study: How Accurate are Air Quality Measurements?
+    - [ ] Question, Design and Scope
+    - [ ] Finding Collocated Sensors
+    - [ ] Wrangling and Cleaning AQS Sensor Data
+    - [ ] Wrangling PurpleAir Sensor Data
+    - [ ] Exploring PurpleAir and AQS Measurements
+    - [ ] Creating a Model to Correct PurpleAir Measurements
+- [ ] 13. Linear Models
+    - [ ] Simple Linear Model
+    - [ ] Example: A Simple Linear Model for Air Quality
+    - [ ] Fitting the Simple Linear Model
+    - [ ] Multiple Linear Model
+    - [ ] Fitting the Multiple Linear Model
+    - [ ] Example: Where is the Land of Opportunity?
+    - [ ] Feature Engineering for Numeric Measurements
+    - [ ] Feature Engineering for Categorical Measurements
+- [ ] 14. Model Selection
+    - [ ] Overfitting
+    - [ ] Train-Test Split
+    - [ ] Cross-Validation
+    - [ ] Regularization
+    - [ ] Model Bias and Variance
+- [ ] 15. Theory for Inference and Prediction
+    - [ ] Distributions: Population, Empirical, Sampling
+    - [ ] Basics of Hypothsis Testing
+    - [ ] Bootstrapping for Inference
+    - [ ] Basics of Confidence Intervals
+    - [ ] Basics of Prediction Intervals
+    - [ ] Probability for Inference and Prediction
+- [ ] 16. Case Study: How to Weigh a Donkey 
+    - [ ] Donkey Study Question and Scope
+    - [ ] Wrangling and Transforming
+    - [ ] Exploring
+    - [ ] Modeling a Donkey's Weight
 
 
-## Elementary Statistics
-- [x] 1 INTRODUCTION TO STATISTICS
-    - [x]     1-1 Statistical and Critical Thinking
-    - [x]     1-2 Types of Data
-    - [x]     1-3 Collecting Sample Data
-    - [x]     1-4 Ethics in Statistics 
-- [ ] 2 EXPLORING DATA WITH TABLES AND GRAPHS
-    - [ ]     2-1 Frequency Distributions for Organizing and Summarizing Data
-    - [ ]     2-2 Histograms
-    - [ ]     2-3 Graphs That Enlighten and Graphs That Deceive
-    - [ ]     2-4 Scatterplots, Correlation and Regression
-- [ ] 3 DESCRIBING, EXPLORING AND COMPARING DATA
-    - [ ]     3-1 Measures of Center
-    - [ ]     3-2 Measures of Variation
-    - [ ]     3-3 Measures of Realtive Standing and Boxplots
-- [ ] 4 PROBABILITY
-    - [ ]     4-1 Basic Concepts of Probability
-    - [ ]     4-2 Addition Rule and Multiplication Rule
-    - [ ]     4-3 Complements, Conditional Probability and Bayes's Theorem
-    - [ ]     4-4 Counting
-    - [ ]     4-5 Simulations for Hypothesis Tests
-- [ ] 5 DISCRETE PROBABILITY DISTRIBUTIONS
-    - [ ]     5-1 Probability Distributions
-    - [ ]     5-2 Binomial Probablility Distributions
-    - [ ]     5-3 Poisson Probability Distributions
-- [ ] 6 NORMAL PROBABILITY DISTRIBUTIONS
-    - [ ]     6-1 The Standard Normal Distribution
-    - [ ]     6-2 Real Applications of Normal Distributions
-    - [ ]     6-3 Sampling Distributions and Estimators 
-    - [ ]     6-4 The Central Limit Theorem
-    - [ ]     6-5 Assenssing Normality
-    - [ ]     6-6 Normal as Approximation to Binomial
-- [ ] 7 ESTIMATING PARAMETERS AND DETERMINING SAMPLE SIZES
-    - [ ]     7-1 Estimating a Populating Proportion
-    - [ ]     7-2 Estimating a Population Mean
-    - [ ]     7-3 Estimating a Populating Standard Deviation or Variance
-    - [ ]     7-4 Bootstrapping: Using Technology for Extimates
-- [ ] 8 HYPOTHESIS TESTING
-    - [ ]     8-1 Basics of Hypothesis Testing
-    - [ ]     8-2 Testing a Claim About a Proportion
-    - [ ]     8-3 Testing a Claim About a Mean
-    - [ ]     8-4 Testing a Claim About a Standard Deviation or Variance
-    - [ ]     8-5 Resampling: Using Technology for Hypothesis Testing
-- [ ] 9 INFERENCES FROM TWO SAMPLES
-    - [ ]     9-1 Two Proportions
-    - [ ]     9-2 Two Means: Independent Samples
-    - [ ]     9-3 Matched Pairs
-    - [ ]     9-4 Two Variances or Standard Deviations
-    - [ ]     9-5 Resampling: Using Technology for Inferences
-- [ ] 10 CORRELATION AND REGRESSION
-    - [ ]     10-1 Correlation
-    - [ ]     10-2 Regression
-    - [ ]     10-3 Prediction Intervals and Variation
-    - [ ]     10-4 Multiple Regression
-    - [ ]     10-5 Nonlinear Regression
-- [ ] 11 GOODNESS-OF-FIT AND CONTIGENCY TABLES
-    - [ ]     11-1 Goodness-of-Fit
-    - [ ]     11-2 Contingency Tables
-- [ ] 12 ANALYSIS OF VARIANCE
-    - [ ]     12-1 One-Way ANOVA
-    - [ ]     12-2 Two-Way ANOVA
-- [ ] 13 NONPARAMETRIC TESTS
-    - [ ]     13-1 Basics of Nonparametric Tests
-    - [ ]     13-2 Sign Test
-    - [ ]     13-3 Wilconxon Signed-Ranks Test for Matched Pairs
-    - [ ]     13-4 Wilconxon Rank-Sum Test for Two Independent Samples
-    - [ ]     13-5 Kruskal-Wallis Test for Three or More Samples
-    - [ ]     13-6 Rank Correlation
-    - [ ]     13-7 Runs Test for Randomness
-- [ ] 14 STATISTICAL PROCESS CONTROL
-    - [ ]     14-1 Control Charts for Variation and Mean
-    - [ ]     14-2 Control Chars for Attributes
-- [ ] 15 HOLISTIC STATISTICS
-
+## STATISTICS
 
 - [ ] Part I: Design of Experiments
 - [ ] 1: Controlled Experiments
@@ -258,6 +279,81 @@
     - [ ]     29.3 Was the Result Important? 
     - [ ]     29.4 The Role of the Model 
     - [ ]     29.5 Does the Difference Prove the Point? 
+
+## Elementary Statistics
+- [x] 1 INTRODUCTION TO STATISTICS
+    - [x]     1-1 Statistical and Critical Thinking
+    - [x]     1-2 Types of Data
+    - [x]     1-3 Collecting Sample Data
+    - [x]     1-4 Ethics in Statistics 
+- [ ] 2 EXPLORING DATA WITH TABLES AND GRAPHS
+    - [ ]     2-1 Frequency Distributions for Organizing and Summarizing Data
+    - [ ]     2-2 Histograms
+    - [ ]     2-3 Graphs That Enlighten and Graphs That Deceive
+    - [ ]     2-4 Scatterplots, Correlation and Regression
+- [ ] 3 DESCRIBING, EXPLORING AND COMPARING DATA
+    - [ ]     3-1 Measures of Center
+    - [ ]     3-2 Measures of Variation
+    - [ ]     3-3 Measures of Realtive Standing and Boxplots
+- [ ] 4 PROBABILITY
+    - [ ]     4-1 Basic Concepts of Probability
+    - [ ]     4-2 Addition Rule and Multiplication Rule
+    - [ ]     4-3 Complements, Conditional Probability and Bayes's Theorem
+    - [ ]     4-4 Counting
+    - [ ]     4-5 Simulations for Hypothesis Tests
+- [ ] 5 DISCRETE PROBABILITY DISTRIBUTIONS
+    - [ ]     5-1 Probability Distributions
+    - [ ]     5-2 Binomial Probablility Distributions
+    - [ ]     5-3 Poisson Probability Distributions
+- [ ] 6 NORMAL PROBABILITY DISTRIBUTIONS
+    - [ ]     6-1 The Standard Normal Distribution
+    - [ ]     6-2 Real Applications of Normal Distributions
+    - [ ]     6-3 Sampling Distributions and Estimators 
+    - [ ]     6-4 The Central Limit Theorem
+    - [ ]     6-5 Assenssing Normality
+    - [ ]     6-6 Normal as Approximation to Binomial
+- [ ] 7 ESTIMATING PARAMETERS AND DETERMINING SAMPLE SIZES
+    - [ ]     7-1 Estimating a Populating Proportion
+    - [ ]     7-2 Estimating a Population Mean
+    - [ ]     7-3 Estimating a Populating Standard Deviation or Variance
+    - [ ]     7-4 Bootstrapping: Using Technology for Extimates
+- [ ] 8 HYPOTHESIS TESTING
+    - [ ]     8-1 Basics of Hypothesis Testing
+    - [ ]     8-2 Testing a Claim About a Proportion
+    - [ ]     8-3 Testing a Claim About a Mean
+    - [ ]     8-4 Testing a Claim About a Standard Deviation or Variance
+    - [ ]     8-5 Resampling: Using Technology for Hypothesis Testing
+- [ ] 9 INFERENCES FROM TWO SAMPLES
+    - [ ]     9-1 Two Proportions
+    - [ ]     9-2 Two Means: Independent Samples
+    - [ ]     9-3 Matched Pairs
+    - [ ]     9-4 Two Variances or Standard Deviations
+    - [ ]     9-5 Resampling: Using Technology for Inferences
+- [ ] 10 CORRELATION AND REGRESSION
+    - [ ]     10-1 Correlation
+    - [ ]     10-2 Regression
+    - [ ]     10-3 Prediction Intervals and Variation
+    - [ ]     10-4 Multiple Regression
+    - [ ]     10-5 Nonlinear Regression
+- [ ] 11 GOODNESS-OF-FIT AND CONTIGENCY TABLES
+    - [ ]     11-1 Goodness-of-Fit
+    - [ ]     11-2 Contingency Tables
+- [ ] 12 ANALYSIS OF VARIANCE
+    - [ ]     12-1 One-Way ANOVA
+    - [ ]     12-2 Two-Way ANOVA
+- [ ] 13 NONPARAMETRIC TESTS
+    - [ ]     13-1 Basics of Nonparametric Tests
+    - [ ]     13-2 Sign Test
+    - [ ]     13-3 Wilconxon Signed-Ranks Test for Matched Pairs
+    - [ ]     13-4 Wilconxon Rank-Sum Test for Two Independent Samples
+    - [ ]     13-5 Kruskal-Wallis Test for Three or More Samples
+    - [ ]     13-6 Rank Correlation
+    - [ ]     13-7 Runs Test for Randomness
+- [ ] 14 STATISTICAL PROCESS CONTROL
+    - [ ]     14-1 Control Charts for Variation and Mean
+    - [ ]     14-2 Control Chars for Attributes
+- [ ] 15 HOLISTIC STATISTICS
+
 
 ## STATISTICS ART
 - [ ] Ch1
