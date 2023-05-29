@@ -5,7 +5,7 @@
 ### THE DATA SCIENCE LIFECYCLE
 
 - [ ] 1. The Data Science Lifecycle 
-    - [ ] The Stages of the Lifecycle
+    - [x] The Stages of the Lifecycle
     - [ ] Examples of the Lifecycle
 - [ ] 2. Questions and Data Scope 
     - [ ] Big Data and New Opportunities
