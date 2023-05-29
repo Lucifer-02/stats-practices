@@ -1,6 +1,9 @@
 # stats-pratices
 
 ## Learning Data Science
+
+### THE DATA SCIENCE LIFECYCLE
+
 - [ ] 1. The Data Science Lifecycle 
     - [ ] The Stages of the Lifecycle
     - [ ] Examples of the Lifecycle
@@ -13,6 +16,7 @@
 - [ ] 3. Simulation and Data Design 
     - [ ] The Urn Model
     - [ ] Example: Simulating Election Poll Bias and Variance
+    - [ ] Example: Simulating a Randomized Trial for a Vaccine
     - [ ] Example: Measuring Air Quality
 - [ ] 4. Modeling with summary Statistics
     - [ ] The Constant Model
@@ -22,6 +26,9 @@
     - [ ] Data Wrangling
     - [ ] Exploring Bus Times
     - [ ] Modeling Wait Times
+
+### RECTANGULAR DATA
+
 - [ ] 6. Working With Dataframes Using pandas
     - [ ] Subsetting Aggegrating
     - [ ] Joining
@@ -32,6 +39,9 @@
     - [ ] Aggregating
     - [ ] Joining
     - [ ] Transforming
+
+### UNDERSTANDING THE DATA
+
 - [ ] 8. Wrangling Files
     - [ ] Data Source Examples
     - [ ] File Formats
@@ -67,7 +77,24 @@
     - [ ] Wrangling PurpleAir Sensor Data
     - [ ] Exploring PurpleAir and AQS Measurements
     - [ ] Creating a Model to Correct PurpleAir Measurements
-- [ ] 13. Linear Models
+
+### OTHER DATA SOURCES
+
+- [ ] 13. Working with Text
+    - [ ] Examples of Text and Tasks
+    - [ ] String manipulation
+    - [ ] Regular Expressions
+    - [ ] Text Analysis
+- [ ] 14. Data Exchange
+    - [ ] NetCDF Data
+    - [ ] JSON Data
+    - [ ] HTTP
+    - [ ] REST
+    - [ ] XML, HTML and XPath
+
+### LINEAR MODELING
+
+- [ ] 15. Linear Models
     - [ ] Simple Linear Model
     - [ ] Example: A Simple Linear Model for Air Quality
     - [ ] Fitting the Simple Linear Model
@@ -76,24 +103,43 @@
     - [ ] Example: Where is the Land of Opportunity?
     - [ ] Feature Engineering for Numeric Measurements
     - [ ] Feature Engineering for Categorical Measurements
-- [ ] 14. Model Selection
+- [ ] 16. Model Selection
     - [ ] Overfitting
     - [ ] Train-Test Split
     - [ ] Cross-Validation
     - [ ] Regularization
     - [ ] Model Bias and Variance
-- [ ] 15. Theory for Inference and Prediction
+- [ ] 17. Theory for Inference and Prediction
     - [ ] Distributions: Population, Empirical, Sampling
     - [ ] Basics of Hypothsis Testing
     - [ ] Bootstrapping for Inference
     - [ ] Basics of Confidence Intervals
     - [ ] Basics of Prediction Intervals
     - [ ] Probability for Inference and Prediction
-- [ ] 16. Case Study: How to Weigh a Donkey 
+- [ ] 18. Case Study: How to Weigh a Donkey 
     - [ ] Donkey Study Question and Scope
     - [ ] Wrangling and Transforming
     - [ ] Exploring
     - [ ] Modeling a Donkey's Weight
+
+### CLASSIFICATION
+
+- [ ] 19. Classification
+    - [ ] Example: Wind Damaged Trees
+    - [ ] Modeling and Classification
+    - [ ] Modeling Proportions (and Probabilities)
+    - [ ] A Loss Function for the Logistic Model
+    From Probabilities to Classification
+- [ ] 20. Numerical Optimization
+    - [ ] Gradient Descent Basics
+    - [ ] Minimizing Huber Loss
+    - [ ] Convex and Differentiable Loss Functions
+    - [ ] Variants of Gradient Descent
+- [ ] 21. Case Study: Detecting Fake News
+    - [ ] Question and Scope
+    - [ ] Obtaining and Wrangling the Data
+    - [ ] Exploring the Data
+    - [ ] Modeling
 
 
 ## Statistics
