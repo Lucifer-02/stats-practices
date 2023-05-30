@@ -4,14 +4,14 @@
 
 ### THE DATA SCIENCE LIFECYCLE
 
-- [ ] 1. The Data Science Lifecycle 
+- [x] 1. The Data Science Lifecycle 
     - [x] The Stages of the Lifecycle
-    - [ ] Examples of the Lifecycle
-- [ ] 2. Questions and Data Scope 
-    - [ ] Big Data and New Opportunities
-    - [ ] Target Population, Access Frame, Sample
-    - [ ] Instruments and Protocols
-    - [ ] Measuring Natural Phenomenon
+    - [x] Examples of the Lifecycle
+- [x] 2. Questions and Data Scope 
+    - [x] Big Data and New Opportunities
+    - [x] Target Population, Access Frame, Sample
+    - [x] Instruments and Protocols
+    - [x] Measuring Natural Phenomenon
     - [ ] Accuracy
 - [ ] 3. Simulation and Data Design 
     - [ ] The Urn Model
