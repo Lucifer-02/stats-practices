@@ -141,6 +141,16 @@
     - [ ] Exploring the Data
     - [ ] Modeling
 
+## Statistical Reasoning For Everyday Life
+
+- [ ] 1. Speaking of Statistics
+- [ ] 2. Measurements in Statistics 
+- [ ] 3. Visual Displays of Data
+- [ ] 4. Describing Data
+- [ ] 5. ANormal World
+- [ ] 6. Probability in Statistics
+- [ ] 7. Correlation and Casuality
+- [ ] 8. From Samples to Populations 9. Hypothesis Testing 
 
 ## Statistics
 
