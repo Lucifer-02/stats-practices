@@ -144,13 +144,48 @@
 ## Statistical Reasoning For Everyday Life
 
 - [ ] 1. Speaking of Statistics
+    - [ ] What is/are statistics?
+    - [ ] Sampling
+    - [ ] Types of Statistical studies
+    - [ ] Should you believe a statistical study?
 - [ ] 2. Measurements in Statistics 
+    - [ ] Data types and levels of measurement
+    - [ ] Dealing with errors
+    - [ ] Uses of percentages in statistics
+    - [ ] Index numbers
 - [ ] 3. Visual Displays of Data
+    - [ ] Frequency tables
+    - [ ] Picturing distributions of data
+    - [ ] Graphics in the media
+    - [ ] Few cautions about graphics
 - [ ] 4. Describing Data
-- [ ] 5. ANormal World
+    - [ ] What is average?
+    - [ ] Shapes of distributions
+    - [ ] Measurements of variation
+    - [ ] Statistical paradoxes
+- [ ] 5. A Normal World
+    - [ ] What is normal?
+    - [ ] Properties of the normal distribution
+    - [ ] The central limit theorem
 - [ ] 6. Probability in Statistics
+    - [ ] The role of probability in statistics: Statistical significance
+    - [ ] Basics of probability
+    - [ ] The law of large numbers
+    - [ ] Ideas of risk and life expectancy
+    - [ ] Combining probabilities(supplementary section)
 - [ ] 7. Correlation and Casuality
-- [ ] 8. From Samples to Populations 9. Hypothesis Testing 
+    - [ ] Seeking corrlation
+    - [ ] Interpreting correlations
+    - [ ] Best-fit lins and prediction
+    - [ ] The search for causality
+- [ ] 8. From Samples to Populations 
+    - [ ] Sampling distributions
+    - [ ] Estimating population means
+    - [ ] Estimating populatin proportions
+- [ ] 9. Hypothesis Testing 
+    - [ ] Fundamentals of hypothesis testing
+    - [ ] Hypothesis tests for population means
+    - [ ] Hypothesis tests for population proportions
 
 ## Statistics
 
@@ -410,101 +445,3 @@
     - [ ]     14-1 Control Charts for Variation and Mean
     - [ ]     14-2 Control Chars for Attributes
 - [ ] 15 HOLISTIC STATISTICS
-
-
-## Statistics Art
-- [ ] Ch1
-  - [x] 1-1
-  - [ ] 1-2
-  - [ ] 1-3
-  - [ ] chap exercises
-- [ ] Ch2
-  - [ ] 2-1
-  - [ ] 2-2
-  - [ ] 2-3
-  - [ ] 2-4
-  - [ ] 2-5
-  - [ ] 2-6
-  - [ ] 2-7
-  - [ ] chap exercises
-- [ ] Ch3
-  - [ ] 3-1
-  - [ ] 3-2
-  - [ ] 3-3
-  - [ ] 3-4
-  - [ ] chap exercises
-- [ ] Ch4
-  - [ ] 4-1
-  - [ ] 4-2
-  - [ ] 4-3
-  - [ ] 4-4
-  - [ ] chap exercises
-- [ ] Ch5
-  - [ ] 5-1
-  - [ ] 5-2
-  - [ ] 5-3
-  - [ ] 5-4
-  - [ ] chap exercises
-- [ ] Ch6
-  - [ ] 6-1
-  - [ ] 6-2
-  - [ ] 6-3
-  - [ ] chap exercises
-- [ ] Ch7
-  - [ ] 7-1
-  - [ ] 7-2
-  - [ ] 7-3
-  - [ ] chap exercises
-- [ ] Ch8
-  - [ ] 8-1
-  - [ ] 8-2
-  - [ ] 8-3
-  - [ ] 8-4
-  - [ ] chap exercises
-- [ ] Ch9
-  - [ ] 9-1
-  - [ ] 9-2
-  - [ ] 9-3
-  - [ ] 9-4
-  - [ ] 9-5
-  - [ ] 9-6
-  - [ ] chap exercises
-- [ ] Ch10
-  - [ ] 10-1
-  - [ ] 10-2
-  - [ ] 10-3
-  - [ ] 10-4
-  - [ ] 10-5
-  - [ ] chap exercises
-- [ ] Ch11
-  - [ ] 11-1
-  - [ ] 11-2
-  - [ ] 11-3
-  - [ ] 11-4
-  - [ ] 11-5
-  - [ ] chap exercises
-- [ ] Ch12
-  - [ ] 12-1
-  - [ ] 12-2
-  - [ ] 12-3
-  - [ ] 12-4
-  - [ ] 12-5
-  - [ ] chap exercises
-- [ ] Ch13
-  - [ ] 13-1
-  - [ ] 13-2
-  - [ ] 13-3
-  - [ ] 13-4
-  - [ ] 13-5
-  - [ ] 13-6
-  - [ ] chap exercises
-- [ ] Ch14
-  - [ ] 14-1
-  - [ ] 14-2
-  - [ ] 14-3
-  - [ ] chap exercises
-- [ ] Ch15
-  - [ ] 15-1
-  - [ ] 15-2
-  - [ ] chap exercises
-
