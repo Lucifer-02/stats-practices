@@ -144,8 +144,8 @@
 ## Statistical Reasoning For Everyday Life
 
 - [ ] 1. Speaking of Statistics
-    - [ ] What is/are statistics?
-    - [ ] Sampling
+    - [x] What is/are statistics?
+    - [x] Sampling
     - [ ] Types of Statistical studies
     - [ ] Should you believe a statistical study?
 - [ ] 2. Measurements in Statistics 
