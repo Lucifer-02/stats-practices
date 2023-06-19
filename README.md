@@ -1,5 +1,51 @@
 # stats-pratices
 
+## Statistical Reasoning For Everyday Life
+
+- [ ] 1. Speaking of Statistics
+    - [x] What is/are statistics?
+    - [x] Sampling
+    - [ ] Types of Statistical studies
+    - [ ] Should you believe a statistical study?
+- [ ] 2. Measurements in Statistics 
+    - [ ] Data types and levels of measurement
+    - [ ] Dealing with errors
+    - [ ] Uses of percentages in statistics
+    - [ ] Index numbers
+- [ ] 3. Visual Displays of Data
+    - [ ] Frequency tables
+    - [ ] Picturing distributions of data
+    - [ ] Graphics in the media
+    - [ ] Few cautions about graphics
+- [ ] 4. Describing Data
+    - [ ] What is average?
+    - [ ] Shapes of distributions
+    - [ ] Measurements of variation
+    - [ ] Statistical paradoxes
+- [ ] 5. A Normal World
+    - [ ] What is normal?
+    - [ ] Properties of the normal distribution
+    - [ ] The central limit theorem
+- [ ] 6. Probability in Statistics
+    - [ ] The role of probability in statistics: Statistical significance
+    - [ ] Basics of probability
+    - [ ] The law of large numbers
+    - [ ] Ideas of risk and life expectancy
+    - [ ] Combining probabilities(supplementary section)
+- [ ] 7. Correlation and Casuality
+    - [ ] Seeking corrlation
+    - [ ] Interpreting correlations
+    - [ ] Best-fit lins and prediction
+    - [ ] The search for causality
+- [ ] 8. From Samples to Populations 
+    - [ ] Sampling distributions
+    - [ ] Estimating population means
+    - [ ] Estimating populatin proportions
+- [ ] 9. Hypothesis Testing 
+    - [ ] Fundamentals of hypothesis testing
+    - [ ] Hypothesis tests for population means
+    - [ ] Hypothesis tests for population proportions
+
 ## Learning Data Science
 
 ### THE DATA SCIENCE LIFECYCLE
@@ -141,51 +187,6 @@
     - [ ] Exploring the Data
     - [ ] Modeling
 
-## Statistical Reasoning For Everyday Life
-
-- [ ] 1. Speaking of Statistics
-    - [x] What is/are statistics?
-    - [x] Sampling
-    - [ ] Types of Statistical studies
-    - [ ] Should you believe a statistical study?
-- [ ] 2. Measurements in Statistics 
-    - [ ] Data types and levels of measurement
-    - [ ] Dealing with errors
-    - [ ] Uses of percentages in statistics
-    - [ ] Index numbers
-- [ ] 3. Visual Displays of Data
-    - [ ] Frequency tables
-    - [ ] Picturing distributions of data
-    - [ ] Graphics in the media
-    - [ ] Few cautions about graphics
-- [ ] 4. Describing Data
-    - [ ] What is average?
-    - [ ] Shapes of distributions
-    - [ ] Measurements of variation
-    - [ ] Statistical paradoxes
-- [ ] 5. A Normal World
-    - [ ] What is normal?
-    - [ ] Properties of the normal distribution
-    - [ ] The central limit theorem
-- [ ] 6. Probability in Statistics
-    - [ ] The role of probability in statistics: Statistical significance
-    - [ ] Basics of probability
-    - [ ] The law of large numbers
-    - [ ] Ideas of risk and life expectancy
-    - [ ] Combining probabilities(supplementary section)
-- [ ] 7. Correlation and Casuality
-    - [ ] Seeking corrlation
-    - [ ] Interpreting correlations
-    - [ ] Best-fit lins and prediction
-    - [ ] The search for causality
-- [ ] 8. From Samples to Populations 
-    - [ ] Sampling distributions
-    - [ ] Estimating population means
-    - [ ] Estimating populatin proportions
-- [ ] 9. Hypothesis Testing 
-    - [ ] Fundamentals of hypothesis testing
-    - [ ] Hypothesis tests for population means
-    - [ ] Hypothesis tests for population proportions
 
 ## Statistics
 
