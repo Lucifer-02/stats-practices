@@ -3,10 +3,10 @@
 ## Statistics
 
 - [ ] Part I: Design of Experiments
-- [ ] 1: Controlled Experiments
-    - [ ]     1.1 The Salk Vaccine Field Trial
-    - [ ]     1.2 The Portacaval Shunt
-    - [ ]     1.3 Historical Controls
+- [x] 1: Controlled Experiments
+    - [x]     1.1 The Salk Vaccine Field Trial
+    - [x]     1.2 The Portacaval Shunt
+    - [x]     1.3 Historical Controls
 - [ ] 2: Observational Studies
     - [ ]     2.1 Introduction
     - [ ]     2.2 The Clofibrate Trial
