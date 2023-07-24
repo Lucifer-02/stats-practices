@@ -1,0 +1,123 @@
+## Practices
+Two books in `Practices/` folder have good examples to practice
+
+## Statistical Reasoning For Everyday Life
+
+- [ ] 1. Speaking of Statistics
+    - [x] What is/are statistics?
+    - [x] Sampling
+    - [ ] Types of Statistical studies
+    - [ ] Should you believe a statistical study?
+- [ ] 2. Measurements in Statistics 
+    - [ ] Data types and levels of measurement
+    - [ ] Dealing with errors
+    - [ ] Uses of percentages in statistics
+    - [ ] Index numbers
+- [ ] 3. Visual Displays of Data
+    - [ ] Frequency tables
+    - [ ] Picturing distributions of data
+    - [ ] Graphics in the media
+    - [ ] Few cautions about graphics
+- [ ] 4. Describing Data
+    - [ ] What is average?
+    - [ ] Shapes of distributions
+    - [ ] Measurements of variation
+    - [ ] Statistical paradoxes
+- [ ] 5. A Normal World
+    - [ ] What is normal?
+    - [ ] Properties of the normal distribution
+    - [ ] The central limit theorem
+- [ ] 6. Probability in Statistics
+    - [ ] The role of probability in statistics: Statistical significance
+    - [ ] Basics of probability
+    - [ ] The law of large numbers
+    - [ ] Ideas of risk and life expectancy
+    - [ ] Combining probabilities(supplementary section)
+- [ ] 7. Correlation and Casuality
+    - [ ] Seeking corrlation
+    - [ ] Interpreting correlations
+    - [ ] Best-fit lins and prediction
+    - [ ] The search for causality
+- [ ] 8. From Samples to Populations 
+    - [ ] Sampling distributions
+    - [ ] Estimating population means
+    - [ ] Estimating populatin proportions
+- [ ] 9. Hypothesis Testing 
+    - [ ] Fundamentals of hypothesis testing
+    - [ ] Hypothesis tests for population means
+    - [ ] Hypothesis tests for population proportions
+
+
+## Elementary Statistics
+- [x] 1 INTRODUCTION TO STATISTICS
+    - [x]     1-1 Statistical and Critical Thinking
+    - [x]     1-2 Types of Data
+    - [x]     1-3 Collecting Sample Data
+    - [x]     1-4 Ethics in Statistics 
+- [ ] 2 EXPLORING DATA WITH TABLES AND GRAPHS
+    - [ ]     2-1 Frequency Distributions for Organizing and Summarizing Data
+    - [ ]     2-2 Histograms
+    - [ ]     2-3 Graphs That Enlighten and Graphs That Deceive
+    - [ ]     2-4 Scatterplots, Correlation and Regression
+- [ ] 3 DESCRIBING, EXPLORING AND COMPARING DATA
+    - [ ]     3-1 Measures of Center
+    - [ ]     3-2 Measures of Variation
+    - [ ]     3-3 Measures of Realtive Standing and Boxplots
+- [ ] 4 PROBABILITY
+    - [ ]     4-1 Basic Concepts of Probability
+    - [ ]     4-2 Addition Rule and Multiplication Rule
+    - [ ]     4-3 Complements, Conditional Probability and Bayes's Theorem
+    - [ ]     4-4 Counting
+    - [ ]     4-5 Simulations for Hypothesis Tests
+- [ ] 5 DISCRETE PROBABILITY DISTRIBUTIONS
+    - [ ]     5-1 Probability Distributions
+    - [ ]     5-2 Binomial Probablility Distributions
+    - [ ]     5-3 Poisson Probability Distributions
+- [ ] 6 NORMAL PROBABILITY DISTRIBUTIONS
+    - [ ]     6-1 The Standard Normal Distribution
+    - [ ]     6-2 Real Applications of Normal Distributions
+    - [ ]     6-3 Sampling Distributions and Estimators 
+    - [ ]     6-4 The Central Limit Theorem
+    - [ ]     6-5 Assenssing Normality
+    - [ ]     6-6 Normal as Approximation to Binomial
+- [ ] 7 ESTIMATING PARAMETERS AND DETERMINING SAMPLE SIZES
+    - [ ]     7-1 Estimating a Populating Proportion
+    - [ ]     7-2 Estimating a Population Mean
+    - [ ]     7-3 Estimating a Populating Standard Deviation or Variance
+    - [ ]     7-4 Bootstrapping: Using Technology for Extimates
+- [ ] 8 HYPOTHESIS TESTING
+    - [ ]     8-1 Basics of Hypothesis Testing
+    - [ ]     8-2 Testing a Claim About a Proportion
+    - [ ]     8-3 Testing a Claim About a Mean
+    - [ ]     8-4 Testing a Claim About a Standard Deviation or Variance
+    - [ ]     8-5 Resampling: Using Technology for Hypothesis Testing
+- [ ] 9 INFERENCES FROM TWO SAMPLES
+    - [ ]     9-1 Two Proportions
+    - [ ]     9-2 Two Means: Independent Samples
+    - [ ]     9-3 Matched Pairs
+    - [ ]     9-4 Two Variances or Standard Deviations
+    - [ ]     9-5 Resampling: Using Technology for Inferences
+- [ ] 10 CORRELATION AND REGRESSION
+    - [ ]     10-1 Correlation
+    - [ ]     10-2 Regression
+    - [ ]     10-3 Prediction Intervals and Variation
+    - [ ]     10-4 Multiple Regression
+    - [ ]     10-5 Nonlinear Regression
+- [ ] 11 GOODNESS-OF-FIT AND CONTIGENCY TABLES
+    - [ ]     11-1 Goodness-of-Fit
+    - [ ]     11-2 Contingency Tables
+- [ ] 12 ANALYSIS OF VARIANCE
+    - [ ]     12-1 One-Way ANOVA
+    - [ ]     12-2 Two-Way ANOVA
+- [ ] 13 NONPARAMETRIC TESTS
+    - [ ]     13-1 Basics of Nonparametric Tests
+    - [ ]     13-2 Sign Test
+    - [ ]     13-3 Wilconxon Signed-Ranks Test for Matched Pairs
+    - [ ]     13-4 Wilconxon Rank-Sum Test for Two Independent Samples
+    - [ ]     13-5 Kruskal-Wallis Test for Three or More Samples
+    - [ ]     13-6 Rank Correlation
+    - [ ]     13-7 Runs Test for Randomness
+- [ ] 14 STATISTICAL PROCESS CONTROL
+    - [ ]     14-1 Control Charts for Variation and Mean
+    - [ ]     14-2 Control Chars for Attributes
+- [ ] 15 HOLISTIC STATISTICS
