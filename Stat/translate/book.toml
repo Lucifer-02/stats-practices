@@ -1,0 +1,6 @@
+[book]
+authors = ["David Freeman, Robert Pisani, and Roger Purves"]
+language = "vi"
+multilingual = true 
+src = "src"
+title = "Statistics"
