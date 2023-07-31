@@ -4,3 +4,6 @@ language = "vi"
 multilingual = true 
 src = "src"
 title = "Statistics"
+
+[output.html]
+mathjax-support = true
