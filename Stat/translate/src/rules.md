@@ -26,7 +26,7 @@
 # Ảnh
 
 - Tên ảnh đặt theo tên ảnh trong sách. Vd: `![fig3](fig3.png)`
-- Ảnh không có tên thì đặt theo tên đề cập trong văn bản hoặc theo nội dung ảnh. Vd: ``![vote](vote.jpg)`
+- Ảnh không có tên thì đặt theo tên đề cập trong văn bản hoặc theo nội dung ảnh. Vd: `![vote](vote.jpg)`
 
 # Nhấn mạnh
 
