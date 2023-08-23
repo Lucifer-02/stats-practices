@@ -25,8 +25,6 @@
 - []()
 - []()
 - []()
-- []()
-- []()
 
 # Part III: Correlation and Regression
 
@@ -46,7 +44,8 @@
 
 - []()
 - []()
-    - [The Standard Error](ch17/ch17-02.md)
+  - []()
+  - [The Standard Error](ch17/ch17-02.md)
 - []()
 
 # Part VI: Sampling
@@ -55,3 +54,19 @@
 - []()
 - [The Accuracy of Percentages](ch21/ch21.md)
   - [Introduction](ch21/ch21-01.md)
+- []()
+- []()
+
+# Part VII: Chance Models
+
+- []()
+- []()
+
+# Part VIII: Tests of Significance
+
+- [Tests of Significance](ch26/ch26.md)
+  - [Introduction](ch26/ch26-01.md)
+  - [The Null and The Alternative](ch26/ch26-02.md)
+- []()
+- []()
+- []()
