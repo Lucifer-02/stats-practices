@@ -28,8 +28,9 @@
 
 # Ảnh
 
-- Tên ảnh đặt theo tên ảnh trong sách. Vd: `![fig3](fig3.png)`
-- Ảnh không có tên thì đặt theo tên đề cập trong văn bản hoặc theo nội dung ảnh. Vd: `![vote](vote.jpg)`
+- Tên ảnh đặt theo tên ảnh trong sách. Vd: ![](fig.png)(TODO: resize toàn bộ ảnh gốc bằng python)
+
+- Ảnh không có tên thì đặt theo tên đề cập trong văn bản hoặc theo nội dung ảnh.
 - Caption format: `**<center>Hình 1: Trung tâm và lây lan. Tâm của hai biểu đồ `histogram` giống nhau, nhưng biểu đồ thứ 2 trải rộng hơn.</center>**`
 - Ảnh được đặt ngay sau đoạn văn nhắc đến nó(trong sách gốc, để bố trí trang hợp lý, ảnh có thể bị di chuyển ra sau, điều này là không cần thiết trong format bản dịch)
 
