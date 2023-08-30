@@ -188,8 +188,8 @@ F M F M M M F F F F M M F M M F F F F F
 </code></pre>
 <p><strong>Nhà xã hội học:</strong> Nhưng lẽ ra chỉ có 46 người thôi. Chắc máy tính có vấn đề gì đó.</p>
 <p><strong>Nhà thống kê:</strong> Không thật sự vậy. Hãy nhớ rằng, những người trong mẫu được chọn ngẫu nhiên. Chỉ nhờ may mắn rút thăm, bạn có thể có được quá nhiều đàn ông - hoặc quá ít. Tôi đã bảo máy tính lấy rất nhiều mẫu cho bạn, tổng cộng là 250 mẫu (Bảng 2). Số lượng nam giới dao động từ mức thấp nhất là 34 đến mức cao nhất là 58. Chỉ có 17 mẫu trong lô có đúng 46 nam. Có một biểu đồ (Hình 1).</p>
-<p><img src="fig1.png" alt="fig1" />
-<strong><center>Hình 1: <code>histogram</code> số lượng nam trong các mẫu có kích thước 100.</center></strong></p>
+<center><img src="fig1.png" width="60%" height="auto"></center>
+<p><strong><center>Hình 1: <code>histogram</code> số lượng nam trong các mẫu có kích thước 100.</center></strong></p>
 <p><strong>Nhà xã hội học:</strong> Điều gì ngăn cản các con số là 46?</p>
 <p><strong>Nhà thống kê:</strong> Sự thay đổi cơ hội. Bạn có nhớ thí nghiệm Kerrich mà tôi đã kể cho bạn hôm trước không?</p>
 <p><strong>Nhà xã hội học:</strong> Có, nhưng đó là tung đồng xu chứ không phải lấy mẫu.</p>
@@ -210,8 +210,8 @@ F M F M M M F F F F M M F M M F F F F F
 45 42 46 49 45 45 42 45 53 54 47 43 41 49 48 35 55 58 35 47 52 43 45 44 46
 </code></pre>
 <p>Có một <code>histogram</code> (Hình 2). Bạn có thể so sánh nó với biểu đồ của các mẫu có kích thước 100. Nhân kích thước mẫu với 4 sẽ cắt giảm kích thước có thể xảy ra của <code>error chance</code> theo tỷ lệ phần trăm theo hệ số 2.</p>
-<p><img src="fig2.png" alt="fig2" />
-<strong><center>Hình 2: histogram cho % nam giới trong các mẫu có kích thước 400. Có 250 mẫu được lấy ngẫu nhiên từ những người trả lời nghiên cứu về sức khỏe. </center></strong></p>
+<center><img src="fig2.png" width="60%" height="auto"></center>
+<p><strong><center>Hình 2: histogram cho % nam giới trong các mẫu có kích thước 400. Có 250 mẫu được lấy ngẫu nhiên từ những người trả lời nghiên cứu về sức khỏe. </center></strong></p>
 <p><strong>Nhà xã hội học:</strong> Bạn có thể nói cụ thể hơn về lỗi cơ hội này không?</p>
 <p><strong>Nhà thống kê:</strong> Hãy để tôi viết một phương trình:</p>
 <p>\[ \%\ trong\ mẫu = \%\ trong\ dân\ số\ +\ error\ chance. \]</p>
@@ -220,7 +220,7 @@ F M F M M M F F F F M M F M M F F F F F
 <p><strong>Nhà thống kê:</strong> Không chính xác, nhưng tôi có thể cho bạn biết kích thước của nó. Nếu bạn để tôi làm mô hình hộp, tôi có thể tính <code>standard error</code> và sau đó...</p>
 <p><strong>Nhà xã hội học:</strong> Chờ đã. Có một điểm tôi đã bỏ lỡ trước đó. Làm thế nào bạn có thể có 250 mẫu khác nhau với mỗi mẫu 100 người? Ý tôi là, \(250 \times 100 = 25.000\) và chúng tôi chỉ bắt đầu với 6.672 người.</p>
 <p><strong>Nhà thống kê:</strong> Các mẫu đều khác nhau, nhưng chúng có một số điểm chung. Nhìn vào bản phác thảo. Bên trong vòng tròn giống như 6.672 người và mỗi dải bóng mờ giống như 1 mẫu:</p>
-<p><img src="circle.png" alt="circle" /></p>
+<center><img src="circle.png" width="20%" height="auto"></center>
 <p>Các dải khác nhau, nhưng chúng chồng lên nhau. Trên thực tế, chúng tôi chỉ mới bắt đầu với việc lấy mẫu của mình. Số lượng mẫu khác nhau có kích thước 100 là hơn \(10^{200}\). Đó là 1 theo sau là 200 số 0. Một số nhà vật lý thậm chí không nghĩ rằng có nhiều hạt cơ bản như vậy trong toàn bộ vũ trụ.</p>
 
                     </main>
@@ -252,6 +252,22 @@ F M F M M M F F F F M M F M M F F F F F
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 

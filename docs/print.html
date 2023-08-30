@@ -200,11 +200,11 @@ two nuisances would be got rid of at once.</em> </p>
 </div>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="introduction-1"><a class="header" href="#introduction-1">Introduction</a></h1>
 <p>Một <code>histogram</code> có thể được sử dụng để tóm tắt một lượng lớn dữ liệu. Thông thường, một bản tóm tắt thậm chí còn hứu dụng hơn là chỉ đưa ra trung tâm của biểu đồ và mức độ lan rộng xung quanh trung tâm(&quot;Trung tâm&quot; và &quot;lây lan&quot; là những từ bình thường ở đây, không có bất kỳ ý nghĩa kỹ thuật đặc biệt nào). Hai <code>histogram</code> được phác họa trong Hình 1. Trung tâm và lây lan được hiển thị. Cả hai biểu đồ đều có cùng tâm, nhưng biểu đồ thứ hai trải rộng hơn - có nhiều khu vực ở xa trung tâm hơn. Đối với công việc thống kê, các định nghĩa chính xác phải được đưa ra và có một số cách để thực hiện điều này. <code>average</code> thường được sử dụng để tìm trung tâm, và <code>median</code> cũng vậy<sup class="footnote-reference"><a href="#2">1</a></sup>. Các phép đo <code>standard deviation</code> trải rộng xung quanh trung bình; <code>interquartile range</code> là một thước đo khác của sự lây lan.</p>
-<p><img src="ch04/fig1.png" alt="fig1" title="Fig1" />
-<strong><center>Hình 1: Trung tâm và lây lan. Tâm của hai biểu đồ <code>histogram</code> giống nhau, nhưng biểu đồ thứ 2 trải rộng hơn.</center></strong></p>
+<center><img src="ch04/fig1.png" width="100%" height="auto"></center>
+<p><strong><center>Hình 1: Trung tâm và lây lan. Tâm của hai biểu đồ <code>histogram</code> giống nhau, nhưng biểu đồ thứ 2 trải rộng hơn.</center></strong></p>
 <p>Các biểu đồ <code>histogram</code> trong Hình 1 có thể được tóm tắt theo trung tâm và mức lây lan. Tuy nhiên, không phải lúc nào mọi việc cũng suôn sẻ như vậy. Ví dụ, Hình 2 đưa ra sự phân bố độ cao trên bề mặt trái đất. Độ cao được hiển thị dọc theo trục ngang, tính bằng dặm trên (+) hoặc dưới (–) mực nước biển. Khu vực dưới biểu đồ giữa hai độ cao cho biết tỷ lệ phần trăm diện tích bề mặt trái đất giữa các độ cao đó. Có các đỉnh rõ ràng trong biểu đồ này. Hầu hết diện tích bề mặt là đáy biển, khoảng 3 dặm dưới mực nước biển; hoặc đồng bằng lục địa, xung quanh mực nước biển. Chỉ báo cáo trung tâm và trải rộng của biểu đồ này sẽ bỏ lỡ hai đỉnh<sup class="footnote-reference"><a href="#3">2</a></sup>.</p>
-<p><img src="ch04/fig2.png" alt="fig2" title="Fig2" /></p>
-<center>Hình 2: Phân bố diện tích bề mặt trái đất theo độ cao trên (+) hoặc dưới (–) mực nước biển.</center>
+<center><img src="ch04/fig2.png" width="60%" height="auto"></center>
+<p><strong><center>Hình 2: Phân bố diện tích bề mặt trái đất theo độ cao trên (+) hoặc dưới (–) mực nước biển.</center></strong></p>
 <div class="footnote-definition" id="2"><sup class="footnote-definition-label">1</sup>
 <p>Nơi biểu đồ <code>histogram</code> cao nhất, <code>mode</code>, đôi khi được sử dụng để biểu thị trung tâm. Điều này không được khuyến khích vì những thay đổi nhỏ trong dữ liệu có thể gây ra những thay đổi lớn với <code>mode</code>.</p>
 </div>
@@ -331,8 +331,8 @@ F M F M M M F F F F M M F M M F F F F F
 </code></pre>
 <p><strong>Nhà xã hội học:</strong> Nhưng lẽ ra chỉ có 46 người thôi. Chắc máy tính có vấn đề gì đó.</p>
 <p><strong>Nhà thống kê:</strong> Không thật sự vậy. Hãy nhớ rằng, những người trong mẫu được chọn ngẫu nhiên. Chỉ nhờ may mắn rút thăm, bạn có thể có được quá nhiều đàn ông - hoặc quá ít. Tôi đã bảo máy tính lấy rất nhiều mẫu cho bạn, tổng cộng là 250 mẫu (Bảng 2). Số lượng nam giới dao động từ mức thấp nhất là 34 đến mức cao nhất là 58. Chỉ có 17 mẫu trong lô có đúng 46 nam. Có một biểu đồ (Hình 1).</p>
-<p><img src="ch20/fig1.png" alt="fig1" />
-<strong><center>Hình 1: <code>histogram</code> số lượng nam trong các mẫu có kích thước 100.</center></strong></p>
+<center><img src="ch20/fig1.png" width="60%" height="auto"></center>
+<p><strong><center>Hình 1: <code>histogram</code> số lượng nam trong các mẫu có kích thước 100.</center></strong></p>
 <p><strong>Nhà xã hội học:</strong> Điều gì ngăn cản các con số là 46?</p>
 <p><strong>Nhà thống kê:</strong> Sự thay đổi cơ hội. Bạn có nhớ thí nghiệm Kerrich mà tôi đã kể cho bạn hôm trước không?</p>
 <p><strong>Nhà xã hội học:</strong> Có, nhưng đó là tung đồng xu chứ không phải lấy mẫu.</p>
@@ -353,8 +353,8 @@ F M F M M M F F F F M M F M M F F F F F
 45 42 46 49 45 45 42 45 53 54 47 43 41 49 48 35 55 58 35 47 52 43 45 44 46
 </code></pre>
 <p>Có một <code>histogram</code> (Hình 2). Bạn có thể so sánh nó với biểu đồ của các mẫu có kích thước 100. Nhân kích thước mẫu với 4 sẽ cắt giảm kích thước có thể xảy ra của <code>error chance</code> theo tỷ lệ phần trăm theo hệ số 2.</p>
-<p><img src="ch20/fig2.png" alt="fig2" />
-<strong><center>Hình 2: histogram cho % nam giới trong các mẫu có kích thước 400. Có 250 mẫu được lấy ngẫu nhiên từ những người trả lời nghiên cứu về sức khỏe. </center></strong></p>
+<center><img src="ch20/fig2.png" width="60%" height="auto"></center>
+<p><strong><center>Hình 2: histogram cho % nam giới trong các mẫu có kích thước 400. Có 250 mẫu được lấy ngẫu nhiên từ những người trả lời nghiên cứu về sức khỏe. </center></strong></p>
 <p><strong>Nhà xã hội học:</strong> Bạn có thể nói cụ thể hơn về lỗi cơ hội này không?</p>
 <p><strong>Nhà thống kê:</strong> Hãy để tôi viết một phương trình:</p>
 <p>\[ \%\ trong\ mẫu = \%\ trong\ dân\ số\ +\ error\ chance. \]</p>
@@ -363,7 +363,7 @@ F M F M M M F F F F M M F M M F F F F F
 <p><strong>Nhà thống kê:</strong> Không chính xác, nhưng tôi có thể cho bạn biết kích thước của nó. Nếu bạn để tôi làm mô hình hộp, tôi có thể tính <code>standard error</code> và sau đó...</p>
 <p><strong>Nhà xã hội học:</strong> Chờ đã. Có một điểm tôi đã bỏ lỡ trước đó. Làm thế nào bạn có thể có 250 mẫu khác nhau với mỗi mẫu 100 người? Ý tôi là, \(250 \times 100 = 25.000\) và chúng tôi chỉ bắt đầu với 6.672 người.</p>
 <p><strong>Nhà thống kê:</strong> Các mẫu đều khác nhau, nhưng chúng có một số điểm chung. Nhìn vào bản phác thảo. Bên trong vòng tròn giống như 6.672 người và mỗi dải bóng mờ giống như 1 mẫu:</p>
-<p><img src="ch20/circle.png" alt="circle" /></p>
+<center><img src="ch20/circle.png" width="20%" height="auto"></center>
 <p>Các dải khác nhau, nhưng chúng chồng lên nhau. Trên thực tế, chúng tôi chỉ mới bắt đầu với việc lấy mẫu của mình. Số lượng mẫu khác nhau có kích thước 100 là hơn \(10^{200}\). Đó là 1 theo sau là 200 số 0. Một số nhà vật lý thậm chí không nghĩ rằng có nhiều hạt cơ bản như vậy trong toàn bộ vũ trụ.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="the-accuracy-of-percentages"><a class="header" href="#the-accuracy-of-percentages">The Accuracy of Percentages</a></h1>
 <p><em>In solving a problem of this sort, the grand thing is to be able to reason backward. That is a very useful accomplishment, and a very easy one, but people do not practise it much .... Most people, if you describe a train of events to them, will tell you what the result would be. They can put those events together in their minds, and argue from them that something will come to pass. There are few people, however, who, if you told them a result, would be able to evolve from their own inner consciousness what the steps were which led up to that result. This power is what I mean when I talk of reasoning backward....</em> </p>
@@ -388,14 +388,14 @@ F M F M M M F F F F M M F M M F F F F F
 <p><strong>Politician:</strong> Điều gì mang lại cho bạn kích cỡ của lỗi cơ hội?</p>
 <p><strong>Pollster:</strong> <code>standard error</code>. Chúng ta đã nói về điều đó hôm trước, nhớ chứ?</p>
 <p><strong>Politician:</strong> Xin lỗi, tôi đang đợi điện thoại.</p>
-<p><img src="ch21/vote.jpg" alt="vote" /></p>
+<center><img src="ch21/vote.jpg" width="50%" height="auto"></center>
 <p>Chính trị gia đã đi đến một câu hỏi quan trọng cần đặt ra khi xem xét dữ liệu khảo sát: ước tính có khả năng sai đến mức nào? Như người thăm dò ý kiến muốn nói, kích thước khả dĩ của lỗi cơ hội được đưa ra bởi <code>standard error</code>. Để hình dung điều đó, cần 1 mô hình hộp. Nên có một vé trong hộp cho mỗi cử tri, tổng cộng là 100.000 vé. Mỗi phiếu phải được đánh dấu 1 hoặc 0, trong đó 1 có nghĩa là phiếu bầu cho ứng cử viên, 0 là phiếu bầu chống lại ứng cử viên đó. Có 2500 lượt rút ngẫu nhiên từ hộp. Dữ liệu giống như các lần rút thăm và số lượng cử tri trong mẫu ủng hộ ứng cử viên tương tự tổng các lần rút thăm. Đây là mô hình hoàn chỉnh.</p>
-<p><img src="ch21/tickets_100000.png" alt="tickets_100000" /></p>
+<center><img src="ch21/tickets_100000.png" width="50%" height="auto"></center>
 <p>Để lấy <code>SE</code> cho tổng, tổ chức khảo sát cần <code>SD</code> của hộp. Đây là</p>
 <p>\[
 \sqrt{(fraction\ of\ 1's) \times (fraction\ of\ 0's)}
 \]</p>
-<p><img src="ch21/tickets_25000.png" alt="tickets_25000" /></p>
+<center><img src="ch21/tickets_25000.png" width="50%" height="auto"></center>
 <p>Đến đây, những người thăm dò dường như bị mắc kẹt. Họ không biết mỗi vé trong hộp được đánh dấu như thế nào. Họ thậm chí không biết tỉ lệ của 1 trong hộp. Tham số này đại diện cho tỷ lệ cử tri trong khu vực ủng hộ ứng cử viên của họ, đó chính xác là những gì họ được thuê để tìm hiểu. (Do đó các dấu hỏi trong hộp.)</p>
 <p>Các tổ chức khảo sát vượt qua loại trở ngại này bằng chiến lược của riêng họ<sup class="footnote-reference"><a href="#2">1</a></sup>. Họ tính các tỉ lệ quan sát được trong mẫu thay vì trong hộp. Trong ví dụ này, 1.328 người trong số 2.500 người được chọn ủng hộ ứng viên. Vì vậy, 1.328/2.500 \(\approx\) 0.53 của mẫu ủng hộ anh ta và 0.47 còn lại phản đối. Ước tính khoảng 0.53 trong số 100.000 vé trong hộp được đánh dấu 1, 0.47 còn lại được đánh dấu 0.</p>
 <p>Trên cơ sở này, <code>SD</code> của hộp được ước tính là \( \sqrt{0,53 \times 0,47} \approx 0,50\). <code>SE</code> cho số cử tri trong mẫu ủng hộ ứng cử viên được ước tính là \(\sqrt{2.500} \times 0,50 = 25\). 25 đo lường mức độ sai số ngẫu nhiên có thể xảy ra trong 1.328. Bây giờ 25 người trong số 2.500 (cỡ mẫu) là 1%. <code>SE</code> cho tỷ lệ cử tri trong mẫu ủng hộ ứng cử viên được ước tính là 1%. Điều này hoàn thành thủ tục <code>bootstrap</code> để ước tính <code>standard error</code>.</p>
@@ -487,6 +487,22 @@ E. Lehmann, Theory of Point Estimation, 2nd ed. with G. Casella (Springer, 1998)
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
