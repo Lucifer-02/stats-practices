@@ -22,7 +22,8 @@
   - [The Average](ch04/ch04-02.md)
   - [The Average and the Histogram](ch04/ch04-03.md)
 
-- []()
+- [The Normal Approximation for Data](ch05.md)
+    - [The Normal Curve](ch05-01.md)
 - []()
 - []()
 
