@@ -16,30 +16,26 @@
 
 # Hội thoại
 
-- Người nói: in đậm, không dịch khi không cần thiết 
+- Người nói: in đậm, không dịch khi không cần thiết
 - Theo sau người nói là dấu `: `
 
 # Ký hiệu
 
 - Trừ phép toán phức tạp hơn, các ký hiệu như +-\*/% được gõ trực tiếp, không cần dùng Latex
 
-# Số liệu 
+# Số liệu
+
 - Nếu trong sách gốc ở dạng bảng kẻ ô thì để dạng bảng, còn không thì để dạng code block
 
 # Ảnh
 
-<<<<<<< HEAD
-- Tên ảnh đặt theo tên ảnh trong sách. 
-<!-- Vd: `![](fig3.png)` -->
-<center><img src="fig2.png" width="50%" height="auto"></center>
+- Tên ảnh đặt theo tên ảnh trong sách.
+  <!-- Vd: `![](fig3.png)` -->
+  <center><img src="fig2.png" width="50%" height="auto"></center>
 
 - Ảnh không có tên thì đặt theo tên đề cập trong văn bản hoặc theo nội dung ảnh. Vd: `![](vote.jpg)`
-=======
-- Tên ảnh đặt theo tên ảnh trong sách. Vd: ![](fig.png)(TODO: resize toàn bộ ảnh gốc bằng python)
-
-- Ảnh không có tên thì đặt theo tên đề cập trong văn bản hoặc theo nội dung ảnh.
->>>>>>> 43bb1ee95bd7c360d70ab6098b60137febf0061c
-- Caption format: `**<center>Hình 1: Trung tâm và lây lan. Tâm của hai biểu đồ `histogram` giống nhau, nhưng biểu đồ thứ 2 trải rộng hơn.</center>**`
+- Caption format: 
+`**<center>Hình 1: Trung tâm và lây lan. Tâm của hai biểu đồ `histogram` giống nhau, nhưng biểu đồ thứ 2 trải rộng hơn.</center>**`
 - Ảnh được đặt ngay sau đoạn văn nhắc đến nó(trong sách gốc, để bố trí trang hợp lý, ảnh có thể bị di chuyển ra sau, điều này là không cần thiết trong format bản dịch)
 
 # Bảng
@@ -48,8 +44,10 @@
 
 - In hoa
 
-# Quy trình 
+# Quy trình
+
 > Mục tiêu hướng đến là sau khi viết nội dung theo sách gốc, ta có thể chuyển sang side by side source và sách dịch.
+
 1. Từ sách gốc, dịch và thay thế thuật ngữ. Công thức, ký hiệu theo bản gốc.
 2. Thêm phần chú thích, hình ảnh, bảng.
 3. Chuyển sang edit format sách dịch.
