@@ -1,0 +1,269 @@
+<!DOCTYPE HTML>
+<html lang="vi" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The Normal Curve - Statistics</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">Part I: Design of Experiments</li><li class="chapter-item expanded "><a href="../ch01/ch01.html"><strong aria-hidden="true">1.</strong> Controlled Experiments</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch01/ch01-01.html"><strong aria-hidden="true">1.1.</strong> The Salk Vaccine Field Trial</a></li><li class="chapter-item expanded "><a href="../ch01/ch01-02.html"><strong aria-hidden="true">1.2.</strong> The Portacaval Shunt</a></li></ol></li><li class="chapter-item expanded "><a href="../ch02/ch02.html"><strong aria-hidden="true">2.</strong> Observational Studies</a></li><li class="chapter-item expanded affix "><li class="part-title">Part II: Descriptive Statistics</li><li class="chapter-item expanded "><a href="../ch03/ch03.html"><strong aria-hidden="true">3.</strong> The Histogram</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch03/ch03-01.html"><strong aria-hidden="true">3.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch03/ch03-02.html"><strong aria-hidden="true">3.2.</strong> Drawing a Histogram</a></li></ol></li><li class="chapter-item expanded "><a href="../ch04/ch04.html"><strong aria-hidden="true">4.</strong> The Average and the Standard Deviation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch04/ch04-01.html"><strong aria-hidden="true">4.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch04/ch04-02.html"><strong aria-hidden="true">4.2.</strong> The Average</a></li><li class="chapter-item expanded "><a href="../ch04/ch04-03.html"><strong aria-hidden="true">4.3.</strong> The Average and the Histogram</a></li></ol></li><li class="chapter-item expanded "><a href="../ch05/ch05.html"><strong aria-hidden="true">5.</strong> The Normal Approximation for Data</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch05/ch05-01.html" class="active"><strong aria-hidden="true">5.1.</strong> The Normal Curve</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> </div></li><li class="chapter-item expanded affix "><li class="part-title">Part III: Correlation and Regression</li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">11.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">12.</strong> </div></li><li class="chapter-item expanded affix "><li class="part-title">Part IV: Probability</li><li class="chapter-item expanded "><div><strong aria-hidden="true">13.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">14.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">15.</strong> </div></li><li class="chapter-item expanded affix "><li class="part-title">Part V: Change Variability</li><li class="chapter-item expanded "><div><strong aria-hidden="true">16.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">17.</strong> </div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">17.1.</strong> </div></li><li class="chapter-item expanded "><a href="../ch17/ch17-02.html"><strong aria-hidden="true">17.2.</strong> The Standard Error</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">18.</strong> </div></li><li class="chapter-item expanded affix "><li class="part-title">Part VI: Sampling</li><li class="chapter-item expanded "><div><strong aria-hidden="true">19.</strong> </div></li><li class="chapter-item expanded "><a href="../ch20/ch20.html"><strong aria-hidden="true">20.</strong> Chance Errors in Sampling</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch20/ch20-01.html"><strong aria-hidden="true">20.1.</strong> Introduction</a></li></ol></li><li class="chapter-item expanded "><a href="../ch21/ch21.html"><strong aria-hidden="true">21.</strong> The Accuracy of Percentages</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch21/ch21-01.html"><strong aria-hidden="true">21.1.</strong> Introduction</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">22.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">23.</strong> </div></li><li class="chapter-item expanded affix "><li class="part-title">Part VII: Chance Models</li><li class="chapter-item expanded "><div><strong aria-hidden="true">24.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">25.</strong> </div></li><li class="chapter-item expanded affix "><li class="part-title">Part VIII: Tests of Significance</li><li class="chapter-item expanded "><a href="../ch26/ch26.html"><strong aria-hidden="true">26.</strong> Tests of Significance</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch26/ch26-01.html"><strong aria-hidden="true">26.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch26/ch26-02.html"><strong aria-hidden="true">26.2.</strong> The Null and The Alternative</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">27.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">28.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">29.</strong> </div></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Statistics</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="the-normal-curve"><a class="header" href="#the-normal-curve">The Normal Curve</a></h1>
+<p><code>normal curve</code> được phát hiện vào khoảng năm 1720 bởi Abraham de Moivre, khi ông đang phát triển toán học về sự ngẫu nhiên. (Công trình của ông sẽ được thảo luận lại ở phần IV và V.) Khoảng năm 1870, nhà toán học người Bỉ Adolph Quetelet có ý tưởng sử dụng đường cong như một <code>histogram</code> lý tưởng để có thể so sánh <code>histogram</code> dữ liệu.</p>
+<center><img src="curve.jpg" width="50%" height="auto"></center>
+<p><code>normal curve</code> có phương trình trông rất ghê gớm:</p>
+<p>\[y = \frac{100%}{\sqrt{2\pi}}e^{-x^2/2},\ với\ e=2.71828...\]</p>
+<p>Phương trình này liên quan đến 3 con số nổi tiếng nhất trong lịch sử toán học: \(\sqrt{2}\), \(\pi\) và \(e\).</p>
+<p>Đây chỉ là để khoe một chút thôi. Bạn sẽ thấy thật dễ dàng khi làm việc với <code>normal curve</code> thông qua sơ đồ và bảng biểu mà không cần sử dụng phương trình. Đồ thị của đường cong được thể hiện trong Hình 1.</p>
+<center><img src="fig1.png" width="70%" height="auto"></center>
+<p><strong><center>Hình 1: <code>normal curve</code>.</center></strong></p>
+<p>Một số tính năng của đồ thị này sẽ rất quan trọng. Đầu tiên, đồ thị đối xứng quanh 0: phần đường cong bên phải số 0 là ảnh phản chiếu của phần bên trái. Tiếp theo, tổng diện tích dưới đường cong bằng 100%. (Các diện tích được tính theo phần trăm vì trục tung sử dụng thang đo mật độ.) Cuối cùng, đường cong luôn nằm phía trên trục hoành. Nó dường như dừng lại ở khoảng từ 3 đến 4, nhưng đó chỉ là do đường cong ở đó quá thấp. Chỉ có khoảng 6/100.000 diện tích nằm ngoài khoảng từ −4 đến 4.</p>
+<p>Sẽ rất hữu ích khi tìm các khu vực dưới <code>normal curve</code> giữa các giá trị được chỉ định. Ví dụ,</p>
+<ul>
+<li>Diện tích bên dưới <code>normal curve</code> giữa -1 và +1 là khoảng 68%.</li>
+<li>Diện tích bên dưới <code>normal curve</code> giữa -2 và +2 là khoảng 95%.</li>
+<li>Diện tích bên dưới <code>normal curve</code> giữa -3 và +3 là khoảng 99.7%.</li>
+</ul>
+<p>Việc tìm những diện tích này chỉ cần tra cứu mọi thứ trong bảng hoặc nhấn nút trên loại máy tính phù hợp; bảng sẽ được giải thích ở phần 2.</p>
+<p>Nhiều <code>histogram</code> cho dữ liệu có hình dạng tương tự như <code>normal curve</code>, miễn là chúng được vẽ theo cùng một tỷ lệ. Việc làm cho các thang đo ngang khớp với nhau đòi hỏi phải có các <code>standard units</code><sup class="footnote-reference"><a href="#1">1</a></sup>.</p>
+<blockquote>
+<p>Một giá trị được chuyển đổi thành <code>standard units</code> bằng cách xem nó cao hơn hoặc thấp hơn mức trung bình bao nhiêu <code>SD</code>.</p>
+</blockquote>
+<p>Các giá trị trên mức trung bình được đặt dấu cộng; giá trị dưới mức trung bình nhận được dấu trừ. Trục hoành của Hình 1 được tính theo <code>standard unit</code>.</p>
+<p>Ví dụ: lấy phụ nữ từ 18 tuổi trở lên trong mẫu HANES5. Chiều cao trung bình của họ là 63,5 inch; <code>SD</code> là 3 inch. Một trong những người phụ nữ này cao 69,5 inch. Chiều cao của cô ấy theo <code>standard units</code> là bao nhiêu? Đối tượng của chúng ta cao hơn mức trung bình 6 inch và 6 inch là 2 <code>SD</code>. Trong <code>standard units</code>, chiều cao của cô ấy là +2.</p>
+<p><em>Ví dụ 1.</em> Với phụ nữ từ 18 tuổi trở lên trong mẫu HANES5</p>
+<p>(a) Đổi các đơn vị sau sang <code>standard units</code></p>
+<pre><code>(i) 66.5 inch     (ii) 57.5 inch    (iii) 64 inch     (iv) 64.5 inch
+</code></pre>
+<p>(b) Tìm chiều cao là -1.2 theo <code>standard units</code>.</p>
+<p><em>Đáp án.</em> <em>Câu (a).</em> (i), 66.5 inch cao hơn trung bình 3 inch. Tức là cao hơn trung bình 1 <code>SD</code>. Trong <code>standard units</code>, 66.5 inch là +1. Với (ii), 57.5 inch thấp hơn trung bình 6 inch. Tức là thấp hơn trung bình 2 <code>SD</code>. Trong <code>standard units</code>, 57.5 inch là -2. Với (iii), 64 inch cao hơn trung bình 0.5 inch. Tức là \(0.5/3 \approx 0.17\) <code>SD</code>. Câu trả lời là 0.17. Với (iv), 63.5 inch là trung bình. Do đó, 63.5 inch cách trung bình 0 <code>SD</code>. Câu trả lời là 0. (Nhớ rằng \(\approx\) nghĩa là xấp xỉ).</p>
+<p><em>Câu (b).</em> Chiều cao dưới trung bình 1.2 <code>SD</code> và \(1.2 \times 3\ inch = 3.6\ inch\). Chiều cao là</p>
+<p>\[
+63.5\ inch - 3.6\ inch = 59.9\ inch
+\]</p>
+<p>Đó là câu trả lời.</p>
+<p><code>standard units</code> được dùng trong Hình 2. Trong đó, <code>histogram</code> với những phụ nữ</p>
+<p>Trong đó, <code>histogram</code>chiều cao của phụ nữ từ 18 tuổi trở lên trong mẫu HANES5 được so sánh với <code>normal curve</code>. Trục ngang của <code>histogram</code> tính bằng inch; trục ngang của đường cong chuẩn được tính bằng <code>standard units</code>. Hai số này khớp với nhau như được chỉ ra trong ví dụ 1. Ví dụ: 66.5 inch nằm ngay trên +1 và 57.5 inch nằm ngay trên −2.</p>
+<p>Ngoài ra còn có hai trục thẳng đứng trong Hình 2. Biểu đồ được vẽ so với trục dọc bên trong, tính bằng phần trăm trên mỗi inch. <code>normal curve</code> được vẽ so với đường cong bên ngoài, tính bằng phần trăm trên mỗi <code>standard units</code>. Để xem các tỷ lệ khớp với nhau như thế nào, hãy lấy giá trị cao nhất trên mỗi trục: 60% trên mỗi <code>standard units</code> khớp với 20% trên mỗi inch vì có 3 inch cho <code>standard units</code>. Trải 60% trên <code>SD</code> cũng giống như trải 60% trên 3 inch với 20% mỗi inch</p>
+<p>\[
+60\%\ mỗi\ standard\ inits=60\%\ mỗi\ 3\ inch\\
+=60\%\ \div\ 3\ inch=20\%\ mỗi\ inch.
+\]</p>
+<p>Tương tự, 30% trên mỗi <code>standard units</code> tương ứng với 10% trên mỗi inch. Bất kỳ cặp giá trị nào khác có thể được xử lý theo cách tương tự.</p>
+<p>Chương trước đã nói rằng đối với nhiều danh sách, khoảng 68% mục nhập nằm trong khoảng 1 SD từ trung bình. Đây là khoảng</p>
+<p>\[
+trung\ bình - SD\ đến\ trung\ bình + SD
+\]</p>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup></div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../ch05/ch05.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../ch17/ch17-02.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../ch05/ch05.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../ch17/ch17-02.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
