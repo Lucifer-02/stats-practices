@@ -30,8 +30,8 @@
   - [ ]     4.6 Computing the Standard Deviation
   - [ ]     4.7 Using a Statistical Calculator
 - [ ] 5: The Normal Approximation for Data
-  - [ ]     5.1 The Normal Curve
-  - [ ]     5.2 Finding Areas Under the Normal Curve
+  - [x]     5.1 The Normal Curve
+  - [x]     5.2 Finding Areas Under the Normal Curve
   - [ ]     5.3 The Normal Approximation for Data
   - [ ]     5.4 Percentiles
   - [ ]     5.6 Change of Scale

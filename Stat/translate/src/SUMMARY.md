@@ -24,6 +24,7 @@
 
 - [The Normal Approximation for Data](ch05/ch05.md)
     - [The Normal Curve](ch05/ch05-01.md)
+    - [Finding Areas Under The Normal Curve](ch05/ch05-02.md)
 - []()
 - []()
 

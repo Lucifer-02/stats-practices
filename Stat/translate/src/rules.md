@@ -35,7 +35,9 @@
 
 - Ảnh không có tên thì đặt theo tên đề cập trong văn bản hoặc theo nội dung ảnh. Vd: `![](vote.jpg)`
 - Caption format: 
-`**<center>Hình 1: Trung tâm và lây lan. Tâm của hai biểu đồ `histogram` giống nhau, nhưng biểu đồ thứ 2 trải rộng hơn.</center>**`
+
+**<center>Hình 1: Trung tâm và lây lan. Tâm của hai biểu đồ `histogram` giống nhau, nhưng biểu đồ thứ 2 trải rộng hơn.</center>**
+
 - Ảnh được đặt ngay sau đoạn văn nhắc đến nó(trong sách gốc, để bố trí trang hợp lý, ảnh có thể bị di chuyển ra sau, điều này là không cần thiết trong format bản dịch)
 
 # Bảng
