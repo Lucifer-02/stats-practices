@@ -23,8 +23,9 @@
   - [The Average and the Histogram](ch04/ch04-03.md)
 
 - [The Normal Approximation for Data](ch05/ch05.md)
-    - [The Normal Curve](ch05/ch05-01.md)
-    - [Finding Areas Under The Normal Curve](ch05/ch05-02.md)
+  - [The Normal Curve](ch05/ch05-01.md)
+  - [Finding Areas Under The Normal Curve](ch05/ch05-02.md)
+  - [The Normal Approximation For Data](ch05/ch05-03.md)
 - []()
 - []()
 
@@ -54,7 +55,7 @@
 
 - []()
 - [Chance Errors in Sampling](ch20/ch20.md)
-    - [Introduction](ch20/ch20-01.md)
+  - [Introduction](ch20/ch20-01.md)
 - [The Accuracy of Percentages](ch21/ch21.md)
   - [Introduction](ch21/ch21-01.md)
 - []()
