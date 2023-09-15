@@ -26,7 +26,7 @@
   - [The Normal Curve](ch05/ch05-01.md)
   - [Finding Areas Under The Normal Curve](ch05/ch05-02.md)
   - [The Normal Approximation For Data](ch05/ch05-03.md)
-- []()
+  - [Percentiles](ch05/ch05-04.md)
 - []()
 
 # Part III: Correlation and Regression
