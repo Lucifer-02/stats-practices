@@ -169,6 +169,22 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="percentiles"><a class="header" href="#percentiles">Percentiles</a></h1>
+<p>Giá trị trung bình và <code>SD</code> có thể được sử dụng để tóm tắt dữ liệu theo <code>normal curve</code>. Chúng ít thỏa đáng hơn đối với các loại dữ liệu khác. Hãy lấy sự phân bổ thu nhập của các hộ gia đình ở Mỹ năm 2004, minh họa trong Hình 5.</p>
+<center><img src="fig5.png" width="70%" height="auto"></center>
+<p><strong><center>Hình 5. Phân bổ thu nhập các hộ gia đinh: U.S năm 2004.</center></strong></p>
+<p>Thu nhập trung bình của các gia đình trong Hình 5 là khoảng 60.000 USD; <code>SD</code> là khoảng $40.000<sup class="footnote-reference"><a href="#3">1</a></sup>. Vì vậy, <code>normal approximation</code> cho thấy khoảng 7% hộ gia đình có thu nhập âm:</p>
+<center><img src="percent.jpg" width="100%" height="auto"></center>
+<p>Lý do cho sai lầm này: <code>histogram</code> trong Hình 5 hoàn toàn không tuân theo <code>normal curve</code>, nó có một cái đuôi dài bên phải. Để tóm tắt các <code>histogram</code>như vậy, các nhà thống kê thường sử dụng <code>percentiles</code> (Bảng 1).</p>
+<p><code>percentile</code> thứ nhất của phân bổ thu nhập là $0, nghĩa là khoảng 1% gia đình có thu nhập từ $0 trở xuống và khoảng 99% có thu nhập trên mức đó. (Chủ yếu, các gia đình không có thu nhập đã nghỉ hưu hoặc không làm việc vì lý do khác). <code>perdentiles</code> thứ 10 là $15.000: khoảng 10% gia đình có thu nhập dưới mức đó và 90% là ở trên. <code>percentiles</code> thứ 50 chỉ là <code>median</code>(Chương 4).</p>
+<p>Theo định nghĩa, <code>interquartile</code> bằng</p>
+<p>\[
+75th\ percentile - 25th\ percentile
+\]</p>
+<p>Điều này đôi khi được sử dụng như một thước đo mức độ lây lan khi phân phối có đuôi dài. Đối với Bảng 1, phạm vi <code>interquartile</code> là $61.000.</p>
+<p>Vì những lý do riêng, các nhà thống kê gọi đường cong de Moivre là &quot;normal&quot;. Điều này tạo ấn tượng rằng các đường cong khác là bất thường. Không phải vậy. Nhiều <code>histogram</code> tuân theo <code>normal curve</code>rất tốt, còn nhiều biểu đồ khác - như biểu đồ thu nhập - thì không. Ở phần sau của cuốn sách, chúng tôi sẽ trình bày một lý thuyết toán học giúp giải thích khi nào <code>histogram</code> nên tuân theo <code>normal curve</code>.</p>
+<div class="footnote-definition" id="3"><sup class="footnote-definition-label">1</sup>
+<p>Xem chú thích 3 ở Chương 3. <code>histogram</code>, <code>SD</code> và <code>percentiles</code>được tính toán từ CD ROM, không có trọng số, đối với các thành viên chính trong gia đình. Giá trị trung bình và <code>SD</code> gần như đúng khi thu nhập trên 200.000 USD bị kiểm duyệt. Phần trăm dành cho việc phân phối đầy đủ thu nhập của gia đình, giá trị trung bình và <code>SD</code> tương ứng đều khoảng $70.000. (Lưu ý rằng thu nhập cao đã được mã hóa để bảo vệ tính bảo mật của người trả lời).</p>
+</div>
 
                     </main>
 
@@ -199,22 +215,6 @@
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 

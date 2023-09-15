@@ -368,6 +368,12 @@ trung\ bình - 2 SD\ đến\ trung\ bình +  2 SD
 <p>Lý do cũng tương tự. Nếu <code>histogram</code> dựa theo <code>normal curve</code> thì diện tích dưới <code>histogram</code> sẽ gần bằng diện tích dưới đường cong. Và diện tích dưới đường cong giữa −2 và +2 là 95%:</p>
 <center><img src="ch05/same.png" width="80%" height="auto"></center>
 <p><code>normal curve</code> có thể được sử dụng để ước tính tỷ lệ phần trăm của các giá trị trong một khoảng, như sau<sup class="footnote-reference"><a href="#2">2</a></sup>. Đầu tiên, chuyển đổi khoảng thành <code>standard units</code>; thứ hai, tìm diện tích tương ứng dưới <code>normal curve</code>. Phương pháp lấy diện tích sẽ được giải thích trong phần 2. Cuối cùng, phần 3 sẽ kết hợp 2 bước lại với nhau. Toàn bộ quá trình này được gọi là <code>normal approximation</code>. Phép tính gần đúng bao gồm việc thay thế <code>histogram</code>ban đầu bằng <code>normal curve</code> trước khi tìm diện tích.</p>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>Còn được gọi là <code>standard scores</code>, <code>z-scores</code>, <code>sigma-scores</code>.</p>
+</div>
+<div class="footnote-definition" id="2"><sup class="footnote-definition-label">2</sup>
+<p>Ở đây, ta sử dụng “ước tính” theo nghĩa thông thường của nó, “để tính toán xấp xỉ”. “Ước tính” cũng có ý nghĩa kỹ thuật trong thống kê, sẽ được thảo luận trong phần VI.</p>
+</div>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="finding-areas-under-the-normal-curve"><a class="header" href="#finding-areas-under-the-normal-curve">Finding Areas Under The Normal Curve</a></h1>
 <p>Ở cuối cuốn sách có bảng cho diện tích dưới đường cong (tr. A104). Ví dụ: để tìm diện tích bên dưới <code>normal curve</code> nằm trong khoảng từ −1,20 đến 1,20, hãy chuyển đến 1,20 trong cột được đánh dấu \(z\) và đọc giá trị trong cột được đánh dấu <em>Area</em>. Tỷ lệ này là khoảng 77%, do đó diện tích dưới đường cong chuẩn giữa −1,20 và 1,20 là khoảng 77%.</p>
 <center><img src="ch05/area77.png" width="60%" height="auto"></center>
@@ -441,6 +447,22 @@ trung\ bình - 2 SD\ đến\ trung\ bình +  2 SD
 <center><img src="ch05/fig4.png" width="80%" height="auto"></center>
 <p><strong><center>Hình 4. Giá trị trung bình và <code>SD</code>. Bằng cách xác định vị trí trung tâm và đo độ rộng xung quanh trung tâm, giá trị trung bình và <code>SD</code> tóm tắt một biểu đồ tuân theo <code>normal curve</code>.</center></strong></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="percentiles"><a class="header" href="#percentiles">Percentiles</a></h1>
+<p>Giá trị trung bình và <code>SD</code> có thể được sử dụng để tóm tắt dữ liệu theo <code>normal curve</code>. Chúng ít thỏa đáng hơn đối với các loại dữ liệu khác. Hãy lấy sự phân bổ thu nhập của các hộ gia đình ở Mỹ năm 2004, minh họa trong Hình 5.</p>
+<center><img src="ch05/fig5.png" width="70%" height="auto"></center>
+<p><strong><center>Hình 5. Phân bổ thu nhập các hộ gia đinh: U.S năm 2004.</center></strong></p>
+<p>Thu nhập trung bình của các gia đình trong Hình 5 là khoảng 60.000 USD; <code>SD</code> là khoảng $40.000<sup class="footnote-reference"><a href="#3">1</a></sup>. Vì vậy, <code>normal approximation</code> cho thấy khoảng 7% hộ gia đình có thu nhập âm:</p>
+<center><img src="ch05/percent.jpg" width="100%" height="auto"></center>
+<p>Lý do cho sai lầm này: <code>histogram</code> trong Hình 5 hoàn toàn không tuân theo <code>normal curve</code>, nó có một cái đuôi dài bên phải. Để tóm tắt các <code>histogram</code>như vậy, các nhà thống kê thường sử dụng <code>percentiles</code> (Bảng 1).</p>
+<p><code>percentile</code> thứ nhất của phân bổ thu nhập là $0, nghĩa là khoảng 1% gia đình có thu nhập từ $0 trở xuống và khoảng 99% có thu nhập trên mức đó. (Chủ yếu, các gia đình không có thu nhập đã nghỉ hưu hoặc không làm việc vì lý do khác). <code>perdentiles</code> thứ 10 là $15.000: khoảng 10% gia đình có thu nhập dưới mức đó và 90% là ở trên. <code>percentiles</code> thứ 50 chỉ là <code>median</code>(Chương 4).</p>
+<p>Theo định nghĩa, <code>interquartile</code> bằng</p>
+<p>\[
+75th\ percentile - 25th\ percentile
+\]</p>
+<p>Điều này đôi khi được sử dụng như một thước đo mức độ lây lan khi phân phối có đuôi dài. Đối với Bảng 1, phạm vi <code>interquartile</code> là $61.000.</p>
+<p>Vì những lý do riêng, các nhà thống kê gọi đường cong de Moivre là &quot;normal&quot;. Điều này tạo ấn tượng rằng các đường cong khác là bất thường. Không phải vậy. Nhiều <code>histogram</code> tuân theo <code>normal curve</code>rất tốt, còn nhiều biểu đồ khác - như biểu đồ thu nhập - thì không. Ở phần sau của cuốn sách, chúng tôi sẽ trình bày một lý thuyết toán học giúp giải thích khi nào <code>histogram</code> nên tuân theo <code>normal curve</code>.</p>
+<div class="footnote-definition" id="3"><sup class="footnote-definition-label">1</sup>
+<p>Xem chú thích 3 ở Chương 3. <code>histogram</code>, <code>SD</code> và <code>percentiles</code>được tính toán từ CD ROM, không có trọng số, đối với các thành viên chính trong gia đình. Giá trị trung bình và <code>SD</code> gần như đúng khi thu nhập trên 200.000 USD bị kiểm duyệt. Phần trăm dành cho việc phân phối đầy đủ thu nhập của gia đình, giá trị trung bình và <code>SD</code> tương ứng đều khoảng $70.000. (Lưu ý rằng thu nhập cao đã được mã hóa để bảo vệ tính bảo mật của người trả lời).</p>
+</div>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="the-standard-error"><a class="header" href="#the-standard-error">The Standard Error</a></h1>
 <p><sup class="footnote-reference"><a href="#2">1</a></sup></p>
 <div class="footnote-definition" id="2"><sup class="footnote-definition-label">1</sup>
@@ -629,22 +651,6 @@ E. Lehmann, Theory of Point Estimation, 2nd ed. with G. Casella (Springer, 1998)
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 

@@ -224,6 +224,12 @@ trung\ bình - 2 SD\ đến\ trung\ bình +  2 SD
 <p>Lý do cũng tương tự. Nếu <code>histogram</code> dựa theo <code>normal curve</code> thì diện tích dưới <code>histogram</code> sẽ gần bằng diện tích dưới đường cong. Và diện tích dưới đường cong giữa −2 và +2 là 95%:</p>
 <center><img src="same.png" width="80%" height="auto"></center>
 <p><code>normal curve</code> có thể được sử dụng để ước tính tỷ lệ phần trăm của các giá trị trong một khoảng, như sau<sup class="footnote-reference"><a href="#2">2</a></sup>. Đầu tiên, chuyển đổi khoảng thành <code>standard units</code>; thứ hai, tìm diện tích tương ứng dưới <code>normal curve</code>. Phương pháp lấy diện tích sẽ được giải thích trong phần 2. Cuối cùng, phần 3 sẽ kết hợp 2 bước lại với nhau. Toàn bộ quá trình này được gọi là <code>normal approximation</code>. Phép tính gần đúng bao gồm việc thay thế <code>histogram</code>ban đầu bằng <code>normal curve</code> trước khi tìm diện tích.</p>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>Còn được gọi là <code>standard scores</code>, <code>z-scores</code>, <code>sigma-scores</code>.</p>
+</div>
+<div class="footnote-definition" id="2"><sup class="footnote-definition-label">2</sup>
+<p>Ở đây, ta sử dụng “ước tính” theo nghĩa thông thường của nó, “để tính toán xấp xỉ”. “Ước tính” cũng có ý nghĩa kỹ thuật trong thống kê, sẽ được thảo luận trong phần VI.</p>
+</div>
 
                     </main>
 
@@ -254,22 +260,6 @@ trung\ bình - 2 SD\ đến\ trung\ bình +  2 SD
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 
