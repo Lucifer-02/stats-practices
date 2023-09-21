@@ -28,6 +28,9 @@
   - [The Normal Approximation For Data](ch05/ch05-03.md)
   - [Percentiles](ch05/ch05-04.md)
   - [Percentiles And The Normal Curve](ch05/ch05-05.md)
+  - [Change Of Scale](ch05/ch05-06.md)
+  - [Review Exercises](ch05/ch05-07.md)
+  - [Summary](ch05/ch05-08.md)
 - []()
 - []()
 

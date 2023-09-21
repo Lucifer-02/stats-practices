@@ -34,7 +34,9 @@
   - [x]     5.2 Finding Areas Under the Normal Curve
   - [x]     5.3 The Normal Approximation for Data
   - [x]     5.4 Percentiles
-  - [ ]     5.6 Change of Scale
+  - [x]     5.6 Change of Scale
+  - [ ]     5.7 Review Exercises
+  - [x]     5.8 Summary
 - [ ] 6: Measurement Error
   - [ ]     6.1 Introduction
   - [ ]     6.2 Chance Error
