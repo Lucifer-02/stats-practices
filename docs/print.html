@@ -200,10 +200,10 @@ two nuisances would be got rid of at once.</em> </p>
 </div>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="introduction-1"><a class="header" href="#introduction-1">Introduction</a></h1>
 <p>Một <code>histogram</code> có thể được sử dụng để tóm tắt một lượng lớn dữ liệu. Thông thường, một bản tóm tắt thậm chí còn hứu dụng hơn là chỉ đưa ra trung tâm của biểu đồ và mức độ lan rộng xung quanh trung tâm(&quot;Trung tâm&quot; và &quot;lây lan&quot; là những từ bình thường ở đây, không có bất kỳ ý nghĩa kỹ thuật đặc biệt nào). Hai <code>histogram</code> được phác họa trong Hình 1. Trung tâm và lây lan được hiển thị. Cả hai biểu đồ đều có cùng tâm, nhưng biểu đồ thứ hai trải rộng hơn - có nhiều khu vực ở xa trung tâm hơn. Đối với công việc thống kê, các định nghĩa chính xác phải được đưa ra và có một số cách để thực hiện điều này. <code>average</code> thường được sử dụng để tìm trung tâm, và <code>median</code> cũng vậy<sup class="footnote-reference"><a href="#2">1</a></sup>. Các phép đo <code>standard deviation</code> trải rộng xung quanh trung bình; <code>interquartile range</code> là một thước đo khác của sự lây lan.</p>
-<center><img src="ch04/fig1.png" width="100%" height="auto"></center>
+<center><img src="ch04/fig1.png" width="90%" height="auto"></center>
 <p><strong><center>Hình 1: Trung tâm và lây lan. Tâm của hai biểu đồ <code>histogram</code> giống nhau, nhưng biểu đồ thứ 2 trải rộng hơn.</center></strong></p>
 <p>Các biểu đồ <code>histogram</code> trong Hình 1 có thể được tóm tắt theo trung tâm và mức lây lan. Tuy nhiên, không phải lúc nào mọi việc cũng suôn sẻ như vậy. Ví dụ, Hình 2 đưa ra sự phân bố độ cao trên bề mặt trái đất. Độ cao được hiển thị dọc theo trục ngang, tính bằng dặm trên (+) hoặc dưới (–) mực nước biển. Khu vực dưới biểu đồ giữa hai độ cao cho biết tỷ lệ phần trăm diện tích bề mặt trái đất giữa các độ cao đó. Có các đỉnh rõ ràng trong biểu đồ này. Hầu hết diện tích bề mặt là đáy biển, khoảng 3 dặm dưới mực nước biển; hoặc đồng bằng lục địa, xung quanh mực nước biển. Chỉ báo cáo trung tâm và trải rộng của biểu đồ này sẽ bỏ lỡ hai đỉnh<sup class="footnote-reference"><a href="#3">2</a></sup>.</p>
-<center><img src="ch04/fig2.png" width="60%" height="auto"></center>
+<center><img src="ch04/fig2.png" width="40%" height="auto"></center>
 <p><strong><center>Hình 2: Phân bố diện tích bề mặt trái đất theo độ cao trên (+) hoặc dưới (–) mực nước biển.</center></strong></p>
 <div class="footnote-definition" id="2"><sup class="footnote-definition-label">1</sup>
 <p>Nơi biểu đồ <code>histogram</code> cao nhất, <code>mode</code>, đôi khi được sử dụng để biểu thị trung tâm. Điều này không được khuyến khích vì những thay đổi nhỏ trong dữ liệu có thể gây ra những thay đổi lớn với <code>mode</code>.</p>
@@ -268,31 +268,21 @@ two nuisances would be got rid of at once.</em> </p>
 </tbody></table>
 </div><div style="break-before: page; page-break-before: always;"></div><h1 id="the-average-and-the-histogram"><a class="header" href="#the-average-and-the-histogram">The Average and the Histogram</a></h1>
 <p>Phần này sẽ chỉ ra trung bình và <code>median</code> liên quan như thể nào đến <code>histogram</code>. Để bắt đầu với một ví dụ, có 2.696 phụ nữ từ 18 tuổi trở lên trong HANES5 (2003–04). Trọng lượng trung bình của họ là 164 pounds. Rất dễ dàng để đoán rằng 50% trong số họ có cân nặng trên trung bình và 50% dưới mức trung bình. Tuy nhiên, dự đoán này là hơi tắt. Trên thực tế, chỉ có 41% là trên trung bình và 59% là dưới trung bình. Hình 4 hiển thị <code>histogram</code> cho dữ liệu: giá trị trung bình được đánh dấu bằng một đường thẳng đứng. Trong các tình huống khác, tỷ lệ phần trăm thậm chí có thể xa hơn 50%.</p>
-<figure>
-    <center><img src="ch04/fig4.png"></center>
-</figure>
+<center><img src="ch04/fig4.png" width="70%" height="auto"></center>
 <p><strong><center>Hình 4: <code>histogram</code> về trọng lượng của 2.696 phụ nữ trong mẫu HANES5. Mức trung bình được đánh dấu bằng một đường thẳng đứng. Chỉ 41% phụ nữ có cân nặng trên mức trung bình</center></strong></p>
-<p>Sao lại như vậy? Để tìm hiểu, cách dễ nhất là bắt đầu với một số dữ liệu giả định—danh sách 1, 2, 2, 3. <code>histogram</code> cho danh sách này (Hình 5) đối xứng tại 2. Và giá trị trung bình bằng 2. Nếu biểu đồ đối xứng xung quanh một giá trị, giá trị đó bằng giá trị trung bình. Hơn nữa, một nửa diện tích dưới biểu đồ của anh ta nằm ở bên trái của giá trị đó và một nửa ở bên phải. (Đối xứng có nghĩa là gì? Hãy tưởng tượng vẽ một đường thẳng đứng qua tâm của biểu đồ và gấp một nửa biểu đồ xung quanh đường thẳng đó: hai nửa phải khớp với nhau).</p>
-<figure>
-    <center><img src="ch04/fig5.png"></center>
-</figure>
-<p><strong><center>Hình 5: <code>histogram</code> cho danh sách 1, 2, 2, 3. Biểu đồ này đối xứng quanh 2, trung bình: 50% diện tích nằm ở bên trái của 2 và 50% ở bên phải.</center></strong></p>
+<p>Sao lại như vậy? Để tìm hiểu, cách dễ nhất là bắt đầu với một số dữ liệu giả định—danh sách 1, 2, 2, 3. <code>histogram</code> cho danh sách này (Hình 5) đối xứng tại 2. Và giá trị trung bình bằng 2. Nếu biểu đồ đối xứng xung quanh một giá trị, giá trị đó bằng giá trị trung bình. Hơn nữa, một nửa diện tích dưới biểu đồ của anh ta nằm ở bên trái của giá trị đó và một nửa ở bên phải. (Đối xứng có nghĩa là gì? Hãy tưởng tượng vẽ một đường thẳng đứng qua tâm của <code>histogram</code> và gấp một nửa <code>histogram</code> xung quanh đường thẳng đó: hai nửa phải khớp với nhau).</p>
+<center><img src="ch04/fig5.png" width="50%" height="auto"></center>
+<p><strong><center>Hình 5: <code>histogram</code> cho danh sách 1, 2, 2, 3. <code>historam</code> này đối xứng quanh 2, trung bình: 50% diện tích nằm ở bên trái của 2 và 50% ở bên phải.</center></strong></p>
 <p>Điều gì xảy ra khi giá trị 3 trong danh sách 1, 2, 2, 3 tăng lên, chẳng hạn như 5 hoặc 7? Như thể hiện trong Hình 6, hình chữ nhật trên giá trị đó dịch chuyển sang phải, phá hủy tính đối xứng. Giá trị trung bình cho mỗi biểu đồ được đánh dấu bằng một mũi tên và mũi tên dịch chuyển sang phải theo hình chữ nhật. Để hiểu tại sao, hãy tưởng tượng biểu đồ được làm từ các khối gỗ gắn vào một tấm ván cứng, không trọng lượng. Đặt biểu đồ trên một sợi dây căng, như được minh họa trong bảng dưới cùng của Hình 6. <code>histogram</code> sẽ cân bằng ở trung bình<sup class="footnote-reference"><a href="#7">1</a></sup>. Một khu vực nhỏ cách xa mức trung bình có thể cân bằng một khu vực lớn gần mức trung bình, bởi vì các khu vực được tính trọng số theo khoảng cách của chúng so với điểm cân bằng.</p>
-<figure>
-    <center><img src="ch04/fig6.png"></center>
-</figure>
+<center><img src="ch04/fig6.png" width="80%" height="auto"></center>
 <p><strong><center>Hình 6: Trung bình. Bảng trên cùng hiển thị 3 <code>histogram</code>; các giá trị trung bình được đánh dấu bằng mũi tên. Khi hộp kẻ sọc dịch sang phải, nó sẽ kéo theo giá trị trung bình. Phần bên trái của trung bình lên tới 75%. Bảng dưới cùng hiển thị 3 <code>histogram</code> giống nhau được làm từ các khối gỗ gắn vào một tấm ván cứng, không trọng lượng. Các <code>histogram</code> cân bằng khi được kê ở trung bình.</center></strong></p>
 <blockquote>
 <p><code>histogram</code> cân bằng khi được đặt ở mức trung bình.</p>
 </blockquote>
 <p>Một đứa trẻ nhỏ ngồi xa trung tâm bập bênh hơn để giữ thăng bằng cho đứa trẻ lớn ngồi gần trung tâm hơn. Các khối trong biểu đồ hoạt động theo cùng một cách. Đó là lý do tại sao tỷ lệ các thành phần ở hai bên mức trung bình có thể khác 50%.</p>
-<figure>
-    <center><img src="ch04/seesaw.jpg"></center>
-</figure>
+<center><img src="ch04/seesaw.jpg" width="50%" height="auto"></center>
 <p><code>median</code> của histogram là giá trị có một nửa diện tích ở bên trái và một nửa ở bên phải. Đối với cả 3 <code>histogram</code> trong Hình 6, <code>median</code> là 2. Với <code>histogram</code> thứ 2 và  3, diện tích bên phải của trung vị cách xa so với diện tích bên trái. Do đó, nếu bạn cố gắng cân bằng một trong những <code>histogram</code> đó tại <code>median</code>, nó sẽ nghiêng về bên phải. Tổng quát hơn, giá trị trung bình nằm bên phải của <code>median</code> bất cứ khi nào <code>histogram</code> có phần đuôi dài bên phải, như trong Hình 7. Biểu đồ cân nặng (Hình 4 trang 62) có trung bình là 164 lbs và <code>median</code> là 155 lbs. Cái đuôi dài bên phải là thứ làm cho mức trung bình lớn hơn <code>median</code>.</p>
-<figure>
-    <center><img src="ch04/fig7.png"></center>
-</figure>
+<center><img src="ch04/fig7.png" width="80%" height="auto"></center>
 <p><strong><center>Hình 7: Đuôi của các <code>histogram</code>.</center></strong></p>
 <p>Ví dụ khác, thu nhập gia đình trung bình ở Hoa Kỳ năm 2004 là khoảng $54,000. <code>histogram</code> thu nhập có đuôi dài bên phải và trung bình cao hơn - $60.000<sup class="footnote-reference"><a href="#8">2</a></sup>. Khi xử lý các phân phối đuôi dài, các nhà thống kê có thể sử dụng <code>median</code> thay vì trung bình, nếu trung bình chú ý quá nhiều đến phần cuối cùng của phân phối. Chúng tôi trở lại điểm này trong chương tiếp theo.</p>
 <div class="footnote-definition" id="7"><sup class="footnote-definition-label">1</sup>
@@ -361,18 +351,18 @@ trung\ bình - SD\ đến\ trung\ bình + SD
 <p>Để biết 68% đến từ đâu, hãy nhìn vào Hình 2. Tỷ lệ phụ nữ có chiều cao nằm trong 1 <code>SD</code> tính từ trung bình bằng diện tích dưới biểu đồ trong 1 <code>SD</code> tính từ trung bình. Vùng này được tô bóng trong Hình 2. <code>histogram</code> dựa theo <code>normal curve</code> khá tốt. Có các phần cao hơn và thâp hơn đường cong. Nhưng những chỗ cao cân bằng với thấp. Và vùng bóng mờ dưới biểu đồ gần giống với vùng dưới đường cong. Diện tích dưới <code>normal curve</code> giữa −1 và +1 là 68%. Nơi mà 68% đến từ đó. </p>
 <center><img src="ch05/fig2.png" width="80%" height="auto"></center>
 <p><strong><center>Hình 2: <code>histogram</code> chiều cao của phụ nữ so với <code>normal curve</code>. Diện tích dưới biểu đồ từ 60,5 inch đến 66,5 inch (tỷ lệ phần trăm phụ nữ trong phạm vi 1 SD tính từ trung bình về chiều cao) gần bằng diện tích giữa −1 và +1 dưới đường cong - 68%.</center></strong></p>
-<p>Đối với nhiều dữ liệu, khoảng 95% số liệu nằm trong phạm vi 2 SD tính từ trung bình. Đây là phạm vi.</p>
+<p>Đối với nhiều dữ liệu, khoảng 95% số liệu nằm trong phạm vi 2 <code>SD</code> tính từ trung bình. Đây là phạm vi.</p>
 <p>\[
 trung\ bình - 2 SD\ đến\ trung\ bình +  2 SD
 \]</p>
 <p>Lý do cũng tương tự. Nếu <code>histogram</code> dựa theo <code>normal curve</code> thì diện tích dưới <code>histogram</code> sẽ gần bằng diện tích dưới đường cong. Và diện tích dưới đường cong giữa −2 và +2 là 95%:</p>
 <center><img src="ch05/same.png" width="80%" height="auto"></center>
-<p><code>normal curve</code> có thể được sử dụng để ước tính tỷ lệ phần trăm của các giá trị trong một khoảng, như sau<sup class="footnote-reference"><a href="#2">2</a></sup>. Đầu tiên, chuyển đổi khoảng thành <code>standard units</code>; thứ hai, tìm diện tích tương ứng dưới <code>normal curve</code>. Phương pháp lấy diện tích sẽ được giải thích trong phần 2. Cuối cùng, phần 3 sẽ kết hợp 2 bước lại với nhau. Toàn bộ quá trình này được gọi là <code>normal approximation</code>. Phép tính gần đúng bao gồm việc thay thế <code>histogram</code>ban đầu bằng <code>normal curve</code> trước khi tìm diện tích.</p>
+<p><code>normal curve</code> có thể được sử dụng để ước tính tỷ lệ phần trăm của các giá trị trong một khoảng, như sau<sup class="footnote-reference"><a href="#2">2</a></sup>. Đầu tiên, chuyển đổi khoảng thành <code>standard units</code>; thứ hai, tìm diện tích tương ứng dưới <code>normal curve</code>. Phương pháp lấy diện tích sẽ được giải thích trong Phần 2. Cuối cùng, phần 3 sẽ kết hợp 2 bước lại với nhau. Toàn bộ quá trình này được gọi là <code>normal approximation</code>. Phép tính gần đúng bao gồm việc thay thế <code>histogram</code>ban đầu bằng <code>normal curve</code> trước khi tìm diện tích.</p>
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
 <p>Còn được gọi là <code>standard scores</code>, <code>z-scores</code>, <code>sigma-scores</code>.</p>
 </div>
 <div class="footnote-definition" id="2"><sup class="footnote-definition-label">2</sup>
-<p>Ở đây, ta sử dụng “ước tính” theo nghĩa thông thường của nó, “để tính toán xấp xỉ”. “Ước tính” cũng có ý nghĩa kỹ thuật trong thống kê, sẽ được thảo luận trong phần VI.</p>
+<p>Ở đây, ta sử dụng “ước tính” theo nghĩa thông thường của nó, “để tính toán xấp xỉ”. “Ước tính” cũng có ý nghĩa kỹ thuật trong thống kê, sẽ được thảo luận trong Phần VI.</p>
 </div>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="finding-areas-under-the-normal-curve"><a class="header" href="#finding-areas-under-the-normal-curve">Finding Areas Under The Normal Curve</a></h1>
 <p>Ở cuối cuốn sách có bảng cho diện tích dưới đường cong (tr. A104). Ví dụ: để tìm diện tích bên dưới <code>normal curve</code> nằm trong khoảng từ −1,20 đến 1,20, hãy chuyển đến 1,20 trong cột được đánh dấu \(z\) và đọc giá trị trong cột được đánh dấu <em>Area</em>. Tỷ lệ này là khoảng 77%, do đó diện tích dưới đường cong chuẩn giữa −1,20 và 1,20 là khoảng 77%.</p>
@@ -443,7 +433,7 @@ trung\ bình - 2 SD\ đến\ trung\ bình +  2 SD
 \]</p>
 <center><img src="ch05/ex9.jpg" width="80%" height="auto"></center>
 <p>Sử dụng <code>normal curve</code>, ta ước tính 93% phụ nữ có chiều cao trên 59 inch. Ước tính này gần đúng: 96% phụ nữ cao hơn 59 inch.</p>
-<p>Một thực tế đáng chú ý là nhiều <code>histogram</code> tuân theo <code>normal curve</code>. (Câu chuyện tiếp tục ở phần V.) Đối với những <code>histogram</code> như vậy, mức trung bình và <code>SD</code> là những thống kê tóm tắt tốt. Nếu <code>histogram</code> tuân ttheo <code>normal curve</code>, nó trông giống như bản phác thảo trong Hình 4. Các chốt trung bình ở giữa và SD cho biết mức chênh lệch. Đó gần như là tất cả những gì có thể nói về <code>histogram</code> - nếu hình dạng của nó giống như <code>normal curve</code>. Tuy nhiên, nhiều <code>histogram</code> khác không tuân theo <code>normal curve</code>. Trong những trường hợp như vậy, mức trung bình và <code>SD</code> là số liệu thống kê tóm tắt kém. Thông tin thêm về điều này nằm trong phần tiếp theo.</p>
+<p>Một thực tế đáng chú ý là nhiều <code>histogram</code> tuân theo <code>normal curve</code>. (Câu chuyện tiếp tục ở phần V.) Đối với những <code>histogram</code> như vậy, mức trung bình và <code>SD</code> là những thống kê tóm tắt tốt. Nếu <code>histogram</code> tuân theo <code>normal curve</code>, nó trông giống như bản phác thảo trong Hình 4. Các chốt trung bình ở giữa và SD cho biết mức chênh lệch. Đó gần như là tất cả những gì có thể nói về <code>histogram</code> - nếu hình dạng của nó giống như <code>normal curve</code>. Tuy nhiên, nhiều <code>histogram</code> khác không tuân theo <code>normal curve</code>. Trong những trường hợp như vậy, mức trung bình và <code>SD</code> là số liệu thống kê tóm tắt kém. Thông tin thêm về điều này nằm trong phần tiếp theo.</p>
 <center><img src="ch05/fig4.png" width="80%" height="auto"></center>
 <p><strong><center>Hình 4. Giá trị trung bình và <code>SD</code>. Bằng cách xác định vị trí trung tâm và đo độ rộng xung quanh trung tâm, giá trị trung bình và <code>SD</code> tóm tắt một biểu đồ tuân theo <code>normal curve</code>.</center></strong></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="percentiles"><a class="header" href="#percentiles">Percentiles</a></h1>
@@ -465,39 +455,39 @@ trung\ bình - 2 SD\ đến\ trung\ bình +  2 SD
 </div>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="percentiles-and-the-normal-curve"><a class="header" href="#percentiles-and-the-normal-curve">Percentiles And The Normal Curve</a></h1>
 <p>Khi <code>histogram</code> tuân theo <code>normal curve</code>, bảng có thể được sử dụng để ước tính <code>percentiles</code>của nó. Phương pháp này được chỉ định bằng ví dụ.</p>
-<p><em>Ví dụ 10.</em> Trong số tất cả những người đăng ký vào một trường đại học nhất định trong một năm, điểm SAT Toán trung bình là \(535\), <code>SD</code> là \(100\) và điểm số tuân theo <code>normal score</code>. Ước tính <code>percentile</code> thứ \(95\) của phân phối điểm số.</p>
+<p><em>Ví dụ 10.</em> Trong số tất cả những người đăng ký vào một trường đại học nhất định trong một năm, điểm SAT Toán trung bình là 535 <code>SD</code> là 100 và điểm số tuân theo <code>normal score</code>. Ước tính <code>percentile</code> thứ 95của phân phối điểm số.</p>
 <p><em>Giải pháp.</em> Điểm này cao hơn mức trung bình ở một số <code>SD</code>. Ta cần tìm số đó, gọi nó là \(z\). Phương trình cho \(z\):</p>
 <center><img src="ch05/percentile95.png" width="40%" height="auto"></center>
 <p>Bảng không thể được sử dụng trực tiếp vì nó cho diện tích giữa \(−z\) và \(z\) chứ không phải diện tích bên trái của \(z\).</p>
 <center><img src="ch05/not.png" width="70%" height="auto"></center>
-<p>Diện tích bên phải \(z\) của chúng ta là \(5\%\), do đó diện tích bên trái \(−z\) cũng là \(5\%\). Khi đó diện tích giữa \(−z\) và \(z\) phải là \(100\% − 5\% − 5\% = 90\%\).</p>
+<p>Diện tích bên phải \(z\) của chúng ta là 5%do đó diện tích bên trái \(−z\) cũng là 5%. Khi đó diện tích giữa \(−z\) và \(z\) phải là 100% − 5% − 5% = 90%.</p>
 <center><img src="ch05/percentile90.png" width="50%" height="auto"></center>
-<p>Từ bảng, \(z \approx 1.65\). Bạn phải đạt \(1.65\) <code>SD</code> trên mức trung bình để nằm trong <code>percentile</code> thứ \(95\) của SAT Toán. Dịch ngược lại về điểm thì số điểm này cao hơn mức trung bình \(1,65 \times 100 = 165\) điểm. <code>percentile</code> thứ \(95\) của phân bổ điểm là \(535 + 165 = 700\).</p>
+<p>Từ bảng, \(z \approx 1.65\). Bạn phải đạt 1.65 <code>SD</code> trên mức trung bình để nằm trong <code>percentile</code> thứ 95 của SAT Toán. Dịch ngược lại về điểm thì số điểm này cao hơn mức trung bình \(1,65 \times 100 = 165\) điểm. <code>percentile</code> thứ 95 của phân bổ điểm là 535 + 165 = 700.</p>
 <center><img src="ch05/score.png" width="40%" height="auto"></center>
-<p>Thuật ngữ này có chút khó hiểu. Một <code>percentile</code> là điểm: trong Ví dụ 10, <code>percentile</code> thứ \(95\) là \(700\) điểm. Tuy nhiên, thứ hạng <code>percentile rank</code> là phần trăm: nếu bạn đạt \(700\) điểm thì <code>percentile rank</code> của bạn là \(95%. Thậm chí còn có cách thứ ba để nói điều tương tự: số điểm \(700\) đưa bạn vào <code>percentile</code> thứ \(95) trong bảng phân bổ điểm.</p>
+<p>Thuật ngữ này có chút khó hiểu. Một <code>percentile</code> là điểm: trong Ví dụ 10, <code>percentile</code> thứ 95 là 700 điểm. Tuy nhiên, thứ hạng <code>percentile rank</code> là phần trăm: nếu bạn đạt 700 điểm thì <code>percentile rank</code> của bạn là 95%. Thậm chí còn có cách thứ ba để nói điều tương tự: số điểm 700 đưa bạn vào <code>percentile</code> thứ 95 trong bảng phân bổ điểm.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="change-of-scale"><a class="header" href="#change-of-scale">Change Of Scale</a></h1>
 <p>Nếu bạn thêm cùng một số vào mọi mục trong danh sách, thì số đó sẽ được cộng vào giá trị trung bình; <code>SD</code> không đổi. (Độ lệch so với giá trị trung bình không thay đổi, vì hằng số được thêm vào chỉ bị hủy.) Hơn nữa, nếu bạn nhân mọi mục trong danh sách với cùng một số, thì giá trị trung bình và <code>SD</code> chỉ cần nhân với số đó. Có một ngoại lệ: nếu hệ số nhân không đổi đó âm, hãy xóa dấu của nó trước khi áp dụng nó vào <code>SD</code>. Bài tập 5-8 trang 73 minh họa những ý tưởng này.</p>
 <p><em>Ví dụ 11.</em></p>
-<p>(a) Tìm trung bình cộng và <code>SD</code> của danh sách \(1, 3, 4, 5, 7\).</p>
-<p>(b) Lấy danh sách ở phần (a), nhân mỗi số hạng với \(3\) rồi cộng \(7\), được danh sách \(10, 16, 19, 22, 28\). Tìm giá trị trung bình và <code>SD</code> của danh sách mới này.</p>
+<p>(a) Tìm trung bình cộng và <code>SD</code> của danh sách 1, 3, 4, 5, 7.</p>
+<p>(b) Lấy danh sách ở phần (a), nhân mỗi số hạng với 3 rồi cộng 7, được danh sách 10, 16, 19, 22, 28. Tìm giá trị trung bình và <code>SD</code> của danh sách mới này.</p>
 <p><em>Giải pháp.</em> </p>
-<p><em>Phần (a).</em> Giá trị trung bình là \(4\). Vậy độ lệch so với giá trị trung bình là \(−3, −1, 0, 1, 3\). <code>SD</code> là \(2\).</p>
+<p><em>Phần (a).</em> Giá trị trung bình là 4. Vậy độ lệch so với giá trị trung bình là −3, −1, 0, 1, 3. <code>SD</code> là 2.</p>
 <p><em>Phần (b).</em> Trung bình là \(3 \times 4 + 7 = 19\), <code>SD</code> là \(3 \times 2 = 6\). (Tất nhiên, bạn có thể tính trực tiếp những con số này.)</p>
 <p><em>Ví dụ 12.</em> Chuyển đổi danh sách sau sang <code>standard units</code>:</p>
-<p>(a) \(1, 3, 4, 5, 7\)</p>
-<p>(b) \(10, 16, 19, 22, 28\)</p>
+<p>(a) 1, 3, 4, 5, 7</p>
+<p>(b) 10, 16, 19, 22, 28</p>
 <p>(Đây là hai danh sách trong ví dụ trước.)</p>
 <p><em>Giải pháp.</em></p>
-<p><em>Phần (a).</em> Giá trị trung bình là \(4\) và độ lệch so với giá trị trung bình là \(−3, −1, 0, 1, 3\). <code>SD</code> là \(2\). Chia cho \(2\) để có danh sách theo <code>standard units</code>:</p>
+<p><em>Phần (a).</em> Giá trị trung bình là 4 và độ lệch so với giá trị trung bình là −3, −1, 0, 1, 3 <code>SD</code> là 2. Chia cho 2 để có danh sách theo <code>standard units</code>:</p>
 <p>\[
 −1.5 \quad −0.5 \quad 0 \quad 0.5 \quad 1.5
 \]</p>
-<p><em>Phần (b).</em> Bây giờ giá trị trung bình là \(19\) và độ lệch so với giá trị trung bình là \(−9, −3, 0, 3, 9\). <code>SD</code> là \(6\). Chia cho \(6\) để có danh sách theo <code>standard units</code>:</p>
+<p><em>Phần (b).</em> Bây giờ giá trị trung bình là 19 và độ lệch so với giá trị trung bình là −9, −3, 0, 3, 9. <code>SD</code> là 6. Chia cho 6 để có danh sách theo <code>standard units</code>:</p>
 <p>\[
 −1.5 \quad −0.5 \quad 0 \quad 0,5 \quad 1.5
 \]</p>
 <p>Hai danh sách có <code>standard units</code> như nhau.</p>
-<p>Danh sách (b) xuất phát từ danh sách (a) bằng cách thay đổi scale: nhân \(3\), cộng \(7\). Số \(7\) bị loại bỏ khi tính độ lệch so với mức trung bình. Số \(3\) bị xóa khi chia cho <code>SD</code> - vì <code>SD</code> được nhân với \(3\) cùng với tất cả các sai lệch. Đó là lý do tại sao các danh sách đều giống nhau ở các <code>standard units</code>. Tóm tắt:</p>
+<p>Danh sách (b) xuất phát từ danh sách (a) bằng cách thay đổi scale: nhân 3, cộng 7. Số 7 bị loại bỏ khi tính độ lệch so với mức trung bình. Số 3 bị xóa khi chia cho <code>SD</code> - vì <code>SD</code> được nhân với 3 cùng với tất cả các sai lệch. Đó là lý do tại sao các danh sách đều giống nhau ở các <code>standard units</code>. Tóm tắt:</p>
 <ul>
 <li>
 <p>Việc cộng cùng một số vào mọi mục trong danh sách sẽ cộng hằng số đó vào giá trị trung bình; <code>SD</code> không đổi.</p>
@@ -518,7 +508,7 @@ C^\circ = \frac{5}{9}(F^\circ - 32^\circ)
 <div style="break-before: page; page-break-before: always;"></div><h1 id="summary"><a class="header" href="#summary">Summary</a></h1>
 <ol>
 <li>
-<p><code>normal curve</code> đối xứng qua \(0\) và tổng diện tích bên dưới nó là \(100\%\). </p>
+<p><code>normal curve</code> đối xứng qua 0 và tổng diện tích bên dưới nó là 100%. </p>
 </li>
 <li>
 <p><code>standard units</code> cho biết một giá trị bằng bao nhiêu <code>SD</code> trên (+) hoặc dưới (-) mức trung bình. </p>
