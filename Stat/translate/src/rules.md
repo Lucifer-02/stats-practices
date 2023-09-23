@@ -3,6 +3,7 @@
 - Tất cả các thuật ngữ được để nguyên ở tiếng Anh và
 - Chỉ các thuật ngữ được highlight theo format: `<term>`
 - Viết thường
+- Tên tổ chức để nguyên tiếng Anh
 
 # Chú thích
 

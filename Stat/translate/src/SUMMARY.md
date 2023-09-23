@@ -31,7 +31,9 @@
   - [Change Of Scale](ch05/ch05-06.md)
   - [Review Exercises](ch05/ch05-07.md)
   - [Summary](ch05/ch05-08.md)
-- []()
+- [Measurement Error](ch06/ch06.md)
+    - [Introduction](ch06/ch06-01.md)
+    - [Chance Error](ch06/ch06-02.md)
 - []()
 
 # Part III: Correlation and Regression
