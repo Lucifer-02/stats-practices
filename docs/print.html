@@ -173,7 +173,7 @@
 <p><em>Always do right. This will gratify some people, and astonish the rest.</em> </p>
 <p>MARK TWAIN ( UNITED STATES , 1835–1910)</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="the-salk-vaccine-field-trial"><a class="header" href="#the-salk-vaccine-field-trial">The Salk Vaccine Field Trial</a></h1>
-<p>Một loại thuốc mới được giới thiệu. Nên thiết kể một thí nghiệm như thế nào để kiểm tra hiệu quả của nó? Phương pháp cơ bản là <em>so sánh</em><sup class="footnote-reference"><a href="#1">1</a></sup>. Thuốc được đưa cho các đối tượng trong nhóm điều trị, các đối tượng khác được sử dụng như <em>đối chứng(controls)</em>  - họ không được điều trị. Sau đó, câu trả lời của hai nhóm được so sánh. Các đối tượng nên được chỉ định điều trị hoặc kiểm soát một cách <em>ngẫu nhiên</em> và thí nghiệm nên được tiến hành <em>mù đôi</em>: cả đối tượng và bác sĩ đo lường phản ứng đều không được biết ai thuộc nhóm điều trị và ai thuộc nhóm kiểm soát. Những ý tưởng này sẽ được phát triển trong bối cảnh thử nghiệm thực địa<sup class="footnote-reference"><a href="#2">2</a></sup>.</p>
+<p>Một loại thuốc mới được giới thiệu. Nên thiết kể một thí nghiệm như thế nào để kiểm tra hiệu quả của nó? Phương pháp cơ bản là <code>comparison</code><sup class="footnote-reference"><a href="#1">1</a></sup>. Thuốc được đưa cho các đối tượng trong nhóm điều trị, các đối tượng khác được sử dụng như <code>(controls</code>  - họ không được điều trị. Sau đó, câu trả lời của hai nhóm được so sánh. Các đối tượng nên được chỉ định điều trị hoặc kiểm soát một cách <code>random</code> và thí nghiệm nên được tiến hành <code>double-blind</code>: cả đối tượng và bác sĩ đo lường phản ứng đều không được biết ai thuộc nhóm điều trị và ai thuộc nhóm kiểm soát. Những ý tưởng này sẽ được phát triển trong bối cảnh thử nghiệm thực địa<sup class="footnote-reference"><a href="#2">2</a></sup>.</p>
 <p>Trận dịch bại liệt đầu tiên tấn công Hoa Kỳ vào năm 1916, và trong suốt 40 năm sau đó, bệnh bại liệt đã cướp đi sinh mạng của hàng trăm nghìn nạn nhân, đặc biệt là trẻ em. Đến những năm 1950, một số loại vắc-xin chống lại căn bệnh này đã được phát hiện. Cái được phát triển bởi Jonas Salk có vẻ hứa hẹn nhất. Trong các thử nghiệm trong phòng thí nghiệm, nó đã được chứng minh là an toàn và đã tạo ra các kháng thể chống lại bệnh bại liệt. Đến năm 1954, Dịch vụ Y tế Công cộng và Tổ chức Quốc gia về Bệnh bại liệt Trẻ sơ sinh (NFIP) đã sẵn sàng thử nghiệm vắc-xin trong thế giới thực—bên ngoài phòng thí nghiệm.</p>
 <p>Giả sử NFIP vừa tiêm vắc-xin cho một số lượng lớn trẻ em. Nếu tỷ lệ mắc bệnh bại liệt năm 1954 giảm mạnh so với năm 1953, điều đó dường như chứng minh hiệu quả của vắc-xin. Tuy nhiên, bệnh bại liệt là một bệnh dịch có tỷ lệ mắc thay đổi theo từng năm. Năm 1952 có khoảng 60.000 ca; năm 1953, chỉ còn một nửa. Tỷ lệ mắc bệnh thấp vào năm 1954 có thể có nghĩa là vắc-xin có hiệu quả hoặc năm 1954 không phải là năm có dịch bệnh.</p>
 <p>Cách duy nhất để biết liệu vắc-xin có hiệu quả hay không là cố tình để một số trẻ em không được tiêm phòng và sử dụng chúng làm đối chứng. Điều này đặt ra một vấn đề rắc rối - một số câu hỏi về đạo đức y tế, bởi vì việc giữ lại điều trị có vẻ tàn nhẫn. Tuy nhiên, ngay cả sau khi thử nghiệm rộng rãi trong phòng thí nghiệm, vẫn chưa rõ liệu lợi ích của một loại thuốc mới có lớn hơn rủi ro hay không<sup class="footnote-reference"><a href="#3">3</a></sup>. Chỉ có một thử nghiệm được kiểm soát tốt mới có thể giải quyết câu hỏi này.</p>
@@ -306,7 +306,9 @@ M. J. Stampfer và cộng sự, “Tác dụng của streptokinase tiêm tĩnh m
 <p><code>normal curve</code> được phát hiện vào khoảng năm 1720 bởi Abraham de Moivre, khi ông đang phát triển toán học về sự ngẫu nhiên. (Công trình của ông sẽ được thảo luận lại ở phần IV và V.) Khoảng năm 1870, nhà toán học người Bỉ Adolph Quetelet có ý tưởng sử dụng đường cong như một <code>histogram</code> lý tưởng để có thể so sánh <code>histogram</code> dữ liệu.</p>
 <center><img src="ch05/curve.jpg" width="50%" height="auto"></center>
 <p><code>normal curve</code> có phương trình trông rất ghê gớm:</p>
-<p>\[y = \frac{100%}{\sqrt{2\pi}}e^{-x^2/2},\ với\ e=2.71828...\]</p>
+<p>\[
+y = \frac{100\%}{\sqrt{2\pi}}e^{-x^2/2},\ với\ e=2.71828...
+\]</p>
 <p>Phương trình này liên quan đến 3 con số nổi tiếng nhất trong lịch sử toán học: \(\sqrt{2}\), \(\pi\) và \(e\).</p>
 <p>Đây chỉ là để khoe một chút thôi. Bạn sẽ thấy thật dễ dàng khi làm việc với <code>normal curve</code> thông qua sơ đồ và bảng biểu mà không cần sử dụng phương trình. Đồ thị của đường cong được thể hiện trong Hình 1.</p>
 <center><img src="ch05/fig1.png" width="70%" height="auto"></center>
@@ -340,20 +342,20 @@ M. J. Stampfer và cộng sự, “Tác dụng của streptokinase tiêm tĩnh m
 <p>Trong đó, <code>histogram</code>chiều cao của phụ nữ từ 18 tuổi trở lên trong mẫu HANES5 được so sánh với <code>normal curve</code>. Trục ngang của <code>histogram</code> tính bằng inch; trục ngang của đường cong chuẩn được tính bằng <code>standard units</code>. Hai số này khớp với nhau như được chỉ ra trong ví dụ 1. Ví dụ: 66.5 inch nằm ngay trên +1 và 57.5 inch nằm ngay trên −2.</p>
 <p>Ngoài ra còn có hai trục thẳng đứng trong Hình 2. Biểu đồ được vẽ so với trục dọc bên trong, tính bằng phần trăm trên mỗi inch. <code>normal curve</code> được vẽ so với đường cong bên ngoài, tính bằng phần trăm trên mỗi <code>standard units</code>. Để xem các tỷ lệ khớp với nhau như thế nào, hãy lấy giá trị cao nhất trên mỗi trục: 60% trên mỗi <code>standard units</code> khớp với 20% trên mỗi inch vì có 3 inch cho <code>standard units</code>. Trải 60% trên <code>SD</code> cũng giống như trải 60% trên 3 inch với 20% mỗi inch</p>
 <p>\[
-60\%\ mỗi\ standard\ inits=60\%\ mỗi\ 3\ inch\\
-=60\%\ \div\ 3\ inch=20\%\ mỗi\ inch.
+\text{60% per standard inits} = \text{60% per 3 inch}\\
+= \text{60%} \div \text{3 inch} = \text{20% per inch}
 \]</p>
 <p>Tương tự, 30% trên mỗi <code>standard units</code> tương ứng với 10% trên mỗi inch. Bất kỳ cặp giá trị nào khác có thể được xử lý theo cách tương tự.</p>
 <p>Chương trước đã nói rằng đối với nhiều danh sách, khoảng 68% số liệu nằm trong khoảng 1 SD tính từ trung bình. Đây là khoảng</p>
 <p>\[
-trung\ bình - SD\ đến\ trung\ bình + SD
+\text{average} - \text{SD to average + SD}
 \]</p>
 <p>Để biết 68% đến từ đâu, hãy nhìn vào Hình 2. Tỷ lệ phụ nữ có chiều cao nằm trong 1 <code>SD</code> tính từ trung bình bằng diện tích dưới biểu đồ trong 1 <code>SD</code> tính từ trung bình. Vùng này được tô bóng trong Hình 2. <code>histogram</code> dựa theo <code>normal curve</code> khá tốt. Có các phần cao hơn và thâp hơn đường cong. Nhưng những chỗ cao cân bằng với thấp. Và vùng bóng mờ dưới biểu đồ gần giống với vùng dưới đường cong. Diện tích dưới <code>normal curve</code> giữa −1 và +1 là 68%. Nơi mà 68% đến từ đó. </p>
 <center><img src="ch05/fig2.png" width="80%" height="auto"></center>
 <p><strong><center>Hình 2: <code>histogram</code> chiều cao của phụ nữ so với <code>normal curve</code>. Diện tích dưới biểu đồ từ 60,5 inch đến 66,5 inch (tỷ lệ phần trăm phụ nữ trong phạm vi 1 SD tính từ trung bình về chiều cao) gần bằng diện tích giữa −1 và +1 dưới đường cong - 68%.</center></strong></p>
 <p>Đối với nhiều dữ liệu, khoảng 95% số liệu nằm trong phạm vi 2 <code>SD</code> tính từ trung bình. Đây là phạm vi.</p>
 <p>\[
-trung\ bình - 2 SD\ đến\ trung\ bình +  2 SD
+\text{average - 2SDs to average + 2SDs}
 \]</p>
 <p>Lý do cũng tương tự. Nếu <code>histogram</code> dựa theo <code>normal curve</code> thì diện tích dưới <code>histogram</code> sẽ gần bằng diện tích dưới đường cong. Và diện tích dưới đường cong giữa −2 và +2 là 95%:</p>
 <center><img src="ch05/same.png" width="80%" height="auto"></center>
@@ -446,7 +448,7 @@ trung\ bình - 2 SD\ đến\ trung\ bình +  2 SD
 <p><code>percentile</code> thứ nhất của phân bổ thu nhập là $0, nghĩa là khoảng 1% gia đình có thu nhập từ $0 trở xuống và khoảng 99% có thu nhập trên mức đó. (Chủ yếu, các gia đình không có thu nhập đã nghỉ hưu hoặc không làm việc vì lý do khác). <code>percentiles</code> thứ 10 là $15.000: khoảng 10% gia đình có thu nhập dưới mức đó và 90% là ở trên. <code>percentiles</code> thứ 50 chỉ là <code>median</code>(Chương 4).</p>
 <p>Theo định nghĩa, <code>interquartile</code> bằng</p>
 <p>\[
-75th\ percentile - 25th\ percentile
+\text{75th percentile - 25th percentile}
 \]</p>
 <p>Điều này đôi khi được sử dụng như một thước đo mức độ lây lan khi phân phối có đuôi dài. Đối với Bảng 1, phạm vi <code>interquartile</code> là $61.000.</p>
 <p>Vì những lý do riêng, các nhà thống kê gọi đường cong de Moivre là &quot;normal&quot;. Điều này tạo ấn tượng rằng các đường cong khác là bất thường. Không phải vậy. Nhiều <code>histogram</code> tuân theo <code>normal curve</code>rất tốt, còn nhiều biểu đồ khác - như biểu đồ thu nhập - thì không. Ở phần sau của cuốn sách, chúng tôi sẽ trình bày một lý thuyết toán học giúp giải thích khi nào <code>histogram</code> nên tuân theo <code>normal curve</code>.</p>
@@ -534,11 +536,20 @@ C^\circ = \frac{5}{9}(F^\circ - 32^\circ)
 <p><em>Pilate: What is truth?</em></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="introduction-2"><a class="header" href="#introduction-2">Introduction</a></h1>
 <p>Trong một thế giới lý tưởng, nếu cùng một thứ được đo nhiều lần thì mỗi lần sẽ thu được kết quả như nhau. Trong thực tế, có sự khác biệt. Mỗi kết quả đều bị loại bỏ do sai số ngẫu nhiên và sai số thay đổi từ phép đo này sang phép đo khác. Một trong những nhà khoa học đầu tiên giải quyết vấn đề này là Tycho Brahé(1546–1601), nhà thiên văn học người Đan Mạch. Nhưng nó có lẽ được chú ý đầu tiên trên thị trường, khi các thương gia cân các loại gia vị và đo chiều dài của lụa. Có một số câu hỏi về sai số ngẫu nhiên. Chúng đến từ đâu? Chúng có khả năng lớn đến mức nào? Mức độ trung bình có thể bị hủy bỏ là bao nhiêu? Câu hỏi đầu tiên có câu trả lời ngắn gọn: trong hầu hết các trường hợp, không ai biết. Câu hỏi thứ hai sẽ được giải quyết ở phần sau của chương này và câu hỏi thứ ba sẽ được trả lời trong Phần VII.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="chance-error"><a class="header" href="#chance-error">Chance Error</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>NBS khởi đầu là Bureau of Weights of Measures, dưới sự lãnh đạo của Ferdinand Hassler (sinh năm 1770 tại Thụy Sĩ, Giám đốc Bureau từ 1830 đến 1843). Thành tựu to lớn của Hassler là đưa các trọng lượng và thước đo được sử dụng trên khắp nước Mỹ về một mức độ nhất quán cao. Cục hiện nay được gọi là NIST - The National Institute of Standards and Technology. Chúng tôi xin cảm ơn H. H. Ku của Bureau vì sự giúp đỡ của ông trong các lần xuất bản trước.
+<sup class="footnote-reference"><a href="#2">2</a></sup>: Trọng lượng được sử dụng ở đây thay vì từ <em>mass</em> mang tính kỹ thuật hơn. Năm 1983, Hội nghị chung về Weights and Measures superseded the Treaty of the Meter, nhưng trọng lượng vẫn được xác định bằng cách tham chiếu đến một vật tiêu chuẩn. Để biết thông tin cập nhật về The Kilogram, xem Science (12/5/1995) tr. 804.
+<sup class="footnote-reference"><a href="#3">3</a></sup>: Hai nguyên nhân chính gây ra <code>chance error</code> trong quá trình cân chính xác tại Bureau được cho là:</p>
+</div>
+<ul>
+<li>mức độ tác động nhỏ trong cơ cấu cân bằng, đặc biệt là ở cạnh tiếp xúc;</li>
+<li>có sự thay đổi nhỏ về vị trí của các quả cân trên đĩa cân.</li>
+</ul>
+<h1 id="chance-error"><a class="header" href="#chance-error">Chance Error</a></h1>
 <p>Phần này sẽ thảo luận về <code>chance error</code>trong quá trình cân chính xác được thực hiện tại National Bureau of Standards<sup class="footnote-reference"><a href="#1">1</a></sup>. Đầu tiên, một giải thích ngắn gọn về các cân nặng tiêu chuẩn. Các cửa hàng cân hàng hóa trên cân. Cân được kiểm tra định kỳ theo các tổ chức đo lường của quận, sử dụng trọng lượng tiêu chuẩn của quận. Các tiêu chuẩn của quận cũng phải được <em>calibrated</em> (kiểm tra theo tiêu chuẩn bên ngoài) định kỳ. Việc này được thực hiện ở cấp tiểu bang. Và các tiêu chuẩn của tiểu bang được hiệu chuẩn theo tiêu chuẩn quốc gia bởi National Bureau of Standards ở Washington, D.C.</p>
 <p>Chuỗi so sánh này kết thúc ở International Prototype Kilogram(viết tắt là The Kilogram), một quả cân platinum-iridium được lưu giữ tại Internaltional Bureau of Weights and Measures gần Paris. Theo hiệp ước quốc tế - The Treaty of the Meter, 1875—“một kilogram” được định nghĩa là trọng lượng của vật này trong các điều kiện tiêu chuẩn<sup class="footnote-reference"><a href="#2">2</a></sup>. Tất cả các trọng lượng khác được xác định tương ứng với Kilogram. Ví dụ, một vật nặng 1 pound nếu nó nặng chỉ nhỏ hơn một nửa so với The Kilogram một chút. Chính xác hơn,</p>
 <p>\[
-The\ Pound = 0.4539237\ of\ The\ Kilogram.
+\text{The Pound} = \text{0.4539237 of The Kilogram}
 \]</p>
 <p>Nói rằng 1 gói bơ nặng 1 pound có nghĩa là nó đã được kết nối bằng một loạt so sánh dài và phức tạp với The Kilogram ở Paris, và nặng gấp 0,4539237 lần.</p>
 <p>Mỗi quốc gia ký kết Treaty of the Meter đều có một kilgram nguyên mẫu quốc gia, có trọng lượng chính xác được xác định chính xác nhất có thể so với The Kilogram. Những nguyên mẫu này được phân phối theo lô và Hoa Kỳ đã nhận được Kilogram #20. Giá trị của tất cả các tiêu chuẩn quốc gia của Hoa Kỳ được xác định liên quan đến \(K_{20}\).</p>
@@ -562,22 +573,10 @@ The\ Pound = 0.4539237\ of\ The\ Kilogram.
 <p>\[
 409 \quad 400 \quad 406 \quad 399 \quad 402
 \]</p>
+<p>Tất cả 100 phép đo được thể hiện trong Bảng 1. Nhìn vào bảng. Bạn có thể thấy rằng kết quả cho thấy khoảng 400 microgram, nhưng một số thì nhiều hơn, một số ít hơn. Nhỏ nhất là 375 microgram (#94); lớn nhất là 437 microgram (#86). Và có rất nhiều sự thay đổi ở giữa. Để dễ hiểu, một microgram là trọng lượng của một hạt bụi lớn; 400 microgram là trọng lượng của 1 hoặc 2 hạt muối. Đây thực sự là một chiếc cân chính xác!</p>
+<p>Tuy nhiên, các phép đo khác nhau không thể đều đúng. Số lượng chính xác mà NB10 thiếu 10 gram rất khó có thể bằng con số đầu tiên trong bảng, hoặc thứ 2, hoặc bất kỳ trong số chúng. Bất chấp nỗ lực thực hiện 100 phép đo này, trọng lượng chính xác của NB10 vẫn chưa được biết và có lẽ không thể biết được.</p>
 <center><img src="ch06/table1.png" width="80%" height="auto"></center>
 <p><strong><center>Bảng 1. 100 phép đo trên NB10. Almer và Jones, National Bureau of Standards. Đơn vị là microgram dưới 10 gram.</center></strong></p>
-<p>Tất cả 100 phép đo được thể hiện trong Bảng 1. Nhìn vào bảng. Bạn có thể thấy rằng kết quả cho thấy khoảng 400 microgram, nhưng một số thì nhiều hơn, một số ít hơn. Nhỏ nhất là 375 microgram (#94); lớn nhất là 437 microgram (#86). Và có rất nhiều sự thay đổi ở giữa. Để dễ hiểu, một microgram là trọng lượng của một hạt bụi lớn; 400 microgram là trọng lượng của 1 hoặc 2 hạt muối. Đây thực sự là một chiếc cân chính xác! Tuy nhiên, các phép đo khác nhau không thể đều đúng. Số lượng chính xác mà NB10 thiếu 10 gram rất khó có thể bằng con số đầu tiên trong bảng, hoặc thứ 2, hoặc bất kỳ trong số chúng. Bất chấp nỗ lực thực hiện 100 phép đo này, trọng lượng chính xác của NB10 vẫn chưa được biết và có lẽ không thể biết được.</p>
-<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
-<p>NBS khởi đầu là Bureau of Weights of Measures, dưới sự lãnh đạo của Ferdinand Hassler (sinh năm 1770 tại Thụy Sĩ, Giám đốc Bureau từ 1830 đến 1843). Thành tựu to lớn của Hassler là đưa các trọng lượng và thước đo được sử dụng trên khắp nước Mỹ về một mức độ nhất quán cao. Cục hiện nay được gọi là NIST - The National Institute of Standards and Technology. Chúng tôi xin cảm ơn H. H. Ku của Bureau vì sự giúp đỡ của ông trong các lần xuất bản trước. </p>
-</div>
-<div class="footnote-definition" id="2"><sup class="footnote-definition-label">2</sup>
-<p>Trọng lượng được sử dụng ở đây thay vì từ <em>mass</em> mang tính kỹ thuật hơn. Năm 1983, Hội nghị chung về Weights and Measures superseded the Treaty of the Meter, nhưng trọng lượng vẫn được xác định bằng cách tham chiếu đến một vật tiêu chuẩn. Để biết thông tin cập nhật về The Kilogram, xem Science (12/5/1995) tr. 804. </p>
-</div>
-<div class="footnote-definition" id="3"><sup class="footnote-definition-label">3</sup>
-<p>Hai nguyên nhân chính gây ra <code>chance error</code> trong quá trình cân chính xác tại Bureau được cho là: </p>
-<ul>
-<li>mức độ tác động nhỏ trong cơ cấu cân bằng, đặc biệt là ở cạnh tiếp xúc; </li>
-<li>có sự thay đổi nhỏ về vị trí của các quả cân trên đĩa cân.</li>
-</ul>
-</div>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="the-standard-error"><a class="header" href="#the-standard-error">The Standard Error</a></h1>
 <p><sup class="footnote-reference"><a href="#2">1</a></sup></p>
 <div class="footnote-definition" id="2"><sup class="footnote-definition-label">1</sup>
@@ -633,10 +632,12 @@ F M F M M M F F F F M M F M M F F F F F
 </code></pre>
 <p>Có một <code>histogram</code> (Hình 2). Bạn có thể so sánh nó với biểu đồ của các mẫu có kích thước 100. Nhân kích thước mẫu với 4 sẽ cắt giảm kích thước có thể xảy ra của <code>error chance</code> theo tỷ lệ phần trăm theo hệ số 2.</p>
 <center><img src="ch20/fig2.png" width="60%" height="auto"></center>
-<p><strong><center>Hình 2: histogram cho % nam giới trong các mẫu có kích thước 400. Có 250 mẫu được lấy ngẫu nhiên từ những người trả lời nghiên cứu về sức khỏe. </center></strong></p>
+<p><strong><center>Hình 2: <code>histogram</code> cho % nam giới trong các mẫu có kích thước 400. Có 250 mẫu được lấy ngẫu nhiên từ những người trả lời nghiên cứu về sức khỏe. </center></strong></p>
 <p><strong>Nhà xã hội học:</strong> Bạn có thể nói cụ thể hơn về lỗi cơ hội này không?</p>
 <p><strong>Nhà thống kê:</strong> Hãy để tôi viết một phương trình:</p>
-<p>\[ \%\ trong\ mẫu = \%\ trong\ dân\ số\ +\ error\ chance. \]</p>
+<p>\[ 
+\text{percentage in sample = percentage in population + chance error}
+\]</p>
 <p>Tất nhiên, <code>error chance</code> sẽ khác nhau giữa các mẫu - hãy nhớ độ biến thiên trong Bảng 2.</p>
 <p><strong>Nhà xã hội học:</strong> Vì vậy, nếu tôi để bạn rút cho tôi một mẫu, với việc kinh doanh số ngẫu nhiên này, bạn có thể cho biết <code>error chance</code> của tôi sẽ lớn đến mức nào không?</p>
 <p><strong>Nhà thống kê:</strong> Không chính xác, nhưng tôi có thể cho bạn biết kích thước của nó. Nếu bạn để tôi làm mô hình hộp, tôi có thể tính <code>standard error</code> và sau đó...</p>
@@ -672,7 +673,7 @@ F M F M M M F F F F M M F M M F F F F F
 <center><img src="ch21/tickets_100000.png" width="50%" height="auto"></center>
 <p>Để lấy <code>SE</code> cho tổng, tổ chức khảo sát cần <code>SD</code> của hộp. Đây là</p>
 <p>\[
-\sqrt{(fraction\ of\ 1's) \times (fraction\ of\ 0's)}
+\sqrt{\text{(fraction of 1's)} \times \text{(fraction of 0's)}}
 \]</p>
 <center><img src="ch21/tickets_25000.png" width="50%" height="auto"></center>
 <p>Đến đây, những người thăm dò dường như bị mắc kẹt. Họ không biết mỗi vé trong hộp được đánh dấu như thế nào. Họ thậm chí không biết tỉ lệ của 1 trong hộp. Tham số này đại diện cho tỷ lệ cử tri trong khu vực ủng hộ ứng cử viên của họ, đó chính xác là những gì họ được thuê để tìm hiểu. (Do đó các dấu hỏi trong hộp.)</p>
@@ -685,7 +686,7 @@ F M F M M M F F F F M M F M M F F F F F
 <p>Thủ tục <code>bootstrap</code> có vẻ thô thiển. Nhưng ngay cả với các mẫu có kích thước vừa phải, tỷ lệ 1 trong số các lần rút thăm có thể sẽ khá gần với tỷ lệ trong hộp. Tương tự cho số 0. Nếu các tổ chức khảo sát sử dụng các phân số mẫu của họ trong công thức tính <code>SD</code> của hộp thì họ không có khả năng sai nhiều trong việc ước tính <code>SE</code>.</p>
 <p>Một điểm đáng để thảo luận thêm. Giá trị kỳ vọng cho số 1 trong số các lần rút thăm (hay số lượng cử tri mẫu dự kiến ủng hộ ứng cử viên) là</p>
 <p>\[
-2.500 \times fraction\ of \ 1's\ in\ the\ box
+2.500 \times \text{fraction of 1's in the box}
 \]</p>
 <p>Điều này là không xác định, bởi vì tỉ lệ của 1 trong hộp là không xác định. <code>SE</code> của 25 cho biết mức 1.328 cách giá trị kỳ vọng của nó bao xa. Theo thuật ngữ thống kê, 1.328 là một giá trị được quan sát; sự tương phản là với giá trị kỳ vọng chưa biết. (Các giá trị quan sát được thảo luận ở trang 292.)</p>
 <div class="footnote-definition" id="2"><sup class="footnote-definition-label">1</sup>

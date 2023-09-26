@@ -20,9 +20,13 @@
 - Người nói: in đậm, không dịch khi không cần thiết
 - Theo sau người nói là dấu `: `
 
-# Ký hiệu
+# Ký hiệu, công thức
 
 - Trừ phép toán phức tạp hơn, các ký hiệu như +-\*/% được gõ trực tiếp, không cần dùng Latex. Lý do là để đơn giản hóa source và có thể copy liền mạch nội dung output
+
+- Không dịch công thức 
+
+- Nếu có văn bản trong công thức thì dùng `\text{}` thay vì `\\ ` để tạo khoảng trắng trong văn bản, không dịch
 
 # Số liệu
 
