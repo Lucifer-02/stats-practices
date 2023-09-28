@@ -34,6 +34,7 @@
 - [Measurement Error](ch06/ch06.md)
     - [Introduction](ch06/ch06-01.md)
     - [Chance Error](ch06/ch06-02.md)
+    - [Outliers](ch06/ch06-03.md)
 - []()
 
 # Part III: Correlation and Regression
