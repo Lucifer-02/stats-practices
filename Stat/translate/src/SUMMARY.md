@@ -32,9 +32,13 @@
   - [Review Exercises](ch05/ch05-07.md)
   - [Summary](ch05/ch05-08.md)
 - [Measurement Error](ch06/ch06.md)
-    - [Introduction](ch06/ch06-01.md)
-    - [Chance Error](ch06/ch06-02.md)
-    - [Outliers](ch06/ch06-03.md)
+  - [Introduction](ch06/ch06-01.md)
+  - [Chance Error](ch06/ch06-02.md)
+  - [Outliers](ch06/ch06-03.md)
+  - [Bias](ch06/ch06-04.md)
+  - [Review Exercises](ch06/ch06-05.md)
+  - [Special Revew Exercises](ch06/ch06-06.md)
+  - [Summary](ch06/ch06-07.md)
 - []()
 
 # Part III: Correlation and Regression
