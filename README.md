@@ -44,10 +44,10 @@
     - [x]     6.4 Bias
     - [x]     6.7 Summary
   - [ ] 7: Plotting Points and Lines
-    - [ ]     7.1 Reading Points Off a Graph
-    - [ ]     7.2 Plotting Points
-    - [ ]     7.3 Slope and Intercept
-    - [ ]     7.4 Plotting Lines
+    - [x]     7.1 Reading Points Off a Graph
+    - [x]     7.2 Plotting Points
+    - [x]     7.3 Slope and Intercept
+    - [x]     7.4 Plotting Lines
     - [ ]     7.5 The Algebraic Equation for a Line
 - [ ] Part III: Correlation and Regression
   - [ ] 8: Correlation
