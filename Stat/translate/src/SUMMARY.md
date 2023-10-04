@@ -23,6 +23,7 @@
   - [The Average and the Histogram](ch04/ch04-03.md)
 
 - [The Normal Approximation for Data](ch05/ch05.md)
+
   - [The Normal Curve](ch05/ch05-01.md)
   - [Finding Areas Under The Normal Curve](ch05/ch05-02.md)
   - [The Normal Approximation For Data](ch05/ch05-03.md)
@@ -31,7 +32,9 @@
   - [Change Of Scale](ch05/ch05-06.md)
   - [Review Exercises](ch05/ch05-07.md)
   - [Summary](ch05/ch05-08.md)
+
 - [Measurement Error](ch06/ch06.md)
+
   - [Introduction](ch06/ch06-01.md)
   - [Chance Error](ch06/ch06-02.md)
   - [Outliers](ch06/ch06-03.md)
@@ -39,7 +42,13 @@
   - [Review Exercises](ch06/ch06-05.md)
   - [Special Revew Exercises](ch06/ch06-06.md)
   - [Summary](ch06/ch06-07.md)
-- []()
+
+- [Plotting Points and Lines](ch07/ch07.md)
+
+  - [Reading Points of a Graph](ch07/ch07-01.md)
+  - [Plotting Points](ch07/ch07-02.md)
+  - [Slope and Intercept](ch07/ch07-03.md)
+  - [Plotting Lines](ch07/ch07-04.md)
 
 # Part III: Correlation and Regression
 
