@@ -49,6 +49,7 @@
   - [Plotting Points](ch07/ch07-02.md)
   - [Slope and Intercept](ch07/ch07-03.md)
   - [Plotting Lines](ch07/ch07-04.md)
+  - [The Algebraic Equation For a Line](ch07/ch07-05.md)
 
 # Part III: Correlation and Regression
 
