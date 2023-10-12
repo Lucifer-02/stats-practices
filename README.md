@@ -48,10 +48,10 @@
     - [x]     7.2 Plotting Points
     - [x]     7.3 Slope and Intercept
     - [x]     7.4 Plotting Lines
-    - [ ]     7.5 The Algebraic Equation for a Line
+    - [x]     7.5 The Algebraic Equation for a Line
 - [ ] Part III: Correlation and Regression
   - [ ] 8: Correlation
-    - [ ]     8.1 The Scatter Diagram
+    - [x]     8.1 The Scatter Diagram
     - [ ]     8.2 The correlation Coefficient
     - [ ]     8.3 The SD Line
     - [ ]     8.4 Computing the Correlation Coefficient

@@ -53,7 +53,8 @@
 
 # Part III: Correlation and Regression
 
-- []()
+- [Correlation](ch08/ch08.md)
+  - [The Scatter Diagram](ch08/ch08-01.md)
 - []()
 - []()
 - []()
