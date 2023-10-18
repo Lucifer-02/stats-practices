@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<html lang="vi" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The Correlation Coefficient - Statistics</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">Part I: Design of Experiments</li><li class="chapter-item expanded "><a href="../ch01/ch01.html"><strong aria-hidden="true">1.</strong> Controlled Experiments</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch01/ch01-01.html"><strong aria-hidden="true">1.1.</strong> The Salk Vaccine Field Trial</a></li><li class="chapter-item expanded "><a href="../ch01/ch01-02.html"><strong aria-hidden="true">1.2.</strong> The Portacaval Shunt</a></li></ol></li><li class="chapter-item expanded "><a href="../ch02/ch02.html"><strong aria-hidden="true">2.</strong> Observational Studies</a></li><li class="chapter-item expanded affix "><li class="part-title">Part II: Descriptive Statistics</li><li class="chapter-item expanded "><a href="../ch03/ch03.html"><strong aria-hidden="true">3.</strong> The Histogram</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch03/ch03-01.html"><strong aria-hidden="true">3.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch03/ch03-02.html"><strong aria-hidden="true">3.2.</strong> Drawing a Histogram</a></li></ol></li><li class="chapter-item expanded "><a href="../ch04/ch04.html"><strong aria-hidden="true">4.</strong> The Average and the Standard Deviation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch04/ch04-01.html"><strong aria-hidden="true">4.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch04/ch04-02.html"><strong aria-hidden="true">4.2.</strong> The Average</a></li><li class="chapter-item expanded "><a href="../ch04/ch04-03.html"><strong aria-hidden="true">4.3.</strong> The Average and the Histogram</a></li></ol></li><li class="chapter-item expanded "><a href="../ch05/ch05.html"><strong aria-hidden="true">5.</strong> The Normal Approximation for Data</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch05/ch05-01.html"><strong aria-hidden="true">5.1.</strong> The Normal Curve</a></li><li class="chapter-item expanded "><a href="../ch05/ch05-02.html"><strong aria-hidden="true">5.2.</strong> Finding Areas Under The Normal Curve</a></li><li class="chapter-item expanded "><a href="../ch05/ch05-03.html"><strong aria-hidden="true">5.3.</strong> The Normal Approximation For Data</a></li><li class="chapter-item expanded "><a href="../ch05/ch05-04.html"><strong aria-hidden="true">5.4.</strong> Percentiles</a></li><li class="chapter-item expanded "><a href="../ch05/ch05-05.html"><strong aria-hidden="true">5.5.</strong> Percentiles And The Normal Curve</a></li><li class="chapter-item expanded "><a href="../ch05/ch05-06.html"><strong aria-hidden="true">5.6.</strong> Change Of Scale</a></li><li class="chapter-item expanded "><a href="../ch05/ch05-07.html"><strong aria-hidden="true">5.7.</strong> Review Exercises</a></li><li class="chapter-item expanded "><a href="../ch05/ch05-08.html"><strong aria-hidden="true">5.8.</strong> Summary</a></li></ol></li><li class="chapter-item expanded "><a href="../ch06/ch06.html"><strong aria-hidden="true">6.</strong> Measurement Error</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch06/ch06-01.html"><strong aria-hidden="true">6.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch06/ch06-02.html"><strong aria-hidden="true">6.2.</strong> Chance Error</a></li><li class="chapter-item expanded "><a href="../ch06/ch06-03.html"><strong aria-hidden="true">6.3.</strong> Outliers</a></li><li class="chapter-item expanded "><a href="../ch06/ch06-04.html"><strong aria-hidden="true">6.4.</strong> Bias</a></li><li class="chapter-item expanded "><a href="../ch06/ch06-05.html"><strong aria-hidden="true">6.5.</strong> Review Exercises</a></li><li class="chapter-item expanded "><a href="../ch06/ch06-06.html"><strong aria-hidden="true">6.6.</strong> Special Revew Exercises</a></li><li class="chapter-item expanded "><a href="../ch06/ch06-07.html"><strong aria-hidden="true">6.7.</strong> Summary</a></li></ol></li><li class="chapter-item expanded "><a href="../ch07/ch07.html"><strong aria-hidden="true">7.</strong> Plotting Points and Lines</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch07/ch07-01.html"><strong aria-hidden="true">7.1.</strong> Reading Points of a Graph</a></li><li class="chapter-item expanded "><a href="../ch07/ch07-02.html"><strong aria-hidden="true">7.2.</strong> Plotting Points</a></li><li class="chapter-item expanded "><a href="../ch07/ch07-03.html"><strong aria-hidden="true">7.3.</strong> Slope and Intercept</a></li><li class="chapter-item expanded "><a href="../ch07/ch07-04.html"><strong aria-hidden="true">7.4.</strong> Plotting Lines</a></li><li class="chapter-item expanded "><a href="../ch07/ch07-05.html"><strong aria-hidden="true">7.5.</strong> The Algebraic Equation For a Line</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Part III: Correlation and Regression</li><li class="chapter-item expanded "><a href="../ch08/ch08.html"><strong aria-hidden="true">8.</strong> Correlation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch08/ch08-01.html"><strong aria-hidden="true">8.1.</strong> The Scatter Diagram</a></li><li class="chapter-item expanded "><a href="../ch08/ch08-02.html" class="active"><strong aria-hidden="true">8.2.</strong> The Correlation Coefficient</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">11.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">12.</strong> </div></li><li class="chapter-item expanded affix "><li class="part-title">Part IV: Probability</li><li class="chapter-item expanded "><div><strong aria-hidden="true">13.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">14.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">15.</strong> </div></li><li class="chapter-item expanded affix "><li class="part-title">Part V: Change Variability</li><li class="chapter-item expanded "><div><strong aria-hidden="true">16.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">17.</strong> </div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">17.1.</strong> </div></li><li class="chapter-item expanded "><a href="../ch17/ch17-02.html"><strong aria-hidden="true">17.2.</strong> The Standard Error</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">18.</strong> </div></li><li class="chapter-item expanded affix "><li class="part-title">Part VI: Sampling</li><li class="chapter-item expanded "><div><strong aria-hidden="true">19.</strong> </div></li><li class="chapter-item expanded "><a href="../ch20/ch20.html"><strong aria-hidden="true">20.</strong> Chance Errors in Sampling</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch20/ch20-01.html"><strong aria-hidden="true">20.1.</strong> Introduction</a></li></ol></li><li class="chapter-item expanded "><a href="../ch21/ch21.html"><strong aria-hidden="true">21.</strong> The Accuracy of Percentages</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch21/ch21-01.html"><strong aria-hidden="true">21.1.</strong> Introduction</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">22.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">23.</strong> </div></li><li class="chapter-item expanded affix "><li class="part-title">Part VII: Chance Models</li><li class="chapter-item expanded "><div><strong aria-hidden="true">24.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">25.</strong> </div></li><li class="chapter-item expanded affix "><li class="part-title">Part VIII: Tests of Significance</li><li class="chapter-item expanded "><a href="../ch26/ch26.html"><strong aria-hidden="true">26.</strong> Tests of Significance</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch26/ch26-01.html"><strong aria-hidden="true">26.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch26/ch26-02.html"><strong aria-hidden="true">26.2.</strong> The Null and The Alternative</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">27.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">28.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">29.</strong> </div></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Statistics</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="the-correlation-coefficient"><a class="header" href="#the-correlation-coefficient">The Correlation Coefficient</a></h1>
+<p>Giả sử bạn đang xem xét mối quan hệ giữa hai biến và đã vẽ <code>scatter diagram</code>. Biểu đồ là một đám mây điểm có hình quả bóng đá. Làm thế nào để tóm tắt? Bước đầu tiên là đánh dấu một điểm thể hiện giá trị trung bình của các giá trị x và giá trị trung bình của các giá trị y (Hình 4a). Đây là <em>các điểm trung bình</em>, xác định vị trí trung tâm của đám mây<sup class="footnote-reference"><a href="#3">1</a></sup>. Bước tiếp theo sẽ là đo mức độ lan rộng của đám mây từ bên này sang bên kia. Điều này có thể được thực hiện bằng cách sử dụng <code>SD</code> của giá trị x - <code>SD</code> ngang. Hầu hết các điểm sẽ nằm trong 2 <code>SD</code> ngang ở hai bên điểm trung bình (Hình 4b). Tương tự, <code>SD</code> của các giá trị y - <code>SD</code> dọc - có thể được sử dụng để đo mức độ lan truyền của đám mây từ trên xuống dưới. Hầu hết các điểm sẽ nằm trong phạm vi 2 <code>SD</code> dọc trên hoặc dưới điểm trung bình (Hình 4c).</p>
+<center><img src="fig4.png" width="80%" height="auto"></center>
+<p><strong><center>Hình 4. Tóm tắt một <code>scatter diagram</code></center></strong></p>
+<p>Cho đến nay, số liệu thống kê tóm tắt là</p>
+<ul>
+<li>trung bình của các giá trị x, <code>SD</code> của các giá trị x,</li>
+<li>trung bình của các giá trị y, <code>SD</code> của các giá trị y.</li>
+</ul>
+<p>Những số liệu thống kê này cho chúng ta biết trung tâm của đám mây và mức độ lan rộng của nó, cả theo chiều ngang và chiều dọc. Nhưng vẫn còn thiếu một điều gì đó - mức độ liên hệ giữa hai biến. Nhìn vào các <code>scatter diagram</code> trong Hình 5.</p>
+<center><img src="fig5.png" width="80%" height="auto"></center>
+<p><strong><center>Hình 5. Tóm tắt <code>scatter diagram</code>. <code>correlation coefficient</code> đo lường sự phân cụm xung quanh một đường.</center></strong></p>
+<p>Cả hai đám mây đều có cùng tâm và có cùng độ trải rộng, theo chiều ngang và chiều dọc. Tuy nhiên, các điểm trong đám mây đầu tiên được tập hợp chặt chẽ xung quanh một đường: có mối liên hệ tuyến tính mạnh mẽ giữa hai biến. Ở đám mây thứ hai, việc phân cụm lỏng lẻo hơn nhiều. Mức độ liên kết là khác nhau trong hai sơ đồ. Để đo lường mối liên hệ, cần có thêm một thống kê tóm tắt nữa - <code>correlation coefficient</code>. Hệ số này thường được viết tắt là <em>r</em> mà không có lý do chính đáng (mặc dù có hai chữ <em>r</em> trong từ &quot;correlation&quot;).</p>
+<blockquote>
+<p><code>correlation coefficient</code> là thước đo của sự liên kết tuyến tính hoặc phân cụm xung quanh một đường. Mối quan hệ giữa hai biến có thể được tóm tắt bằng </p>
+<ul>
+<li>trung bình của các giá trị x, <code>SD</code> của các giá trị x, </li>
+<li>trung bình của các giá trị y, <code>SD</code> của các giá trị y, </li>
+<li><code>correlation coefficient</code> r.</li>
+</ul>
+</blockquote>
+<p>Công thức tính <em>r</em> sẽ được trình bày trong Phần 4, nhưng bây giờ chúng ta muốn tập trung vào việc diễn giải bằng đồ họa. Hình 6 cho thấy 6 <code>scatter diagram</code> cho dữ liệu giả định, mỗi biểu đồ có 50 điểm. Các sơ đồ được tạo ra bởi máy tính. Trong tất cả 6 hình, giá trị trung bình là 3 và <code>SD</code> là 1 đối với x và y. Máy tính đã in giá trị <code>correlation coefficient</code> trên từng biểu đồ. Cái ở trên cùng bên trái cho thấy mối tương quan bằng 0. Đám mây hoàn toàn vô dạng. Khi x tăng, y không có xu hướng tăng hay giảm: nó chỉ lảng vảng xung quanh.</p>
+<p><code>scatter diagram</code> tiếp theo có <em>r</em> = 0.40; một mô hình tuyến tính đang bắt đầu xuất hiện. Cái tiếp theo có <em>r</em> = 0.60, với mẫu tuyến tính mạnh hơn. Và cứ thế, đến cái cuối cùng. <em>r</em> càng gần 1 thì mối liên hệ tuyến tính giữa các biến càng mạnh và các điểm xung quanh một đường càng được phân cụm chặt chẽ hơn. Mối tương quan bằng 1, không xuất hiện trong hình, thường được gọi là <em>mối tương quan hoàn hảo</em> - tất cả các điểm đều nằm chính xác trên một đường thẳng, do đó có mối quan hệ tuyến tính hoàn hảo giữa các biến. Mối tương quan luôn bằng 1 hoặc ít hơn.
+Mối tương quan giữa chiều cao của các cặp song sinh giống hệt nhau là khoảng 0.95<sup class="footnote-reference"><a href="#4">2</a></sup>, <code>scatter diagram</code> phía dưới bên phải trong Hình 6 có <code>correlation coefficient</code> là 0.95. <code>scatter diagram</code> cho cặp song sinh sẽ trông giống nhau. Các cặp song sinh giống hệt nhau có chiều cao giống nhau và các điểm của chúng trên <code>scatter diagram</code> khá gần với đường thẳng y = x. Tuy nhiên, những cặp song sinh như vậy không có chiều cao hoàn toàn giống nhau. Đó là những gì mà sự phân tán xung quanh đường 45 độ cho thấy.</p>
+<p>Một ví dụ khác, ở Mỹ năm 2005, mối tương quan giữa thu nhập và giáo dục là 0.07 đối với nam giới ở độ tuổi 18 - 24, tăng lên 0.43 đối với nam giới ở độ tuổi 55 - 64<sup class="footnote-reference"><a href="#5">3</a></sup>. Như <code>scatter diagram</code> trong Hình 6 cho thấy, mối quan hệ giữa thu nhập và giáo dục của đàn ông lớn tuổi mạnh mẽ hơn nhưng vẫn còn khá thô. Mối liên hệ yếu là phổ biến trong các nghiên cứu khoa học xã hội, 0,3 đến 0,7 là phạm vi thông thường của <em>r</em> trong nhiều lĩnh vực.</p>
+<p>Một lời cảnh báo: <em>r</em> = 0.80 không có nghĩa là 80% số điểm được tập hợp chặt chẽ xung quanh một đường thẳng, cũng như không biểu thị độ tuyến tính cao gấp đôi so với r = 0.40. Hiện tại, không có cách trực tiếp nào để diễn giải giá trị số chính xác của <code>correlation coefficient</code>; điều đó sẽ được thực hiện trong Chương 10 và 11.</p>
+<center><img src="fig6.jpg" width="80%" height="auto"></center>
+<p><strong><center><code>Hình 6. correlation coefficient</code>- 6 giá trị dương. Các sơ đồ được chia tỷ lệ sao cho giá trị trung bình bằng 3 và <code>SD</code> bằng 1, theo chiều ngang và chiều dọc; có 50 điểm trong mỗi sơ đồ. Phân cụm được đo bằng <code>correlation coefficient</code>.</center></strong></p>
+<p>Cho đến nay, chỉ có liên hệ tích cực được thảo luận. Mối liên hệ tiêu cực được biểu thị bằng dấu âm trong <code>correlation coefficient</code>. Hình 7 hiển thị thêm 6 <code>scatter diagram</code> cho dữ liệu giả định, mỗi biểu đồ có 50 điểm. Chúng được chia tỷ lệ giống như Hình 6, mỗi biến có trung bình là 3 và <code>SD</code> là 1.</p>
+<p>Ví dụ: mối tương quan -0.90 cho thấy mức độ phân cụm tương tự như +0.90. Với dấu âm, việc phân cụm xung quanh một đường dốc xuống; với dấu dương, đường dốc lên. Đối với phụ nữ ở độ tuổi 25 - 39 ở Hoa Kỳ vào năm 2005, mối tương quan giữa trình độ học vấn và số con là khoảng -0,2, một mối liên hệ tiêu cực yếu<sup class="footnote-reference"><a href="#6">4</a></sup>. Một mối tương quan âm hoàn hảo bằng -1 cho thấy rằng tất cả các điểm đều nằm trên một đường dốc xuống .</p>
+<p>Mối tương quan luôn nằm trong khoảng -1 và 1, có thể nhận bất kỳ giá trị nào ở giữa. Mối tương quan dương có nghĩa là đám mây dốc lên; khi một biến tăng thì biến kia cũng tăng. Tương quan âm có nghĩa là đám mây dốc xuống; khi một biến tăng thì biến kia giảm.</p>
+<p>Trong tập dữ liệu thực, cả hai <code>SD</code> sẽ dương. Về mặt kỹ thuật, nếu SD bằng 0 thì không có cách nào tốt để xác định <code>correlation coefficient</code>.</p>
+<div class="footnote-definition" id="3"><sup class="footnote-definition-label">1</sup>
+<p>&quot;Điểm trung bình&quot; không phải là một thuật ngữ tiêu chuẩn.</p>
+</div>
+<div class="footnote-definition" id="4"><sup class="footnote-definition-label">2</sup>
+<p>H. N. Newman, F. N. Freeman, and K. J. Holzinger, Twins: A Study of Heredity and Environment(University of Chicago Press, 1937).Trong các nghiên cứu về cặp song sinh, quy ước là vẽ đồ thị cho mỗi cặp song sinh hai lần; một lần là (x, y) và một lần là (y, x).</p>
+</div>
+<div class="footnote-definition" id="5"><sup class="footnote-definition-label">3</sup>
+<p>Data from the March 2005 Current Population Survey; a CD-ROM was supplied by the Bureau of the Census. Income is from 2004, and was censored at $150,000: this reduces the mean and the SD, but increases the correlation by a little. Starting in 1992, the Current Population Survey (CPS) reports educational attainment in categories, for instance, &quot;1st–4th grade&quot; or &quot;some college, no degree.&quot; See Monthly Labor Review, September 1993, pp. 34–38. Single years of education were imputed from grouped data. The correlation between the imputed educational level and the ordered categorical variable used in the CPS is about 0.97.</p>
+</div>
+<div class="footnote-definition" id="6"><sup class="footnote-definition-label">4</sup>
+<p>See note 5. “Number of children” is number of own, never-married children under the age of 18. (The data are for women age 25–39, and the correlation depends to some extent on the age range that is used.) Weights must be used here, because the March CPS over-samples large families(note 3 to chapter 3).</p>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../ch08/ch08-01.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../ch17/ch17-02.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../ch08/ch08-01.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../ch17/ch17-02.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
