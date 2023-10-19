@@ -52,7 +52,7 @@
 - [ ] Part III: Correlation and Regression
   - [ ] 8: Correlation
     - [x]     8.1 The Scatter Diagram
-    - [ ]     8.2 The correlation Coefficient
+    - [x]     8.2 The correlation Coefficient
     - [ ]     8.3 The SD Line
     - [ ]     8.4 Computing the Correlation Coefficient
   - [ ] 9: More about Correlation
