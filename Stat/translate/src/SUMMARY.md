@@ -56,6 +56,7 @@
 - [Correlation](ch08/ch08.md)
   - [The Scatter Diagram](ch08/ch08-01.md)
   - [The Correlation Coefficient](ch08/ch08-02.md)
+  - [The SD Line](ch08/ch08-03.md)
 - []()
 - []()
 - []()
