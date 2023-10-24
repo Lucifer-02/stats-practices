@@ -72,6 +72,10 @@
 
 - In hoa
 
+# Tham chiếu
+[Mục 5.1][sec5.1]
+[sec5.1]: ../ch05/ch05-01.md
+
 # Quy trình
 
 > Mục tiêu hướng đến là sau khi viết nội dung theo sách gốc, ta có thể chuyển sang side by side source và sách dịch.
@@ -79,3 +83,4 @@
 1. Từ sách gốc, dịch và thay thế thuật ngữ. Công thức, ký hiệu theo bản gốc.
 2. Thêm phần chú thích, hình ảnh, bảng.
 3. Chuyển sang edit format sách dịch.
+
