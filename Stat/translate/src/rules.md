@@ -6,6 +6,7 @@
 - Tên tổ chức để nguyên tiếng Anh
 
 # Dịch
+
 - Nếu dịch chưa rõ nghĩa mà vẫn chưa tìm được nghĩa phù hợp thì vẫn để bản dịch đó, sau này sẽ quay lại khi có ý tưởng
 
 # Chú thích
@@ -27,9 +28,21 @@
 
 - Trừ phép toán phức tạp hơn, các ký hiệu như +-\*/% được gõ trực tiếp, không cần dùng Latex. Lý do là để đơn giản hóa source và có thể copy liền mạch nội dung output
 
-- Không dịch công thức 
+- Không dịch công thức
 
 - Nếu có văn bản trong công thức thì dùng `\text{}` thay vì `\\ ` để tạo khoảng trắng trong văn bản, không dịch
+
+- Khoảng trăng trong công thức: `−1.5 \quad −0.5 \quad 0 \quad 0.5 \quad 1.5`
+
+- Căn chỉnh công thức:
+  \\[
+  \begin{equation}
+      \begin{split}
+          A & = \frac{\pi r^2}{2} \\
+          & = \frac{1}{2} \pi r^2
+      \end{split}
+  \end{equation}
+  \\]
 
 # Số liệu
 
@@ -42,13 +55,18 @@
   <center><img src="fig2.png" width="50%" height="auto"></center>
 
 - Ảnh không có tên thì đặt theo tên đề cập trong văn bản hoặc theo nội dung ảnh. Vd: `![](vote.jpg)`
-- Caption format: 
+- Caption format:
 
 **<center>Hình 1: Trung tâm và lây lan. Tâm của hai biểu đồ `histogram` giống nhau, nhưng biểu đồ thứ 2 trải rộng hơn.</center>**
 
 - Ảnh được đặt ngay sau đoạn văn nhắc đến nó(trong sách gốc, để bố trí trang hợp lý, ảnh có thể bị di chuyển ra sau, điều này là không cần thiết trong format bản dịch)
 
 # Bảng
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
 
 # Nhấn mạnh
 
