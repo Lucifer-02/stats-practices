@@ -58,6 +58,8 @@
   - [The Correlation Coefficient](ch08/ch08-02.md)
   - [The SD Line](ch08/ch08-03.md)
   - [Computing The Correlation Coefficient](ch08/ch08-04.md)
+  - [Review Exercises](ch08/ch08-05.md)
+  - [Summary](ch08/ch08-06.md)
 - []()
 - []()
 - []()
