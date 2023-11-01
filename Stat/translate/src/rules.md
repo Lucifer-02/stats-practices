@@ -47,6 +47,7 @@
 # Số liệu
 
 - Nếu trong sách gốc ở dạng bảng kẻ ô thì để dạng bảng, còn không thì để dạng code block
+- Trong câu văn thì in đậm
 
 # Ảnh
 
