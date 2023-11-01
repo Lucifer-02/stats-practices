@@ -62,6 +62,7 @@
   - [Summary](ch08/ch08-06.md)
 - [More about Correlation](ch09/ch09.md)
     - [Features of the Correlation Coefficient](ch09/ch09-01.md)
+    - [Changing SDs](ch09/ch09-02.md)
 - []()
 - []()
 - []()

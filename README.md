@@ -53,11 +53,11 @@
   - [ ] 8: Correlation
     - [x]     8.1 The Scatter Diagram
     - [x]     8.2 The correlation Coefficient
-    - [ ]     8.3 The SD Line
-    - [ ]     8.4 Computing the Correlation Coefficient
+    - [x]     8.3 The SD Line
+    - [x]     8.4 Computing the Correlation Coefficient
   - [ ] 9: More about Correlation
-    - [ ]     9.1 Features of the Correlation Coefficient
-    - [ ]     9.2 Chaning SDs
+    - [x]     9.1 Features of the Correlation Coefficient
+    - [x]     9.2 Chaning SDs
     - [ ]     9.3 Some Exceptional Cases
     - [ ]     9.4 Ecological Correlatons
     - [ ]     9.5 Assoclation is Not Causation
