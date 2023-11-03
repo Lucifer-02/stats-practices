@@ -58,7 +58,7 @@
   - [ ] 9: More about Correlation
     - [x]     9.1 Features of the Correlation Coefficient
     - [x]     9.2 Chaning SDs
-    - [ ]     9.3 Some Exceptional Cases
+    - [x]     9.3 Some Exceptional Cases
     - [ ]     9.4 Ecological Correlatons
     - [ ]     9.5 Assoclation is Not Causation
   - [ ] 10: Regression

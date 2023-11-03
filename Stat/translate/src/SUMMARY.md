@@ -63,6 +63,7 @@
 - [More about Correlation](ch09/ch09.md)
     - [Features of the Correlation Coefficient](ch09/ch09-01.md)
     - [Changing SDs](ch09/ch09-02.md)
+    - [Some Exceptional Case](ch09/ch09-03.md)
 - []()
 - []()
 - []()
