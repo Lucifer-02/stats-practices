@@ -64,6 +64,7 @@
     - [Features of the Correlation Coefficient](ch09/ch09-01.md)
     - [Changing SDs](ch09/ch09-02.md)
     - [Some Exceptional Case](ch09/ch09-03.md)
+    - [Ecological Correlations](ch09/ch09-04.md)
 - []()
 - []()
 - []()
