@@ -26,7 +26,7 @@
 
 # Ký hiệu, công thức
 
-- Trừ phép toán phức tạp hơn, các ký hiệu như +-\*/% được gõ trực tiếp, không cần dùng Latex. Lý do là để đơn giản hóa source và có thể copy liền mạch nội dung output
+- Trừ phép toán phức tạp hơn và biểu thức  không cần dùng Latex. Lý do là để đơn giản hóa source và có thể copy liền mạch nội dung output
 
 - Không dịch công thức
 
