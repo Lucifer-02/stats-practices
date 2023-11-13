@@ -26,7 +26,7 @@
 
 # Ký hiệu, công thức
 
-- Trừ phép toán phức tạp hơn và biểu thức  không cần dùng Latex. Lý do là để đơn giản hóa source và có thể copy liền mạch nội dung output
+- Trừ phép toán phức tạp hơn và biểu thức không cần dùng Latex. Lý do là để đơn giản hóa source và có thể copy liền mạch nội dung output
 
 - Không dịch công thức
 
@@ -36,12 +36,10 @@
 
 - Căn chỉnh công thức:
   \\[
-  \begin{equation}
-      \begin{split}
-          A & = \frac{\pi r^2}{2} \\
-          & = \frac{1}{2} \pi r^2
-      \end{split}
-  \end{equation}
+  \begin{align*}
+  a &= b & c &= d \\\\
+  e &= f & g &= h & r &= k
+  \end{align*}
   \\]
 
 # Số liệu
@@ -64,16 +62,17 @@
 
 # Bảng
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+| Syntax    | Description |
+| --------- | ----------- |
+| Header    | Title       |
+| Paragraph | Text        |
 
 # Nhấn mạnh
 
 - In hoa
 
 # Tham chiếu
+
 [Mục 5.1][sec5.1]
 [sec5.1]: ../ch05/ch05-01.md
 
@@ -84,4 +83,3 @@
 1. Từ sách gốc, dịch và thay thế thuật ngữ. Công thức, ký hiệu theo bản gốc.
 2. Thêm phần chú thích, hình ảnh, bảng.
 3. Chuyển sang edit format sách dịch.
-

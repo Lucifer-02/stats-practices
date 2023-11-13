@@ -68,7 +68,8 @@
     - [Association is Not Causation](ch09/ch09-05.md)
     - [Review Exercises](ch09/ch09-06.md)
     - [Summary](ch09/ch09-07.md)
-- []()
+- [Regression](ch10/ch10.md)
+    - [Introduction](ch10/ch10-01.md)
 - []()
 - []()
 
