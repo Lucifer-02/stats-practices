@@ -62,8 +62,8 @@
     - [x]     9.4 Ecological Correlatons
     - [x]     9.5 Assoclation is Not Causation
   - [ ] 10: Regression
-    - [ ]     10.1 Introduction
-    - [ ]     10.2 The Graph of Averages
+    - [x]     10.1 Introduction
+    - [x]     10.2 The Graph of Averages
     - [ ]     10.3 The Regression Method for Individuals
     - [ ]     10.4 The Regression Fallacy
     - [ ]     10.5 There are Two Regression Lines
