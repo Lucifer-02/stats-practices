@@ -70,6 +70,7 @@
     - [Summary](ch09/ch09-07.md)
 - [Regression](ch10/ch10.md)
     - [Introduction](ch10/ch10-01.md)
+    - [The Grapth of Averages](ch10/ch10-02.md)
 - []()
 - []()
 
