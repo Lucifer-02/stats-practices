@@ -71,6 +71,7 @@
 - [Regression](ch10/ch10.md)
     - [Introduction](ch10/ch10-01.md)
     - [The Grapth of Averages](ch10/ch10-02.md)
+    - [The Regression Method for Individuals](ch10/ch10-03.md)
 - []()
 - []()
 
