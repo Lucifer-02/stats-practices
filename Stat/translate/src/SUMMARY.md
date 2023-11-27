@@ -72,6 +72,7 @@
     - [Introduction](ch10/ch10-01.md)
     - [The Grapth of Averages](ch10/ch10-02.md)
     - [The Regression Method for Individuals](ch10/ch10-03.md)
+    - [The Regression Fallacy](ch10/ch10-04.md)
 - []()
 - []()
 
