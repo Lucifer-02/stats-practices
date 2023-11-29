@@ -73,6 +73,9 @@
     - [The Grapth of Averages](ch10/ch10-02.md)
     - [The Regression Method for Individuals](ch10/ch10-03.md)
     - [The Regression Fallacy](ch10/ch10-04.md)
+    - [There Are Two Regression Lines](ch10/ch10-05.md)
+    - [Review Exercises](ch10/ch10-06.md)
+    - [Summary](ch10/ch10-07.md)
 - []()
 - []()
 
