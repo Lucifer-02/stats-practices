@@ -81,7 +81,8 @@
 
 # Part IV: Probability
 
-- []()
+- [What Are the Chances?](ch13/ch13.md)
+    - [Introduction](ch13/ch13-01.md)
 - []()
 - []()
 

@@ -79,7 +79,7 @@
     - [ ]     12.3 Does the Regression Make Sense?
 - [ ] Part IV: Probability
   - [ ] 13: What are the Chances?
-    - [ ]     13.1 Introduction
+    - [x]     13.1 Introduction
     - [ ]     13.2 conditional Probabilities
     - [ ]     13.3 The Multiplication Rule
     - [ ]     13.4 Independence
