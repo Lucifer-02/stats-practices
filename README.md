@@ -16,8 +16,7 @@
 - [ ] Part II: Descriptive Statistics
   - [ ] 3: The Histogram
     - [ ]     3.1 Introduction
-    - [ ]     3.2 Drawing a Histogram
-    - [ ]     3.3 The Density Scale
+    - [ ]     3.2 Drawing a Histogram [ ]     3.3 The Density Scale
     - [ ]     3.4 Variables
     - [ ]     3.5 Controlling for a Variable
     - [ ]     3.6 Cross-Tabulation
@@ -80,10 +79,10 @@
 - [ ] Part IV: Probability
   - [ ] 13: What are the Chances?
     - [x]     13.1 Introduction
-    - [ ]     13.2 conditional Probabilities
-    - [ ]     13.3 The Multiplication Rule
-    - [ ]     13.4 Independence
-    - [ ]     13.5 The Collins Case
+    - [x]     13.2 conditional Probabilities
+    - [x]     13.3 The Multiplication Rule
+    - [x]     13.4 Independence
+    - [x]     13.5 The Collins Case
   - [ ] 14: More about Chance.
     - [ ]     14.1 Listing the Ways
     - [ ]     14.2 TheAddition Rule
