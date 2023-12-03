@@ -83,6 +83,8 @@
 
 - [What Are the Chances?](ch13/ch13.md)
     - [Introduction](ch13/ch13-01.md)
+    - [Conditional Probabilities](ch13/ch13-02.md)
+    - [The Multiplication Rule](ch13/ch13-03.md)
 - []()
 - []()
 
