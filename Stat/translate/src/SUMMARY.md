@@ -94,7 +94,8 @@
 
 # Part V: Change Variability
 
-- []()
+- [The Law of Averages](ch16/ch16.md)
+    - [What Does The Law of Averages Say?](ch16/ch16-01.md)
 - []()
   - []()
   - [The Standard Error](ch17/ch17-02.md)
