@@ -98,7 +98,7 @@
 - [ ] Part V: Chance Variability
   - [ ] 16: The Law of Averages
     - [x]     16.1 What Does the Law of Averages Say?
-    - [ ]     16.2 Chance Processes
+    - [x]     16.2 Chance Processes
     - [ ]     16.3 The Sum of Draws
     - [ ]     16.4 Making a Box Model
     - [ ]     16.5 ReviewExercises 6. Summary
