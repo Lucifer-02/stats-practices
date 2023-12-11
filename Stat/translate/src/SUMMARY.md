@@ -98,6 +98,7 @@
     - [What Does The Law of Averages Say?](ch16/ch16-01.md)
     - [Chance Processes](ch16/ch16-02.md)
     - [The Sum of Draws](ch16/ch16-03.md)
+    - [Making a Box Model](ch16/ch16-04.md)
 - []()
   - []()
   - [The Standard Error](ch17/ch17-02.md)
