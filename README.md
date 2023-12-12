@@ -99,16 +99,17 @@
   - [ ] 16: The Law of Averages
     - [x]     16.1 What Does the Law of Averages Say?
     - [x]     16.2 Chance Processes
-    - [ ]     16.3 The Sum of Draws
-    - [ ]     16.4 Making a Box Model
-    - [ ]     16.5 ReviewExercises 6. Summary
+    - [x]     16.3 The Sum of Draws
+    - [x]     16.4 Making a Box Model
+    - [ ]     16.5 Review Exercises
+    - [x]     16.6. Summary
   - [ ] 17: The Expected Value and Standard Error
     - [ ]     17.1 The Expected Value
     - [ ]     17.2 The Standard Error
     - [ ]     17.3 Using the Normal Curve
     - [ ]     17.4 A Short-Cut
     - [ ]     17.5 Classifying and Counting
-    - [ ]     17.6 ReviewExercises
+    - [ ]     17.6 Review Exercises
     - [ ]     17.7 Postscript
   - [ ] 18: The Normal Approximation for Probability Histograms
     - [ ]     18.1 Introduction
