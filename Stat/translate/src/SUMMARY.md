@@ -99,6 +99,8 @@
     - [Chance Processes](ch16/ch16-02.md)
     - [The Sum of Draws](ch16/ch16-03.md)
     - [Making a Box Model](ch16/ch16-04.md)
+    - [Review Exercises](ch16/ch16-05.md)
+    - [Summary](ch16/ch16-06.md)
 - []()
   - []()
   - [The Standard Error](ch17/ch17-02.md)
