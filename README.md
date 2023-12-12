@@ -16,7 +16,8 @@
 - [ ] Part II: Descriptive Statistics
   - [ ] 3: The Histogram
     - [ ]     3.1 Introduction
-    - [ ]     3.2 Drawing a Histogram [ ]     3.3 The Density Scale
+    - [ ]     3.2 Drawing a Histogram
+    - [ ]     3.3 The Density Scale
     - [ ]     3.4 Variables
     - [ ]     3.5 Controlling for a Variable
     - [ ]     3.6 Cross-Tabulation
