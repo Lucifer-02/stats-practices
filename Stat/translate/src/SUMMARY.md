@@ -101,9 +101,10 @@
     - [Making a Box Model](ch16/ch16-04.md)
     - [Review Exercises](ch16/ch16-05.md)
     - [Summary](ch16/ch16-06.md)
-- []()
-  - []()
+- [The Expected Value and Standard Error](ch17/ch17.md)
+  - [The Expected Value](ch17/ch17-01.md)
   - [The Standard Error](ch17/ch17-02.md)
+  - [Using The Normal Curve](ch17/ch17-03.md)
 - []()
 
 # Part VI: Sampling

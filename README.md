@@ -105,8 +105,8 @@
     - [ ]     16.5 Review Exercises
     - [x]     16.6. Summary
   - [ ] 17: The Expected Value and Standard Error
-    - [ ]     17.1 The Expected Value
-    - [ ]     17.2 The Standard Error
+    - [x]     17.1 The Expected Value
+    - [x]     17.2 The Standard Error
     - [ ]     17.3 Using the Normal Curve
     - [ ]     17.4 A Short-Cut
     - [ ]     17.5 Classifying and Counting
