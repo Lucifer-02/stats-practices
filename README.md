@@ -107,7 +107,7 @@
   - [ ] 17: The Expected Value and Standard Error
     - [x]     17.1 The Expected Value
     - [x]     17.2 The Standard Error
-    - [ ]     17.3 Using the Normal Curve
+    - [x]     17.3 Using the Normal Curve
     - [ ]     17.4 A Short-Cut
     - [ ]     17.5 Classifying and Counting
     - [ ]     17.6 Review Exercises
