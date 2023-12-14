@@ -105,6 +105,7 @@
   - [The Expected Value](ch17/ch17-01.md)
   - [The Standard Error](ch17/ch17-02.md)
   - [Using The Normal Curve](ch17/ch17-03.md)
+  - [A Short-Cut](ch17/ch17-04.md)
 - []()
 
 # Part VI: Sampling
