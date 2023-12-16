@@ -206,14 +206,14 @@
 \[
 \sqrt{\frac{(-3)^2 + (-1)^2 + 0^2 + 1^2 + 3^2}{5}} = \sqrt{\frac{9 + 1 + 0 + 1 + 9}{5}} = \sqrt{\frac{20}{5}} = 2
 \]</p>
-<p>Điều này đo lường sự thay đổi trong hộp. Theo luật căn bậc hai, tổng của 25 lần rút có nhiều thay đổi hơn, theo hệ số \(\sqrt{25} = 5\). <code>SE</code> cho tổng của 25 lần rút là \(5 \times 2 = 10\). Nói cách khác, độ lớn của <code>chance error</code> là 10. Và tổng số lần rút phải vào khoảng 75, cộng hoặc trừ 10 hoặc hơn. Nói chung, tổng có thể ở quanh <code>expected value</code> của nó, cho hoặc nhận một <code>standard error</code> hoặc tương tự.</p>
+<p>Điều này đo lường sự thay đổi trong hộp. Theo luật căn bậc hai, tổng của 25 lần rút có nhiều thay đổi hơn, theo hệ số \(\sqrt{25} = 5\). <code>SE</code> cho tổng của 25 lần rút là \(5 \times 2 = 10\). Nói cách khác, độ lớn của <code>chance error</code> là 10. Và tổng số lần rút phải vào khoảng 75, cộng hoặc trừ 10 hoặc hơn. Nói chung, tổng có thể ở quanh <code>expected value</code> của nó, thêm hoặc bớt một <code>standard error</code> hoặc tương tự.</p>
 <p>Để chỉ ra điều này có ý nghĩa gì về mặt thực nghiệm, chúng tôi đã lập trình cho máy tính rút ngẫu nhiên 25 lần có thay thế từ hộp 0 2 3 4 6 . Thu được</p>
 <p>\[
 0,0,4,4,0 \quad 4,3,2,6,2 \quad 2,0,2,6,2 \quad 6,4,2,6,3 \quad 0,3,6,4,0
 \]</p>
 <p>Tổng của 25 lần rút này là 71. Con số này thấp hơn 4 so với <code>expected value</code>, do đó <code>chance error</code> là −4. Máy tính rút thêm 25 lần nữa và lấy tổng, nhận được 76. <code>chance error</code> là +1. Tổng thứ ba là 86, với <code>chance error</code> là +11. Trên thực tế, chúng tôi đã yêu cầu máy tính tạo ra 100 tổng như trong Bảng 1. Những con số này đều ở khoảng 75, <code>expected value</code>. Chúng bị lệch do các <code>chance error</code> có kích thước tương tự 10, <code>standard error</code>.</p>
 <blockquote>
-<p>Tổng các lần rút rất có thể vào quanh......, cho hoặc nhận ......hoặc tương tự. <code>expected value</code> của tổng sẽ điền vào chỗ trống đầu tiên. <code>SE</code> của tổng điền vào chỗ trống thứ hai.</p>
+<p>Tổng các lần rút rất có thể vào quanh......, thêm hoặc bớt ......hoặc tương tự. <code>expected value</code> của tổng sẽ điền vào chỗ trống đầu tiên. <code>SE</code> của tổng điền vào chỗ trống thứ hai.</p>
 </blockquote>
 <p>Một số thuật ngữ: con số 71 trong Bảng 1 là giá trị quan sát được cho tổng các lần rút; 76 là một giá trị quan sát khác. Tất cả đã nói, bảng có 100 giá trị được quan sát cho tổng. Các giá trị quan sát được này khác với <code>expected value</code> là 75. Sự khác biệt là <code>chance error</code>. Ví dụ, <code>chance error</code> của 71 là −4, vì \(71 − 75 = −4\). <code>chance error</code> của 76 là +1, vì \(76 − 75 = 1\). v.v</p>
 <p>Các giá trị quan sát được trong Bảng 1 cho thấy có sự chênh lệch rất nhỏ xung quanh <code>expected value</code>. Về nguyên tắc, chúng có thể nhỏ bằng 0 hoặc lớn đến \(25 \times 6 = 150\). Tuy nhiên, tất cả trừ một trong số chúng đều nằm trong khoảng từ 50 đến 100, nghĩa là nằm trong khoảng 2.5 <code>SE</code> so với <code>expected value</code>.</p>
