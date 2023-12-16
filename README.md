@@ -109,9 +109,10 @@
     - [x]     17.2 The Standard Error
     - [x]     17.3 Using the Normal Curve
     - [x]     17.4 A Short-Cut
-    - [ ]     17.5 Classifying and Counting
+    - [x]     17.5 Classifying and Counting
     - [ ]     17.6 Review Exercises
-    - [ ]     17.7 Postscript
+    - [x]     17.7 Postscript
+    - [x]     17.8 Summary
   - [ ] 18: The Normal Approximation for Probability Histograms
     - [ ]     18.1 Introduction
     - [ ]     18.2 Probability Histograms

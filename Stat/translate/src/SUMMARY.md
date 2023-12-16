@@ -106,6 +106,10 @@
   - [The Standard Error](ch17/ch17-02.md)
   - [Using The Normal Curve](ch17/ch17-03.md)
   - [A Short-Cut](ch17/ch17-04.md)
+  - [Classifying and Counting](ch17/ch17-05.md)
+  - [Review Exercises](ch17/ch17-06.md)
+  - [Postscript](ch17/ch17-07.md)
+  - [Summary](ch17/ch17-08.md)
 - []()
 
 # Part VI: Sampling
