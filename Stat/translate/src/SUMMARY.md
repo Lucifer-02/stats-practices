@@ -113,6 +113,7 @@
 - [The Normal Approximation for Probability Histograms](ch18/ch18.md)
   - [Introduction](ch18/ch18-01.md)
   - [Probability Histograms](ch18/ch18-02.md)
+  - [Probability Histograms and the Normal Curve](ch18/ch18-03.md)
 
 # Part VI: Sampling
 
