@@ -114,10 +114,10 @@
     - [x]     17.7 Postscript
     - [x]     17.8 Summary
   - [ ] 18: The Normal Approximation for Probability Histograms
-    - [ ]     18.1 Introduction
-    - [ ]     18.2 Probability Histograms
-    - [ ]     18.3 Probability Histograms and the Normal Curve
-    - [ ]     18.4 TheNormalApproximation.
+    - [x]     18.1 Introduction
+    - [x]     18.2 Probability Histograms
+    - [x]     18.3 Probability Histograms and the Normal Curve
+    - [x]     18.4 The Normal Approximation.
     - [ ]     18.5 The Scope of the Normal Approximation
 - [ ] Part VI: Sampling
   - [ ] 19: Sample Surveys

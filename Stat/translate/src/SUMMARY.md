@@ -115,6 +115,7 @@
   - [Probability Histograms](ch18/ch18-02.md)
   - [Probability Histograms and the Normal Curve](ch18/ch18-03.md)
   - [The Normal Approximation](ch18/ch18-04.md)
+  - [The Scope of the Normal Approximation](ch18/ch18-05.md)
 
 # Part VI: Sampling
 
