@@ -118,7 +118,10 @@
     - [x]     18.2 Probability Histograms
     - [x]     18.3 Probability Histograms and the Normal Curve
     - [x]     18.4 The Normal Approximation.
-    - [ ]     18.5 The Scope of the Normal Approximation
+    - [x]     18.5 The Scope of the Normal Approximation
+    - [ ]     18.6 Conclusion
+    - [ ]     18.7 Review Exercises
+    - [ ]     18.8 Summary
 - [ ] Part VI: Sampling
   - [ ] 19: Sample Surveys
     - [ ]     19.1 Introduction
