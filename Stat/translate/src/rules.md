@@ -75,6 +75,8 @@
 
 [Mục 5.1][sec5.1]
 [sec5.1]: ../ch05/ch05-01.md
+hoặc
+[Mục 18.3](../ch18/ch18-03.md)
 
 # Quy trình
 
