@@ -122,7 +122,9 @@
 
 # Part VI: Sampling
 
-- []()
+- [Sample Surveys](ch19/ch19.md)
+  - [Introduction](ch19/ch19-01.md)
+  - [the Literary Digest Poll](ch19/ch19-02.md)
 - [Chance Errors in Sampling](ch20/ch20.md)
   - [Introduction](ch20/ch20-01.md)
 - [The Accuracy of Percentages](ch21/ch21.md)
