@@ -124,7 +124,8 @@
 
 - [Sample Surveys](ch19/ch19.md)
   - [Introduction](ch19/ch19-01.md)
-  - [the Literary Digest Poll](ch19/ch19-02.md)
+  - [The Literary Digest Poll](ch19/ch19-02.md)
+  - [The Year the Polls Elected Dewey](ch19/ch19-03.md)
 - [Chance Errors in Sampling](ch20/ch20.md)
   - [Introduction](ch20/ch20-01.md)
 - [The Accuracy of Percentages](ch21/ch21.md)
