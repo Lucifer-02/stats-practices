@@ -124,11 +124,11 @@
     - [x]     18.8 Summary
 - [ ] Part VI: Sampling
   - [ ] 19: Sample Surveys
-    - [ ]     19.1 Introduction
-    - [ ]     19.2 The Literary Digest Poll
-    - [ ]     19.3 The Year the Polls Elected Dewey
-    - [ ]     19.4 Using Chance in Survey Work
-    - [ ]     19.5 HowWell Do Probability Methods Work?
+    - [x]     19.1 Introduction
+    - [x]     19.2 The Literary Digest Poll
+    - [x]     19.3 The Year the Polls Elected Dewey
+    - [x]     19.4 Using Chance in Survey Work
+    - [x]     19.5 How Well Do Probability Methods Work?
     - [ ]     19.6 A Closer Look at the Gallup Poll
     - [ ]     19.7 Telephone Surveys
     - [ ]     19.8 Chance Error and Bias
