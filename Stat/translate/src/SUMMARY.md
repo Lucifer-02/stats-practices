@@ -128,6 +128,8 @@
   - [The Year the Polls Elected Dewey](ch19/ch19-03.md)
   - [Using Chance in Survey Work](ch19/ch19-04.md)
   - [How Well do Probability Methods Work?](ch19/ch19-05.md)
+  - [A Closer Look at the Gallup Poll](ch19/ch19-06.md)
+  - [Telephone](ch19/ch19-07.md)
 - [Chance Errors in Sampling](ch20/ch20.md)
   - [Introduction](ch20/ch20-01.md)
 - [The Accuracy of Percentages](ch21/ch21.md)

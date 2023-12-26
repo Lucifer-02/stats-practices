@@ -129,8 +129,8 @@
     - [x]     19.3 The Year the Polls Elected Dewey
     - [x]     19.4 Using Chance in Survey Work
     - [x]     19.5 How Well Do Probability Methods Work?
-    - [ ]     19.6 A Closer Look at the Gallup Poll
-    - [ ]     19.7 Telephone Surveys
+    - [x]     19.6 A Closer Look at the Gallup Poll
+    - [x]     19.7 Telephone Surveys
     - [ ]     19.8 Chance Error and Bias
   - [ ] 20: Chance Errors in Sampling
     - [ ]     20.1 Introduction
