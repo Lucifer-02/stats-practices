@@ -131,7 +131,9 @@
     - [x]     19.5 How Well Do Probability Methods Work?
     - [x]     19.6 A Closer Look at the Gallup Poll
     - [x]     19.7 Telephone Surveys
-    - [ ]     19.8 Chance Error and Bias
+    - [x]     19.8 Chance Error and Bias
+    - [ ]     19.9 Review Exercises
+    - [x]     19.10 Summary
   - [ ] 20: Chance Errors in Sampling
     - [ ]     20.1 Introduction
     - [ ]     20.2 The Expected Value and Standard Error
