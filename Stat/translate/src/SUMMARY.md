@@ -135,6 +135,7 @@
   - [Summary](ch19/ch19-10.md)
 - [Chance Errors in Sampling](ch20/ch20.md)
   - [Introduction](ch20/ch20-01.md)
+  - [The Expected Value and Standard Error](ch20/ch20-02.md)
 - [The Accuracy of Percentages](ch21/ch21.md)
   - [Introduction](ch21/ch21-01.md)
 - []()

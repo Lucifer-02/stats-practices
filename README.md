@@ -135,8 +135,8 @@
     - [ ]     19.9 Review Exercises
     - [x]     19.10 Summary
   - [ ] 20: Chance Errors in Sampling
-    - [ ]     20.1 Introduction
-    - [ ]     20.2 The Expected Value and Standard Error
+    - [x]     20.1 Introduction
+    - [x]     20.2 The Expected Value and Standard Error
     - [ ]     20.3 Using the Normal Curve
     - [ ]     20.4 The Correction Factor
     - [ ]     20.5 The Gallup Poll
