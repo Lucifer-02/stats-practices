@@ -138,7 +138,7 @@
     - [x]     20.1 Introduction
     - [x]     20.2 The Expected Value and Standard Error
     - [x]     20.3 Using the Normal Curve
-    - [ ]     20.4 The Correction Factor
+    - [x]     20.4 The Correction Factor
     - [ ]     20.5 The Gallup Poll
   - [ ] 21: The Accuracy of Percentages
     - [x]     21.1 Introduction
