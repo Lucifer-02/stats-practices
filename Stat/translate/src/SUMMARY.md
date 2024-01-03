@@ -155,6 +155,9 @@
   - [The Expected Value and Standard Error](ch20/ch20-02.md)
   - [Using the Normal Curve](ch20/ch20-03.md)
   - [The Correlation Factor](ch20/ch20-04.md)
+  - [The Gallup Poll](ch20/ch20-05.md)
+  - [Revew Exercises](ch20/ch20-06.md)
+  - [Summary](ch20/ch20-07.md)
 
 - [The Accuracy of Percentages](ch21/ch21.md)
 
