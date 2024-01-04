@@ -162,6 +162,7 @@
 - [The Accuracy of Percentages](ch21/ch21.md)
 
   - [Introduction](ch21/ch21-01.md)
+  - [Confidence Intervals](ch21/ch21-02.md)
 
 - []()
 

@@ -144,7 +144,7 @@
     - [x]     20.7 Summary
   - [ ] 21: The Accuracy of Percentages
     - [x]     21.1 Introduction
-    - [ ]     21.2 Confidence Intervals
+    - [x]     21.2 Confidence Intervals
     - [ ]     21.3 Interpreting a Confidence Interval
     - [ ]     21.4 Caveat Emptor
     - [ ]     21.5 The Gallup Poll
