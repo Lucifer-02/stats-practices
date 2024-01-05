@@ -145,8 +145,8 @@
   - [ ] 21: The Accuracy of Percentages
     - [x]     21.1 Introduction
     - [x]     21.2 Confidence Intervals
-    - [ ]     21.3 Interpreting a Confidence Interval
-    - [ ]     21.4 Caveat Emptor
+    - [x]     21.3 Interpreting a Confidence Interval
+    - [x]     21.4 Caveat Emptor
     - [ ]     21.5 The Gallup Poll
   - [ ] 22: Measuring Employment and Unemployment
     - [ ]     22.1 Introduction

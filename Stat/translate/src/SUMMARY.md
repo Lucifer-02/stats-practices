@@ -163,6 +163,8 @@
 
   - [Introduction](ch21/ch21-01.md)
   - [Confidence Intervals](ch21/ch21-02.md)
+  - [Interpreting a Confidence Interval](ch21/ch21-03.md)
+  - [Caveat Emptor](ch21/ch21-04.md)
 
 - []()
 
