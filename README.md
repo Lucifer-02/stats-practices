@@ -147,7 +147,7 @@
     - [x]     21.2 Confidence Intervals
     - [x]     21.3 Interpreting a Confidence Interval
     - [x]     21.4 Caveat Emptor
-    - [ ]     21.5 The Gallup Poll
+    - [x]     21.5 The Gallup Poll
   - [ ] 22: Measuring Employment and Unemployment
     - [ ]     22.1 Introduction
     - [ ]     22.2 The Design of the Current Population Survey
