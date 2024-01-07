@@ -166,6 +166,8 @@
   - [Interpreting a Confidence Interval](ch21/ch21-03.md)
   - [Caveat Emptor](ch21/ch21-04.md)
   - [The Gallup Poll](ch21/ch21-05.md)
+  - [Review Exercises](ch21/ch21-06.md)
+  - [Summary](ch21/ch21-07.md)
 
 - []()
 
