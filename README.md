@@ -158,6 +158,8 @@
     - [ ]     22.5 Standard Errors
     - [ ]     22.6 The Quality of the Data
     - [ ]     22.7 Bias
+    - [ ]     22.8 Review Exercises
+    - [ ]     22.9 Summary
   - [ ] 23: The Accuracy of Averages
     - [ ]     23.1 Introduction
     - [ ]     23.2 The Sample Average
