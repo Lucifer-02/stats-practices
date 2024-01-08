@@ -151,8 +151,8 @@
     - [ ]     21.6 Review Exercises
     - [x]     21.7 Summary
   - [ ] 22: Measuring Employment and Unemployment
-    - [ ]     22.1 Introduction
-    - [ ]     22.2 The Design of the Current Population Survey
+    - [x]     22.1 Introduction
+    - [x]     22.2 The Design of the Current Population Survey
     - [ ]     22.3 Carrying Out the Survey
     - [ ]     22.4 Weighting the Sample
     - [ ]     22.5 Standard Errors
