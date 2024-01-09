@@ -153,7 +153,7 @@
   - [ ] 22: Measuring Employment and Unemployment
     - [x]     22.1 Introduction
     - [x]     22.2 The Design of the Current Population Survey
-    - [ ]     22.3 Carrying Out the Survey
+    - [x]     22.3 Carrying Out the Survey
     - [ ]     22.4 Weighting the Sample
     - [ ]     22.5 Standard Errors
     - [ ]     22.6 The Quality of the Data

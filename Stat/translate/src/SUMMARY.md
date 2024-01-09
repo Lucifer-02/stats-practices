@@ -172,6 +172,7 @@
 - [Measuring Employment and Unemployment](ch22/ch22.md)
     - [Introduction](ch22/ch22-01.md)
     - [The Design of the Current Population Survey](ch22/ch22-02.md)
+    - [Carrying Out the Survey](ch22/ch22-03.md)
 
 - []()
 
