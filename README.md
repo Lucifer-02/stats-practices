@@ -154,12 +154,12 @@
     - [x]     22.1 Introduction
     - [x]     22.2 The Design of the Current Population Survey
     - [x]     22.3 Carrying Out the Survey
-    - [ ]     22.4 Weighting the Sample
-    - [ ]     22.5 Standard Errors
-    - [ ]     22.6 The Quality of the Data
-    - [ ]     22.7 Bias
-    - [ ]     22.8 Review Exercises
-    - [ ]     22.9 Summary
+    - [x]     22.4 Weighting the Sample
+    - [x]     22.5 Standard Errors
+    - [x]     22.6 The Quality of the Data
+    - [x]     22.7 Bias
+    - [x]     22.8 Review Exercises
+    - [x]     22.9 Summary
   - [ ] 23: The Accuracy of Averages
     - [ ]     23.1 Introduction
     - [ ]     23.2 The Sample Average

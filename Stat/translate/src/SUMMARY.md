@@ -173,6 +173,12 @@
     - [Introduction](ch22/ch22-01.md)
     - [The Design of the Current Population Survey](ch22/ch22-02.md)
     - [Carrying Out the Survey](ch22/ch22-03.md)
+    - [Weighting the Sample](ch22/ch22-04.md)
+    - [Standard Errors](ch22/ch22-05.md)
+    - [The Quality of the Data](ch22/ch22-06.md)
+    - [Bias](ch22/ch22-07.md)
+    - [Review Exercises](ch22/ch22-08.md)
+    - [Summary](ch22/ch22-09.md)
 
 - []()
 
