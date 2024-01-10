@@ -59,10 +59,9 @@
 **<center>abc</center>**
 
 - Short:
-<center><img src="fig2.png" width="90%" height="auto"></center>
-
 **<center>
 </center>**
+<center><img src="fig2.png" width="90%" height="auto"></center>
 
 - Ảnh được đặt ngay sau đoạn văn nhắc đến nó(trong sách gốc, để bố trí trang hợp lý, ảnh có thể bị di chuyển ra sau, điều này là không cần thiết trong format bản dịch)
 
