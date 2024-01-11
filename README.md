@@ -161,7 +161,7 @@
     - [x]     22.8 Review Exercises
     - [x]     22.9 Summary
   - [ ] 23: The Accuracy of Averages
-    - [ ]     23.1 Introduction
+    - [x]     23.1 Introduction
     - [ ]     23.2 The Sample Average
     - [ ]     23.3 Which SE?
     - [ ]     23.4 A Reminder

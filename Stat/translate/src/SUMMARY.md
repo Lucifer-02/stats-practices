@@ -180,7 +180,8 @@
     - [Review Exercises](ch22/ch22-08.md)
     - [Summary](ch22/ch22-09.md)
 
-- []()
+- [The Accuracy of Averages](ch23/ch23.md)
+    - [Introduction](ch23/ch23-01.md)
 
 # Part VII: Chance Models
 
