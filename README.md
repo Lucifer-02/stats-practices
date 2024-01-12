@@ -162,7 +162,7 @@
     - [x]     22.9 Summary
   - [ ] 23: The Accuracy of Averages
     - [x]     23.1 Introduction
-    - [ ]     23.2 The Sample Average
+    - [x]     23.2 The Sample Average
     - [ ]     23.3 Which SE?
     - [ ]     23.4 A Reminder
 - [ ] Part VII: Chance Models
