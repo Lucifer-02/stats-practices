@@ -183,6 +183,11 @@
 - [The Accuracy of Averages](ch23/ch23.md)
     - [Introduction](ch23/ch23-01.md)
     - [The Sample Average](ch23/ch23-02.md)
+    - [Which SE?](ch23/ch23-03.md)
+    - [A Reminder](ch23/ch23-04.md)
+    - [Review Exercises](ch23/ch23-05.md)
+    - [Special Review Exercises](ch23/ch23-06.md)
+    - [Summary and Overview](ch23/ch23-07.md)
 
 # Part VII: Chance Models
 

@@ -158,13 +158,16 @@
     - [x]     22.5 Standard Errors
     - [x]     22.6 The Quality of the Data
     - [x]     22.7 Bias
-    - [x]     22.8 Review Exercises
+    - [ ]     22.8 Review Exercises
     - [x]     22.9 Summary
   - [ ] 23: The Accuracy of Averages
     - [x]     23.1 Introduction
     - [x]     23.2 The Sample Average
-    - [ ]     23.3 Which SE?
-    - [ ]     23.4 A Reminder
+    - [x]     23.3 Which SE?
+    - [x]     23.4 A Reminder
+    - [ ]     23.5 Review Exercises
+    - [ ]     23.6 Special Review Exercises
+    - [x]     23.7 Summary and Overview
 - [ ] Part VII: Chance Models
   - [ ] 24: A Model For Measurement Error
     - [ ]     24.1 Estimating the Accuracy of an Average
