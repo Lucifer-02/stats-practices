@@ -170,7 +170,7 @@
     - [x]     23.7 Summary and Overview
 - [ ] Part VII: Chance Models
   - [ ] 24: A Model For Measurement Error
-    - [ ]     24.1 Estimating the Accuracy of an Average
+    - [x]     24.1 Estimating the Accuracy of an Average
     - [ ]     24.2 Chance Models
     - [ ]     24.3 The Gauss Model.
   - [ ] 25: Chance Models in Genetics

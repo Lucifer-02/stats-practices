@@ -191,7 +191,8 @@
 
 # Part VII: Chance Models
 
-- []()
+- [A Model for Measurement Error](ch24/ch24.md)
+    - [Estimating the Accuracy of an Average](ch24/ch24-01.md)
 
 - []()
 
