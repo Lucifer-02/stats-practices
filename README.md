@@ -171,7 +171,7 @@
 - [ ] Part VII: Chance Models
   - [ ] 24: A Model For Measurement Error
     - [x]     24.1 Estimating the Accuracy of an Average
-    - [ ]     24.2 Chance Models
+    - [x]     24.2 Chance Models
     - [ ]     24.3 The Gauss Model.
   - [ ] 25: Chance Models in Genetics
     - [ ]     25.1 How Mendel Discovered Genetics
