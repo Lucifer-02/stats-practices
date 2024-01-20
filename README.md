@@ -173,6 +173,9 @@
     - [x]     24.1 Estimating the Accuracy of an Average
     - [x]     24.2 Chance Models
     - [x]     24.3 The Gauss Model.
+    - [x]     24.4 Conclusion
+    - [ ]     24.5 Review Exercises
+    - [x]     24.6 Summary
   - [ ] 25: Chance Models in Genetics
     - [ ]     25.1 How Mendel Discovered Genetics
     - [ ]     25.2 Did Mendel's Facts Fit His Model?
