@@ -201,7 +201,8 @@
   - [Review Exercises](ch24/ch24-05.md)
   - [Summary](ch24/ch24-06.md)
 
-- []()
+- [Chance Models in Genetics](ch25/ch25.md)
+    - [How Mendel Discovered Genes](ch25/ch25-01.md)
 
 # Part VIII: Tests of Significance
 
@@ -209,6 +210,7 @@
 
   - [Introduction](ch26/ch26-01.md)
   - [The Null and The Alternative](ch26/ch26-02.md)
+  - [Test Statistics and Significance Levels](ch26/ch26-03.md)
 
 - []()
 

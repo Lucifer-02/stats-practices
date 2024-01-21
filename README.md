@@ -185,7 +185,7 @@
   - [ ] 26: Tests of Significance
     - [x]     26.1 Introduction
     - [x]     26.2 The Null and the Alternative
-    - [ ]     26.3 Test Statistics and Significance Levels
+    - [x]     26.3 Test Statistics and Significance Levels
     - [ ]     26.4 Making a Test of Significance
     - [ ]     26.5 Zero-One Boxes
     - [ ]     26.6 The Test
