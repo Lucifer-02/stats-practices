@@ -211,6 +211,7 @@
   - [Introduction](ch26/ch26-01.md)
   - [The Null and The Alternative](ch26/ch26-02.md)
   - [Test Statistics and Significance Levels](ch26/ch26-03.md)
+  - [Making a Test of Significance](ch26/ch26-04.md)
 
 - []()
 
