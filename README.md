@@ -187,7 +187,7 @@
     - [x]     26.2 The Null and the Alternative
     - [x]     26.3 Test Statistics and Significance Levels
     - [x]     26.4 Making a Test of Significance
-    - [ ]     26.5 Zero-One Boxes
+    - [x]     26.5 Zero-One Boxes
     - [ ]     26.6 The Test
   - [ ] 27: More Tests for Averages
     - [ ]     27.1 The Standard Error for a Difference
