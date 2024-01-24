@@ -188,7 +188,7 @@
     - [x]     26.3 Test Statistics and Significance Levels
     - [x]     26.4 Making a Test of Significance
     - [x]     26.5 Zero-One Boxes
-    - [ ]     26.6 The Test
+    - [x]     26.6 The t-Test
   - [ ] 27: More Tests for Averages
     - [ ]     27.1 The Standard Error for a Difference
     - [ ]     27.2 Comparing Two Sample Averages

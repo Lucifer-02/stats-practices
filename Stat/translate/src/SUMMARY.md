@@ -213,6 +213,7 @@
   - [Test Statistics and Significance Levels](ch26/ch26-03.md)
   - [Making a Test of Significance](ch26/ch26-04.md)
   - [Zero-One Boxes](ch26/ch26-05.md)
+  - [The t-TEST](ch26/ch26-06.md)
 
 - []()
 
