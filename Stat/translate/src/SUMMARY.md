@@ -214,6 +214,8 @@
   - [Making a Test of Significance](ch26/ch26-04.md)
   - [Zero-One Boxes](ch26/ch26-05.md)
   - [The t-TEST](ch26/ch26-06.md)
+  - [Revew Exercises](ch26/ch26-07.md)
+  - [Summary](ch26/ch26-08.md)
 
 - []()
 
