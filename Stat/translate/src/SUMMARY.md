@@ -217,7 +217,8 @@
   - [Revew Exercises](ch26/ch26-07.md)
   - [Summary](ch26/ch26-08.md)
 
-- []()
+- [More Tests for Averages](ch27/ch27.md)
+    - [The Standard Error for a Difference](ch27/ch27-01.md)
 
 - []()
 
