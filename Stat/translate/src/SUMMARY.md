@@ -219,6 +219,7 @@
 
 - [More Tests for Averages](ch27/ch27.md)
     - [The Standard Error for a Difference](ch27/ch27-01.md)
+    - [Comparing Two Sample Averages](ch27/ch27-02.md)
 
 - []()
 

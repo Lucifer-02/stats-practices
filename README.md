@@ -193,7 +193,7 @@
     - [x]     26.8 Summary
   - [ ] 27: More Tests for Averages
     - [x]     27.1 The Standard Error for a Difference
-    - [ ]     27.2 Comparing Two Sample Averages
+    - [x]     27.2 Comparing Two Sample Averages
     - [ ]     27.3 Experiments
     - [ ]     27.4 More on Experiments
     - [ ]     27.5 When Does the z-Test Apply?
