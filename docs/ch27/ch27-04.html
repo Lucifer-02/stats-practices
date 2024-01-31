@@ -1,0 +1,281 @@
+<!DOCTYPE HTML>
+<html lang="vi" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>More on Experiments - Statistics</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">Part I: Design of Experiments</li><li class="chapter-item expanded "><a href="../ch01/ch01.html"><strong aria-hidden="true">1.</strong> Controlled Experiments</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch01/ch01-01.html"><strong aria-hidden="true">1.1.</strong> The Salk Vaccine Field Trial</a></li><li class="chapter-item expanded "><a href="../ch01/ch01-02.html"><strong aria-hidden="true">1.2.</strong> The Portacaval Shunt</a></li></ol></li><li class="chapter-item expanded "><a href="../ch02/ch02.html"><strong aria-hidden="true">2.</strong> Observational Studies</a></li><li class="chapter-item expanded affix "><li class="part-title">Part II: Descriptive Statistics</li><li class="chapter-item expanded "><a href="../ch03/ch03.html"><strong aria-hidden="true">3.</strong> The Histogram</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch03/ch03-01.html"><strong aria-hidden="true">3.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch03/ch03-02.html"><strong aria-hidden="true">3.2.</strong> Drawing a Histogram</a></li></ol></li><li class="chapter-item expanded "><a href="../ch04/ch04.html"><strong aria-hidden="true">4.</strong> The Average and the Standard Deviation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch04/ch04-01.html"><strong aria-hidden="true">4.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch04/ch04-02.html"><strong aria-hidden="true">4.2.</strong> The Average</a></li><li class="chapter-item expanded "><a href="../ch04/ch04-03.html"><strong aria-hidden="true">4.3.</strong> The Average and the Histogram</a></li></ol></li><li class="chapter-item expanded "><a href="../ch05/ch05.html"><strong aria-hidden="true">5.</strong> The Normal Approximation for Data</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch05/ch05-01.html"><strong aria-hidden="true">5.1.</strong> The Normal Curve</a></li><li class="chapter-item expanded "><a href="../ch05/ch05-02.html"><strong aria-hidden="true">5.2.</strong> Finding Areas Under The Normal Curve</a></li><li class="chapter-item expanded "><a href="../ch05/ch05-03.html"><strong aria-hidden="true">5.3.</strong> The Normal Approximation For Data</a></li><li class="chapter-item expanded "><a href="../ch05/ch05-04.html"><strong aria-hidden="true">5.4.</strong> Percentiles</a></li><li class="chapter-item expanded "><a href="../ch05/ch05-05.html"><strong aria-hidden="true">5.5.</strong> Percentiles And The Normal Curve</a></li><li class="chapter-item expanded "><a href="../ch05/ch05-06.html"><strong aria-hidden="true">5.6.</strong> Change Of Scale</a></li><li class="chapter-item expanded "><a href="../ch05/ch05-07.html"><strong aria-hidden="true">5.7.</strong> Review Exercises</a></li><li class="chapter-item expanded "><a href="../ch05/ch05-08.html"><strong aria-hidden="true">5.8.</strong> Summary</a></li></ol></li><li class="chapter-item expanded "><a href="../ch06/ch06.html"><strong aria-hidden="true">6.</strong> Measurement Error</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch06/ch06-01.html"><strong aria-hidden="true">6.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch06/ch06-02.html"><strong aria-hidden="true">6.2.</strong> Chance Error</a></li><li class="chapter-item expanded "><a href="../ch06/ch06-03.html"><strong aria-hidden="true">6.3.</strong> Outliers</a></li><li class="chapter-item expanded "><a href="../ch06/ch06-04.html"><strong aria-hidden="true">6.4.</strong> Bias</a></li><li class="chapter-item expanded "><a href="../ch06/ch06-05.html"><strong aria-hidden="true">6.5.</strong> Review Exercises</a></li><li class="chapter-item expanded "><a href="../ch06/ch06-06.html"><strong aria-hidden="true">6.6.</strong> Special Revew Exercises</a></li><li class="chapter-item expanded "><a href="../ch06/ch06-07.html"><strong aria-hidden="true">6.7.</strong> Summary</a></li></ol></li><li class="chapter-item expanded "><a href="../ch07/ch07.html"><strong aria-hidden="true">7.</strong> Plotting Points and Lines</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch07/ch07-01.html"><strong aria-hidden="true">7.1.</strong> Reading Points of a Graph</a></li><li class="chapter-item expanded "><a href="../ch07/ch07-02.html"><strong aria-hidden="true">7.2.</strong> Plotting Points</a></li><li class="chapter-item expanded "><a href="../ch07/ch07-03.html"><strong aria-hidden="true">7.3.</strong> Slope and Intercept</a></li><li class="chapter-item expanded "><a href="../ch07/ch07-04.html"><strong aria-hidden="true">7.4.</strong> Plotting Lines</a></li><li class="chapter-item expanded "><a href="../ch07/ch07-05.html"><strong aria-hidden="true">7.5.</strong> The Algebraic Equation For a Line</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Part III: Correlation and Regression</li><li class="chapter-item expanded "><a href="../ch08/ch08.html"><strong aria-hidden="true">8.</strong> Correlation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch08/ch08-01.html"><strong aria-hidden="true">8.1.</strong> The Scatter Diagram</a></li><li class="chapter-item expanded "><a href="../ch08/ch08-02.html"><strong aria-hidden="true">8.2.</strong> The Correlation Coefficient</a></li><li class="chapter-item expanded "><a href="../ch08/ch08-03.html"><strong aria-hidden="true">8.3.</strong> The SD Line</a></li><li class="chapter-item expanded "><a href="../ch08/ch08-04.html"><strong aria-hidden="true">8.4.</strong> Computing The Correlation Coefficient</a></li><li class="chapter-item expanded "><a href="../ch08/ch08-05.html"><strong aria-hidden="true">8.5.</strong> Review Exercises</a></li><li class="chapter-item expanded "><a href="../ch08/ch08-06.html"><strong aria-hidden="true">8.6.</strong> Summary</a></li></ol></li><li class="chapter-item expanded "><a href="../ch09/ch09.html"><strong aria-hidden="true">9.</strong> More about Correlation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch09/ch09-01.html"><strong aria-hidden="true">9.1.</strong> Features of the Correlation Coefficient</a></li><li class="chapter-item expanded "><a href="../ch09/ch09-02.html"><strong aria-hidden="true">9.2.</strong> Changing SDs</a></li><li class="chapter-item expanded "><a href="../ch09/ch09-03.html"><strong aria-hidden="true">9.3.</strong> Some Exceptional Case</a></li><li class="chapter-item expanded "><a href="../ch09/ch09-04.html"><strong aria-hidden="true">9.4.</strong> Ecological Correlations</a></li><li class="chapter-item expanded "><a href="../ch09/ch09-05.html"><strong aria-hidden="true">9.5.</strong> Association is Not Causation</a></li><li class="chapter-item expanded "><a href="../ch09/ch09-06.html"><strong aria-hidden="true">9.6.</strong> Review Exercises</a></li><li class="chapter-item expanded "><a href="../ch09/ch09-07.html"><strong aria-hidden="true">9.7.</strong> Summary</a></li></ol></li><li class="chapter-item expanded "><a href="../ch10/ch10.html"><strong aria-hidden="true">10.</strong> Regression</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch10/ch10-01.html"><strong aria-hidden="true">10.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch10/ch10-02.html"><strong aria-hidden="true">10.2.</strong> The Grapth of Averages</a></li><li class="chapter-item expanded "><a href="../ch10/ch10-03.html"><strong aria-hidden="true">10.3.</strong> The Regression Method for Individuals</a></li><li class="chapter-item expanded "><a href="../ch10/ch10-04.html"><strong aria-hidden="true">10.4.</strong> The Regression Fallacy</a></li><li class="chapter-item expanded "><a href="../ch10/ch10-05.html"><strong aria-hidden="true">10.5.</strong> There Are Two Regression Lines</a></li><li class="chapter-item expanded "><a href="../ch10/ch10-06.html"><strong aria-hidden="true">10.6.</strong> Review Exercises</a></li><li class="chapter-item expanded "><a href="../ch10/ch10-07.html"><strong aria-hidden="true">10.7.</strong> Summary</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">11.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">12.</strong> </div></li><li class="chapter-item expanded affix "><li class="part-title">Part IV: Probability</li><li class="chapter-item expanded "><a href="../ch13/ch13.html"><strong aria-hidden="true">13.</strong> What Are the Chances?</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch13/ch13-01.html"><strong aria-hidden="true">13.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch13/ch13-02.html"><strong aria-hidden="true">13.2.</strong> Conditional Probabilities</a></li><li class="chapter-item expanded "><a href="../ch13/ch13-03.html"><strong aria-hidden="true">13.3.</strong> The Multiplication Rule</a></li><li class="chapter-item expanded "><a href="../ch13/ch13-04.html"><strong aria-hidden="true">13.4.</strong> Independence</a></li><li class="chapter-item expanded "><a href="../ch13/ch13-05.html"><strong aria-hidden="true">13.5.</strong> The Collins Case</a></li><li class="chapter-item expanded "><a href="../ch13/ch13-06.html"><strong aria-hidden="true">13.6.</strong> Review Exercises</a></li><li class="chapter-item expanded "><a href="../ch13/ch13-07.html"><strong aria-hidden="true">13.7.</strong> Summary</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">14.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">15.</strong> </div></li><li class="chapter-item expanded affix "><li class="part-title">Part V: Change Variability</li><li class="chapter-item expanded "><a href="../ch16/ch16.html"><strong aria-hidden="true">16.</strong> The Law of Averages</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch16/ch16-01.html"><strong aria-hidden="true">16.1.</strong> What Does The Law of Averages Say?</a></li><li class="chapter-item expanded "><a href="../ch16/ch16-02.html"><strong aria-hidden="true">16.2.</strong> Chance Processes</a></li><li class="chapter-item expanded "><a href="../ch16/ch16-03.html"><strong aria-hidden="true">16.3.</strong> The Sum of Draws</a></li><li class="chapter-item expanded "><a href="../ch16/ch16-04.html"><strong aria-hidden="true">16.4.</strong> Making a Box Model</a></li><li class="chapter-item expanded "><a href="../ch16/ch16-05.html"><strong aria-hidden="true">16.5.</strong> Review Exercises</a></li><li class="chapter-item expanded "><a href="../ch16/ch16-06.html"><strong aria-hidden="true">16.6.</strong> Summary</a></li></ol></li><li class="chapter-item expanded "><a href="../ch17/ch17.html"><strong aria-hidden="true">17.</strong> The Expected Value and Standard Error</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch17/ch17-01.html"><strong aria-hidden="true">17.1.</strong> The Expected Value</a></li><li class="chapter-item expanded "><a href="../ch17/ch17-02.html"><strong aria-hidden="true">17.2.</strong> The Standard Error</a></li><li class="chapter-item expanded "><a href="../ch17/ch17-03.html"><strong aria-hidden="true">17.3.</strong> Using The Normal Curve</a></li><li class="chapter-item expanded "><a href="../ch17/ch17-04.html"><strong aria-hidden="true">17.4.</strong> A Short-Cut</a></li><li class="chapter-item expanded "><a href="../ch17/ch17-05.html"><strong aria-hidden="true">17.5.</strong> Classifying and Counting</a></li><li class="chapter-item expanded "><a href="../ch17/ch17-06.html"><strong aria-hidden="true">17.6.</strong> Review Exercises</a></li><li class="chapter-item expanded "><a href="../ch17/ch17-07.html"><strong aria-hidden="true">17.7.</strong> Postscript</a></li><li class="chapter-item expanded "><a href="../ch17/ch17-08.html"><strong aria-hidden="true">17.8.</strong> Summary</a></li></ol></li><li class="chapter-item expanded "><a href="../ch18/ch18.html"><strong aria-hidden="true">18.</strong> The Normal Approximation for Probability Histograms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch18/ch18-01.html"><strong aria-hidden="true">18.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch18/ch18-02.html"><strong aria-hidden="true">18.2.</strong> Probability Histograms</a></li><li class="chapter-item expanded "><a href="../ch18/ch18-03.html"><strong aria-hidden="true">18.3.</strong> Probability Histograms and the Normal Curve</a></li><li class="chapter-item expanded "><a href="../ch18/ch18-04.html"><strong aria-hidden="true">18.4.</strong> The Normal Approximation</a></li><li class="chapter-item expanded "><a href="../ch18/ch18-05.html"><strong aria-hidden="true">18.5.</strong> The Scope of the Normal Approximation</a></li><li class="chapter-item expanded "><a href="../ch18/ch18-06.html"><strong aria-hidden="true">18.6.</strong> Conclusion</a></li><li class="chapter-item expanded "><a href="../ch18/ch18-07.html"><strong aria-hidden="true">18.7.</strong> Review Exercises</a></li><li class="chapter-item expanded "><a href="../ch18/ch18-08.html"><strong aria-hidden="true">18.8.</strong> Summary</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Part VI: Sampling</li><li class="chapter-item expanded "><a href="../ch19/ch19.html"><strong aria-hidden="true">19.</strong> Sample Surveys</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch19/ch19-01.html"><strong aria-hidden="true">19.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch19/ch19-02.html"><strong aria-hidden="true">19.2.</strong> The Literary Digest Poll</a></li><li class="chapter-item expanded "><a href="../ch19/ch19-03.html"><strong aria-hidden="true">19.3.</strong> The Year the Polls Elected Dewey</a></li><li class="chapter-item expanded "><a href="../ch19/ch19-04.html"><strong aria-hidden="true">19.4.</strong> Using Chance in Survey Work</a></li><li class="chapter-item expanded "><a href="../ch19/ch19-05.html"><strong aria-hidden="true">19.5.</strong> How Well do Probability Methods Work?</a></li><li class="chapter-item expanded "><a href="../ch19/ch19-06.html"><strong aria-hidden="true">19.6.</strong> A Closer Look at the Gallup Poll</a></li><li class="chapter-item expanded "><a href="../ch19/ch19-07.html"><strong aria-hidden="true">19.7.</strong> Telephone Surveys</a></li><li class="chapter-item expanded "><a href="../ch19/ch19-08.html"><strong aria-hidden="true">19.8.</strong> Chance Error and Bias</a></li><li class="chapter-item expanded "><a href="../ch19/ch19-09.html"><strong aria-hidden="true">19.9.</strong> Revew Exercises</a></li><li class="chapter-item expanded "><a href="../ch19/ch19-10.html"><strong aria-hidden="true">19.10.</strong> Summary</a></li></ol></li><li class="chapter-item expanded "><a href="../ch20/ch20.html"><strong aria-hidden="true">20.</strong> Chance Errors in Sampling</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch20/ch20-01.html"><strong aria-hidden="true">20.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch20/ch20-02.html"><strong aria-hidden="true">20.2.</strong> The Expected Value and Standard Error</a></li><li class="chapter-item expanded "><a href="../ch20/ch20-03.html"><strong aria-hidden="true">20.3.</strong> Using the Normal Curve</a></li><li class="chapter-item expanded "><a href="../ch20/ch20-04.html"><strong aria-hidden="true">20.4.</strong> The Correlation Factor</a></li><li class="chapter-item expanded "><a href="../ch20/ch20-05.html"><strong aria-hidden="true">20.5.</strong> The Gallup Poll</a></li><li class="chapter-item expanded "><a href="../ch20/ch20-06.html"><strong aria-hidden="true">20.6.</strong> Review Exercises</a></li><li class="chapter-item expanded "><a href="../ch20/ch20-07.html"><strong aria-hidden="true">20.7.</strong> Summary</a></li></ol></li><li class="chapter-item expanded "><a href="../ch21/ch21.html"><strong aria-hidden="true">21.</strong> The Accuracy of Percentages</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch21/ch21-01.html"><strong aria-hidden="true">21.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch21/ch21-02.html"><strong aria-hidden="true">21.2.</strong> Confidence Intervals</a></li><li class="chapter-item expanded "><a href="../ch21/ch21-03.html"><strong aria-hidden="true">21.3.</strong> Interpreting a Confidence Interval</a></li><li class="chapter-item expanded "><a href="../ch21/ch21-04.html"><strong aria-hidden="true">21.4.</strong> Caveat Emptor</a></li><li class="chapter-item expanded "><a href="../ch21/ch21-05.html"><strong aria-hidden="true">21.5.</strong> The Gallup Poll</a></li><li class="chapter-item expanded "><a href="../ch21/ch21-06.html"><strong aria-hidden="true">21.6.</strong> Review Exercises</a></li><li class="chapter-item expanded "><a href="../ch21/ch21-07.html"><strong aria-hidden="true">21.7.</strong> Summary</a></li></ol></li><li class="chapter-item expanded "><a href="../ch22/ch22.html"><strong aria-hidden="true">22.</strong> Measuring Employment and Unemployment</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch22/ch22-01.html"><strong aria-hidden="true">22.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch22/ch22-02.html"><strong aria-hidden="true">22.2.</strong> The Design of the Current Population Survey</a></li><li class="chapter-item expanded "><a href="../ch22/ch22-03.html"><strong aria-hidden="true">22.3.</strong> Carrying Out the Survey</a></li><li class="chapter-item expanded "><a href="../ch22/ch22-04.html"><strong aria-hidden="true">22.4.</strong> Weighting the Sample</a></li><li class="chapter-item expanded "><a href="../ch22/ch22-05.html"><strong aria-hidden="true">22.5.</strong> Standard Errors</a></li><li class="chapter-item expanded "><a href="../ch22/ch22-06.html"><strong aria-hidden="true">22.6.</strong> The Quality of the Data</a></li><li class="chapter-item expanded "><a href="../ch22/ch22-07.html"><strong aria-hidden="true">22.7.</strong> Bias</a></li><li class="chapter-item expanded "><a href="../ch22/ch22-08.html"><strong aria-hidden="true">22.8.</strong> Review Exercises</a></li><li class="chapter-item expanded "><a href="../ch22/ch22-09.html"><strong aria-hidden="true">22.9.</strong> Summary</a></li></ol></li><li class="chapter-item expanded "><a href="../ch23/ch23.html"><strong aria-hidden="true">23.</strong> The Accuracy of Averages</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch23/ch23-01.html"><strong aria-hidden="true">23.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch23/ch23-02.html"><strong aria-hidden="true">23.2.</strong> The Sample Average</a></li><li class="chapter-item expanded "><a href="../ch23/ch23-03.html"><strong aria-hidden="true">23.3.</strong> Which SE?</a></li><li class="chapter-item expanded "><a href="../ch23/ch23-04.html"><strong aria-hidden="true">23.4.</strong> A Reminder</a></li><li class="chapter-item expanded "><a href="../ch23/ch23-05.html"><strong aria-hidden="true">23.5.</strong> Review Exercises</a></li><li class="chapter-item expanded "><a href="../ch23/ch23-06.html"><strong aria-hidden="true">23.6.</strong> Special Review Exercises</a></li><li class="chapter-item expanded "><a href="../ch23/ch23-07.html"><strong aria-hidden="true">23.7.</strong> Summary and Overview</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Part VII: Chance Models</li><li class="chapter-item expanded "><a href="../ch24/ch24.html"><strong aria-hidden="true">24.</strong> A Model for Measurement Error</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch24/ch24-01.html"><strong aria-hidden="true">24.1.</strong> Estimating the Accuracy of an Average</a></li><li class="chapter-item expanded "><a href="../ch24/ch24-02.html"><strong aria-hidden="true">24.2.</strong> Chance Models</a></li><li class="chapter-item expanded "><a href="../ch24/ch24-03.html"><strong aria-hidden="true">24.3.</strong> The Gauss Model</a></li><li class="chapter-item expanded "><a href="../ch24/ch24-04.html"><strong aria-hidden="true">24.4.</strong> Conclusion</a></li><li class="chapter-item expanded "><a href="../ch24/ch24-05.html"><strong aria-hidden="true">24.5.</strong> Review Exercises</a></li><li class="chapter-item expanded "><a href="../ch24/ch24-06.html"><strong aria-hidden="true">24.6.</strong> Summary</a></li></ol></li><li class="chapter-item expanded "><a href="../ch25/ch25.html"><strong aria-hidden="true">25.</strong> Chance Models in Genetics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch25/ch25-01.html"><strong aria-hidden="true">25.1.</strong> How Mendel Discovered Genes</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Part VIII: Tests of Significance</li><li class="chapter-item expanded "><a href="../ch26/ch26.html"><strong aria-hidden="true">26.</strong> Tests of Significance</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch26/ch26-01.html"><strong aria-hidden="true">26.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../ch26/ch26-02.html"><strong aria-hidden="true">26.2.</strong> The Null and The Alternative</a></li><li class="chapter-item expanded "><a href="../ch26/ch26-03.html"><strong aria-hidden="true">26.3.</strong> Test Statistics and Significance Levels</a></li><li class="chapter-item expanded "><a href="../ch26/ch26-04.html"><strong aria-hidden="true">26.4.</strong> Making a Test of Significance</a></li><li class="chapter-item expanded "><a href="../ch26/ch26-05.html"><strong aria-hidden="true">26.5.</strong> Zero-One Boxes</a></li><li class="chapter-item expanded "><a href="../ch26/ch26-06.html"><strong aria-hidden="true">26.6.</strong> The t-TEST</a></li><li class="chapter-item expanded "><a href="../ch26/ch26-07.html"><strong aria-hidden="true">26.7.</strong> Revew Exercises</a></li><li class="chapter-item expanded "><a href="../ch26/ch26-08.html"><strong aria-hidden="true">26.8.</strong> Summary</a></li></ol></li><li class="chapter-item expanded "><a href="../ch27/ch27.html"><strong aria-hidden="true">27.</strong> More Tests for Averages</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ch27/ch27-01.html"><strong aria-hidden="true">27.1.</strong> The Standard Error for a Difference</a></li><li class="chapter-item expanded "><a href="../ch27/ch27-02.html"><strong aria-hidden="true">27.2.</strong> Comparing Two Sample Averages</a></li><li class="chapter-item expanded "><a href="../ch27/ch27-03.html"><strong aria-hidden="true">27.3.</strong> Experiments</a></li><li class="chapter-item expanded "><a href="../ch27/ch27-04.html" class="active"><strong aria-hidden="true">27.4.</strong> More on Experiments</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">28.</strong> </div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">29.</strong> </div></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Statistics</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="more-on-experiments"><a class="header" href="#more-on-experiments">More on Experiments</a></h1>
+<p>Kỹ thuật được mô tả trong phần trước cũng có thể được sử dụng cho các thử nghiệm trong đó phản hồi mang tính định tính hơn là định lượng, do đó, phiểu phải hiển thị số 0 và 1. Mục này sẽ đưa ra một ví dụ; nhưng trước tiên, một số tài liệu nền tảng. Lý thuyết tiêu chuẩn về hành vi kinh tế giả định việc ra quyết định &quot;hợp lý&quot;, tuân theo các quy tắc chính thức (và có lẽ không thực tế) nhất định. Đặc biệt, lý thuyết này cho rằng những người ra quyết định phản ứng với các sự kiện chứ không phải cách trình bày các sự kiện. Mặt khác, các nhà tâm lý học có xu hướng nghĩ rằng việc &quot;đóng khung&quot; - cách trình bày - có giá trị. Công việc thực nghiệm ủng hộ quan điểm tâm lý học.<sup class="footnote-reference"><a href="#12">1</a></sup></p>
+<p>Một nghiên cứu của Amos Tversky và những người khác liên quan đến việc trình bày thông tin về hiệu quả của phẫu thuật hoặc xạ trị như những liệu pháp thay thế cho bệnh ung thư phổi. Đối tượng là một nhóm gồm 167 bác sĩ đang tham gia khóa học mùa hè tại Harvard.<sup class="footnote-reference"><a href="#13">2</a></sup> Thông tin được trình bày theo hai cách khác nhau. Một số bác sĩ nhận được form A, báo cáo tỷ lệ tử vong.</p>
+<p><em>Form A)</em> Trong 100 người được phẫu thuật, có 10 người chết trong quá trình điều trị, 32 người chết sau một năm và 66 người chết sau 5 năm. Trong số 100 người được xạ trị, không ai chết trong quá trình điều trị, 23 người sẽ chết sau một năm và 78 người sẽ chết sau 5 năm.</p>
+<p>Các bác sĩ khác có loại B, báo cáo tỷ lệ sống sót.</p>
+<p><em>Form B)</em> Trong số 100 người được phẫu thuật, 90 người sẽ sống sót sau điều trị, 68 người sẽ sống sót sau một năm hoặc lâu hơn và 34 người sẽ sống sót sau 5 năm hoặc lâu hơn. Trong số 100 người được xạ trị, tất cả sẽ sống sót sau quá trình điều trị, 77 người sẽ sống sót sau một năm hoặc lâu hơn và 22 người sẽ sống sót sau 5 năm hoặc lâu hơn.</p>
+<p>Cả hai form đều chứa thông tin giống hệt nhau. Ví dụ, 100 bệnh nhân sẽ chết trong khi phẫu thuật (form A), do đó 90 trong số 100 bệnh nhân sẽ sống sót (form B). Đến năm thứ năm, viễn cảnh của bệnh nhân ung thư phổi khá ảm đạm.</p>
+<p>Trong thí nghiệm, 80 trong số 167 bác sĩ được chọn ngẫu nhiên và được đưa cho form A. 87 người còn lại nhận được form B. Sau khi đọc dạng, mỗi bác sĩ viết ra liệu pháp mà họ muốn giới thiệu cho bệnh nhân ung thư phổi. Đáp lại form A, 40/80 bác sĩ chọn phẫu thuật (Bảng 1). Nhưng đáp lại form B, 73/87 người ủng hộ phẫu thuật: 40/80 là 50%, 73/87 là 84%. Phong cách trình bày có vẻ quan trọng.</p>
+<p><strong><center>Bảng 1. Kết quả từ một thử nghiệm về tác động của việc trình bày dữ liệu.</center></strong></p>
+<div class="table-wrapper"><table><thead><tr><th></th><th>Form A</th><th>Form B</th></tr></thead><tbody>
+<tr><td>Favored surgery</td><td>40</td><td>73</td></tr>
+<tr><td>Favored radiation</td><td>40</td><td>14</td></tr>
+<tr><td>Total</td><td>80</td><td>87</td></tr>
+<tr><td>Percent favoring surgery</td><td>50%</td><td>84%</td></tr>
+</tbody></table>
+</div>
+<p>Một nhà kinh tế đang bảo vệ lý thuyết quyết định tiêu chuẩn có thể lập luận rằng sự khác biệt chỉ là do ngẫu nhiên. Dựa trên thông tin giống nhau trên cả hai hình thức, một số bác sĩ sẽ đề nghị phẫu thuật trong khi những người khác sẽ chọn xạ trị. Nhưng quyết định không thể phụ thuộc vào cách trình bày thông tin. Nhờ sự may mắn của cuộc rút thăm, nhà kinh tế học có thể nói, có quá nhiều bác sĩ ủng hộ phẫu thuật được chọn để nhận form B, và quá ít người trong số họ được chọn form A. Suy cho cùng, chỉ có 80 người ở nhóm A, và 87 người ở nhóm B. Dường như có rất nhiều chỗ cho <code>chance variation</code>.</p>
+<p>Để đánh giá lập luận này, cần phải kiểm tra ý nghĩa. Sự khác biệt giữa hai tỷ lệ phần trăm trong Bảng 1 là 34% và bạn cần đặt <code>standard error</code> cho sự khác biệt này. Có thể sử dụng phương pháp của Ví dụ 4. Giả sử bạn có hai mẫu độc lập, được lấy ngẫu nhiên có thay thế. Mẫu đầu tiên là các bác sĩ thuộc form A. Có 80 người trong số họ và 40 người được ưu tiên phẫu thuật. <code>SE</code> cho số favoring surgery là</p>
+<p>\[
+\sqrt{80} \times \sqrt{0.50 \times 0.50} \approx 4.5
+\]</p>
+<p><code>SE</code> cho tỷ lệ favoring surgery là \(4.5/80 \times 100\% \approx 5.6\%\). Mẫu thứ hai là các bác sĩ nhận form B, <code>SE</code> cho tỷ lệ favoring surgery trong phản hồi từ form B là 3.9%. <code>SE</code> cho sự chênh lệch là</p>
+<p>\[
+\sqrt{5.6^2+3.9^2} \approx 6.8\%
+\]</p>
+<p>Trên <code>null hypothesis</code>, sự chênh lệch dự kiến giữa tỷ lệ phần trăm trong hai mẫu là 0.0%. Sự chênh lệch quan sát được là 34%. <code>test statistic</code> là</p>
+<p>\[
+z = \frac{\text{observed difference - expected difference}}{\text{SE for difference}} = \frac{34\% - 0.0\%}{6.8\%} = 5.0
+\]</p>
+<p>Chance không phải là lời giải thích hợp lý cho kết quả ở Bảng 1.</p>
+<p>Một cái nhìn khác sau hậu trường: Một mô hình hộp cho thí nghiệm này cần có một phiếu cho mỗi bác sĩ. Như trong phần trước, mỗi phiếu hiển thị một cặp các số [A,B].
+Số đầu tiên trên phiếu mã hóa phản hồi ở form A. Đó là 1 nếu bác sĩ favor surgery khi được đưa ra form A và 0 nếu cô ấy thích xạ trị. Tương tự, số thứ hai trên phiếu mã hóa phản hồi ở form B.</p>
+<p>80 lần rút được thực hiện ngẫu nhiên không thay thế từ hộp và các phản hồi về form A được quan sát là [A] . Các phản hồi cho form A trong thí nghiệm giống như lô 80 lần rút thăm đầu tiên này. 50% trong Bảng 1 giống như tỷ lệ phần trăm của 1 trong lô rút thăm này. 87 phiếu còn lại trong hộp là mẫu thứ hai. Với mẫu thứ hai này, các phản hồi đối với form B được quan sát thấy [B] . Các câu trả lời cho form B giống như lô thứ hai gồm 0 và 1. 84% trong Bảng 1 tương tự tỷ lệ phần trăm của 1 trong mẫu thứ hai.</p>
+<p>Bây giờ <code>null hypothesis</code> có thể được thiết lập dưới dạng mô hình. Vì cả hai form đều truyền tải thông tin giống nhau nên nhà kinh tế cho rằng phản hồi của bác sĩ đối với hai form này phải giống nhau nên cả hai con số trên phiếu đều giống nhau (Hình 2). Mô hình hộp có thể được sử dụng để chỉ ra rằng phương pháp của chúng ta đưa ra ước tính thận trọng cho <code>SE</code>.<sup class="footnote-reference"><a href="#14">3</a></sup></p>
+<p><strong><center>Hình 2. <code>null hypothesis</code> cho thí nghiệm: quyết định giữa xạ trị và phẫu thuật dựa trên form A hoặc form B với cùng thông tin. Số đầu tiên trên phiếu mã hóa câu trả lời ở form A; thứ hai, ở B. Các phản hồi favoring surgery được mã hóa là &quot;1&quot;.</center></strong></p>
+<center><img src="fig2.png" width="40%" height="auto"></center>
+<p>Thiết kế thử nghiệm được sử dụng trong nghiên cứu này có vẻ hơi gián tiếp. Tại sao không lần lượt đưa ra cả hai dạng bảng câu hỏi cho tất cả các bác sĩ? Lý do rất đơn giản. Việc hỏi cả hai câu hỏi cùng lúc sẽ thúc đẩy các đối tượng trở nên nhất quán hơn: có lẽ họ thấy rằng cả hai form đều mô tả cùng một dữ liệu.<sup class="footnote-reference"><a href="#15">4</a></sup></p>
+<hr />
+<div class="footnote-definition" id="12"><sup class="footnote-definition-label">1</sup>
+<p>A. Tversky and D. Kahneman, “Rational choice and the framing of decisions,” Journal of Business vol. 59, no. 4, part 2 (1986) pp. S251–78. Also see D. Kahneman and A. Tversky, “On the reality of cognitive illusions,” Psychological Review vol. 103 (1996) pp. 582–96 (with discussion); D. Kahneman and A. Tversky, editors, Choices, Values, and Frames (Cambridge University Press, 2000); A. K. Sen, Rationality and Freedom (Harvard University Press, 2002).</p>
+</div>
+<div class="footnote-definition" id="13"><sup class="footnote-definition-label">2</sup>
+<p>B. J. McNeil, S. G. Pauker, H. C. Sox, Jr., and A. Tversky, “On the elicitation of preferences for alternative therapies,” New England Journal of Medicine vol. 306 (1982) pp. 1259–62.</p>
+</div>
+<div class="footnote-definition" id="14"><sup class="footnote-definition-label">3</sup>
+<p>There were \(80 + 87 = 167\) subjects in all (table 1). Of them, \(40 + 73 = 113\) favored surgery; the remaining 54 favored radiation. The strict null hypothesis (note 10) specifies \(x \equiv y\), so \(\sigma = \tau\) and both are computable from the data. Indeed, on the null hypothesis, the percentage of doctors favoring surgery is \(113/167 \times 100\% \approx 68\%\). Then
+\[
+\sigma = \tau \approx \sqrt{0.68 \times 0.32} \approx 0.47
+\]
+Likewise, the covariance between \(\bar{X}\) and \(\bar{Y}\) can be computed exactly. This term achieves the upper bound \(\sigma \tau = \sigma^2\), because the correlation between x and y across subjects is 1. Now
+\[
+var(\bar{X} - \bar{Y}) = \frac{N}{N - 1}(\frac{1}{n} + \frac{1}{m})\sigma^2
+\]
+The two forms of the test statistic (pooled or separate SDs, see note 3) are virtually identical. For example, if the null hypothesis defines the model, the r.m.s. difference between the values of the two statistics is only 0.013. Furthermore, the normal approximation is quite good: for either statistic, the chance of exceeding 2 in absolute value is about 4.8%, compared to the normal tail probability of 4.6%.</p>
+</div>
+<div class="footnote-definition" id="15"><sup class="footnote-definition-label">4</sup>
+<p>D. Kahneman and A. Tversky, “Choices, values, and frames,” American Psychologist vol. 39 (1984) pp. 341–50.</p>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../ch27/ch27-03.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../ch27/ch27-03.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

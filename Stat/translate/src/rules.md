@@ -5,6 +5,8 @@
 - Viết thường
 - Tên tổ chức để nguyên tiếng Anh
 
+- Để nguyên `chance`
+
 # Dịch
 
 - Nếu dịch chưa rõ nghĩa mà vẫn chưa tìm được nghĩa phù hợp thì vẫn để bản dịch đó, sau này sẽ quay lại khi có ý tưởng

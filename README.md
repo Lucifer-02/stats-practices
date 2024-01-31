@@ -195,7 +195,7 @@
     - [x]     27.1 The Standard Error for a Difference
     - [x]     27.2 Comparing Two Sample Averages
     - [x]     27.3 Experiments
-    - [ ]     27.4 More on Experiments
+    - [x]     27.4 More on Experiments
     - [ ]     27.5 When Does the z-Test Apply?
   - [ ] 28: The Chi-Square Test
     - [ ]     28.1 Introduction

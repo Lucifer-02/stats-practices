@@ -221,6 +221,7 @@
     - [The Standard Error for a Difference](ch27/ch27-01.md)
     - [Comparing Two Sample Averages](ch27/ch27-02.md)
     - [Experiments](ch27/ch27-03.md)
+    - [More on Experiments](ch27/ch27-04.md)
 
 - []()
 
