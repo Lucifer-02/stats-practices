@@ -202,7 +202,7 @@
   - [Summary](ch24/ch24-06.md)
 
 - [Chance Models in Genetics](ch25/ch25.md)
-    - [How Mendel Discovered Genes](ch25/ch25-01.md)
+  - [How Mendel Discovered Genes](ch25/ch25-01.md)
 
 # Part VIII: Tests of Significance
 
@@ -218,10 +218,14 @@
   - [Summary](ch26/ch26-08.md)
 
 - [More Tests for Averages](ch27/ch27.md)
-    - [The Standard Error for a Difference](ch27/ch27-01.md)
-    - [Comparing Two Sample Averages](ch27/ch27-02.md)
-    - [Experiments](ch27/ch27-03.md)
-    - [More on Experiments](ch27/ch27-04.md)
+
+  - [The Standard Error for a Difference](ch27/ch27-01.md)
+  - [Comparing Two Sample Averages](ch27/ch27-02.md)
+  - [Experiments](ch27/ch27-03.md)
+  - [More on Experiments](ch27/ch27-04.md)
+  - [When Does The z-TEST Apply?](ch27/ch27-05.md)
+  - [Revew Exercises](ch27/ch27-06.md)
+  - [Summary](ch27/ch27-07.md)
 
 - []()
 

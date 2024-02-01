@@ -196,7 +196,9 @@
     - [x]     27.2 Comparing Two Sample Averages
     - [x]     27.3 Experiments
     - [x]     27.4 More on Experiments
-    - [ ]     27.5 When Does the z-Test Apply?
+    - [x]     27.5 When Does the z-Test Apply?
+    - [ ]     27.6 Review Exercises
+    - [x]     27.7 Summary
   - [ ] 28: The Chi-Square Test
     - [ ]     28.1 Introduction
     - [ ]     28.2 The Structure of the x2-Test
