@@ -227,6 +227,7 @@
   - [Revew Exercises](ch27/ch27-06.md)
   - [Summary](ch27/ch27-07.md)
 
-- []()
+- [The Chi-Square Test](ch28/ch28.md)
+    - [Introduction](ch28/ch28-01.md)
 
 - []()
