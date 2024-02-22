@@ -229,5 +229,6 @@
 
 - [The Chi-Square Test](ch28/ch28.md)
     - [Introduction](ch28/ch28-01.md)
+    - [The Structure of the Chi-Square Test](ch28/ch28-02.md)
 
 - []()

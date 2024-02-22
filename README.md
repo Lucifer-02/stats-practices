@@ -201,7 +201,7 @@
     - [x]     27.7 Summary
   - [ ] 28: The Chi-Square Test
     - [x]     28.1 Introduction
-    - [ ]     28.2 The Structure of the x2-Test
+    - [x]     28.2 The Structure of the x2-Test
     - [ ]     28.3 How Fisher Used the x2-Test
     - [ ]     28.4 TestingIndependence
   - [ ] 29: A Closer Look at Tests of Significance
