@@ -1,4 +1,8 @@
+This is dummy header to display the book title(ad-hoc)
+
 # Statistics
+
+- [Prefaces]()
 
 # Part I: Design of Experiments
 
@@ -228,7 +232,8 @@
   - [Summary](ch27/ch27-07.md)
 
 - [The Chi-Square Test](ch28/ch28.md)
-    - [Introduction](ch28/ch28-01.md)
-    - [The Structure of the Chi-Square Test](ch28/ch28-02.md)
+
+  - [Introduction](ch28/ch28-01.md)
+  - [The Structure of the Chi-Square Test](ch28/ch28-02.md)
 
 - []()
