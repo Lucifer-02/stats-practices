@@ -1,8 +1,4 @@
-This is dummy header to display the book title(ad-hoc)
-
-# Statistics
-
-- [Prefaces](Preface.md)
+[Prefaces](Preface.md)
 
 # Part I: Design of Experiments
 
