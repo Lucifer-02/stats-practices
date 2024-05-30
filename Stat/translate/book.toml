@@ -3,7 +3,8 @@ authors = ["David Freeman, Robert Pisani, and Roger Purves"]
 language = "vi"
 multilingual = true 
 src = "src"
-title = "Statistics"
+title = "Statistics - 4th Edition"
 
 [output.html]
 mathjax-support = true
+git-repository-url = "https://github.com/Lucifer-02/stats-practices/tree/main/Stat/translate"
