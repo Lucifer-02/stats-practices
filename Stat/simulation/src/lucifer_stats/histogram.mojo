@@ -16,7 +16,7 @@ fn histogram(data: List[Int]) -> (List[Int], List[Float64]):
 
   for ele in eles:
       var count = data.count(ele[])
-      freqs.append(count/len(data))
+      freqs.append((count/len(data)).cast[DType.float64]())
 
   return (eles, freqs)
 
