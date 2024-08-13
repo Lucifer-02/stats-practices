@@ -1,2 +1,0 @@
-run:
-	mojo ./histogram.mojo

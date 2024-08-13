@@ -1,24 +1,14 @@
-from collections import List, Set
+from collections import List
 
-# return unique elements
-fn unique(data: List[Int]) -> List[Int]:
-  var unique = List[Int]()
+from .utils import unique, contain, list_count
 
-  for ele in data:
-    if ele[] not in unique:
-      unique.append(ele[])
-
-  return unique
-
-fn histogram(data: List[Int]) -> (List[Int], List[Float64]): 
+fn histogram[type: DType](data: List[Scalar[type]]) -> (List[Scalar[type]], List[Float64]): 
   var freqs = List[Float64]()
   var eles = unique(data)
 
   for ele in eles:
-      var count = data.count(ele[])
-      freqs.append((count/len(data)).cast[DType.float64]())
+      var count = list_count(list=data, value=ele[])
+      freqs.append(count.cast[DType.float64]()/len(data))
 
   return (eles, freqs)
 
-
-  
